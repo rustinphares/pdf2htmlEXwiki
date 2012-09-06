@@ -4,6 +4,7 @@
  
  - Make sure you have installed all required packages (and headers)
  - Make sure poppler has been compiled with --enable-xpdf-headers
+ - Make sure C++11 is supported by your compiler
 
 ## Why there is no image generated?
 
