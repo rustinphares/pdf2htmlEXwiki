@@ -3,7 +3,7 @@
 ## Why I got compilation errors?
  
  - Make sure you have installed all required packages (and headers)
- - Make sure poppler has been compiled with --enabled-xpdf-headers
+ - Make sure poppler has been compiled with --enable-xpdf-headers
 
 ## Why there is no image generated?
 
