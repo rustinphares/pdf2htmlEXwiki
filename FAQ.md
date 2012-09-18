@@ -15,8 +15,8 @@
 ## Why the generated HTML file looks ugly?
 
 Recommended web browsers
- - IE9 / Chrome (Windows)
- - Firefox / Chrome (Linux/Mac)
+ - IE9 / Opera / Chrome (Windows)
+ - Firefox / Chrome / Opera (Linux/Mac)
  - Dolphin Browser (Android)
 
 ## Why I got incorrect text after copy & paste?
