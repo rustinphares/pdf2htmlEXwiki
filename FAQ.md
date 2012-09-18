@@ -4,6 +4,7 @@
  
  - Make sure you have installed all required packages (and headers)
  - Make sure poppler has been compiled with --enable-xpdf-headers
+   - Especially when you see something about goo/GooString.h
  - Make sure C++11 is supported by your compiler
 
 ## Why there is no image generated?
@@ -14,7 +15,8 @@
 ## Why the generated HTML file looks ugly?
 
 Recommended web browsers
- - Firefox / Chrome (Windows/Linux/Mac)
+ - IE9 / Chrome (Windows)
+ - Firefox / Chrome (Linux/Mac)
  - Dolphin Browser (Android)
 
 ## Why I got incorrect text after copy & paste?
