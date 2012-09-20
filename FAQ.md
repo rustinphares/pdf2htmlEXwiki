@@ -34,14 +34,16 @@
   - I'll put into my TODO list those requests I found attractive/challenging/important.
    - There's little chance that feature requests about user interface will be accepted.
 
-## Why I got compilation errors?
+## I cannot compile it!
 
  - Make sure you have installed all required packages (and headers).
  - Make sure poppler has been compiled with --enable-xpdf-headers
    - Especially when you see something about goo/GooString.h
  - Make sure C++11 is supported by your compiler
- - If there's something wrong about 'spiroentrypoints.h', install header files of libspiro
- - If there's something wrong about 'undefined reference of Py_xxx', install header files of python-2.x
+ - Fontforge is not linking friendly until recently:
+   - If there's something wrong about 'spiroentrypoints.h', install header files of libspiro
+   - If there's something wrong about 'undefined reference of Py_xxx', install header files of python-2.x
+   - If there's something wrong about 'libintl.h', install gettext and set your system include path accordingly.
 
 ## 'Cannot open the manifest file'
  - Run 'sudo make install' or 'make install', depending on your environment.
