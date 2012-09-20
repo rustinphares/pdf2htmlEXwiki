@@ -19,13 +19,14 @@
 
  - Tell me what's wrong.
  - Technical complaints are welcome.
+   - Emotional are not.
 
-## pdf2htmlEX doesn't work for my pdf!
+## pdf2htmlEX doesn't work for my pdf file!
 
  - Bug reports are always welcome, please file an issue with the link to the broken pdf file.
  - However there are several exceptions when the bug cannot be fixed in time (or at all)
-   - PDF does not follow the standard (it might still be displayed correctly in PDF viewers)
-   - It's actually something wrong with libraries used by pdf2htmlEX (poppler / fontforge)
+   - The file does not follow the PDF standard (it might still be displayed correctly in PDF viewers)
+   - Something wrong with libraries used by pdf2htmlEX (poppler / fontforge)
 
 ## How about feature requests?
 
