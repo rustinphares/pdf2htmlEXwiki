@@ -48,26 +48,26 @@
 ## 'Cannot open the manifest file'
  - Run 'sudo make install' or 'make install', depending on your environment.
 
-## Why there is no image generated?
+## There is no image generated
 
  - Make sure you did not specify --process-nontext 0
  - Make sure libpng (and headers) is installed BEFORE poppler was compiled.
 
-## Why the generated HTML file looks ugly?
+## The generated HTML file looks ugly
 
 Recommended web browsers
  - IE9 / Opera / Chrome (Windows)
  - Firefox / Chrome / Opera (Linux/Mac)
  - Dolphin Browser (Android)
 
-## Why I got incorrect text after copy & paste?
+## I got incorrect text after copy & paste
 
-try run with --tounicode 1
+ - try run with --tounicode 1
 
-## Why the generated text is so small?
+## Generated text are too small to read
 
-try run with --zoom 2
+ - try run with --zoom 2
 
-## Why images are blurred?
+## Images are blurred?
 
-try run with --hdpi 288 --vdpi 288
+ - try run with --hdpi 288 --vdpi 288
