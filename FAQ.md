@@ -11,9 +11,9 @@
 
 ## pdf2htmlEX is really great! What shall I do?
 
- - Add a star in the [project page](http://github.com/coolwanglu/pdf2htmlEX), at the top-right corner
+ - Add a star in the [project page](http://github.com/coolwanglu/pdf2htmlEX), at the top-right corner.
  - Tell others about it, using your social power.
- - Use it and enjoy it
+ - Use it and enjoy it.
 
 ## pdf2htmlEX sucks! What shall I do?
 
@@ -22,7 +22,7 @@
 
 ## pdf2htmlEX doesn't work for my pdf!
 
- - Bug reports are always welcome, please file a issue with the link to the broken pdf file.
+ - Bug reports are always welcome, please file an issue with the link to the broken pdf file.
  - However there are several exceptions when the bug cannot be fixed in time (or at all)
    - PDF does not follow the standard (it might still be displayed correctly in PDF viewers)
    - It's actually something wrong with libraries used by pdf2htmlEX (poppler / fontforge)
