@@ -32,6 +32,7 @@
   - Keep in mind that pdf2htmlEX has been provided as a toy for hackers, not a user-friendly tool.
   - Patches are as welcome as bug reports.
   - I'll put into my TODO list those requests I found attractive/challenging/important.
+   - There's little chance that feature requests about user interface will be accepted.
 
 ## Why I got compilation errors?
 
