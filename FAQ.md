@@ -41,7 +41,7 @@
  - Make sure poppler has been compiled with --enable-xpdf-headers
    - Especially when you see something about goo/GooString.h
  - Make sure C++11 is supported by your compiler
- - Fontforge is not linking friendly until recently:
+ - Fontforge has not been linking friendly until recent:
    - If there's something wrong about 'spiroentrypoints.h', install header files of libspiro
    - If there's something wrong about 'undefined reference of Py_xxx', install header files of python-2.x
    - If there's something wrong about 'libintl.h', install gettext and set your system include path accordingly.
