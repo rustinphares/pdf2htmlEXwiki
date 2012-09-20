@@ -21,7 +21,7 @@ Recommended web browsers
 
 ## Why I got incorrect text after copy & paste?
 
-try run with --always-apply-tounicode 1
+try run with --tounicode 1
 
 ## Why the generated text is so small?
 
