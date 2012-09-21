@@ -58,9 +58,18 @@
 ## The generated HTML file looks ugly
 
 Recommended web browsers
- - IE9 / Opera / Chrome (Windows)
+ - IE9 / Firefox / Opera / Chrome (Windows)
  - Firefox / Chrome / Opera (Linux/Mac)
  - Dolphin Browser (Android)
+
+## The generated HTML file freezes my Firefox
+ 
+ - Don't zoom in too much
+ - Use a smaller value for --font-size-multiplier
+
+## Something wrong with text in the generated HTML file, I cannot even read them
+
+ - Try --auto-hint 1 carefully, which is experimental now.
 
 ## I got incorrect text after copy & paste
 
