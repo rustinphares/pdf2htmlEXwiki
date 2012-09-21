@@ -79,6 +79,6 @@ Recommended web browsers
 
  - try run with --zoom 2
 
-## Images are blurred?
+## Images are blurred
 
  - try run with --hdpi 288 --vdpi 288
