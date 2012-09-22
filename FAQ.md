@@ -9,6 +9,15 @@
  - To make me happy
  - To be possibly useful for others
 
+## Which languages are used in pdf2htmlEX?
+  
+ - C++ (most part)
+ - C (wrapper of Fontforge)
+ - HTML (output)
+ - CSS (complicated enough to be considered as a language)
+ - Javascript (UI actions/effects)
+ - Python (tests)
+
 ## pdf2htmlEX is really great! What shall I do?
 
  - Add a star in the [project page](http://github.com/coolwanglu/pdf2htmlEX), at the top-right corner.
