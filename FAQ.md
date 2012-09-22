@@ -16,7 +16,7 @@
  - HTML (output)
  - CSS (complicated enough to be considered as a language)
  - Javascript (UI actions/effects)
- - Python (tests)
+ - Python (scripts for testing / packaging)
 
 ## pdf2htmlEX is really great! What shall I do?
 
