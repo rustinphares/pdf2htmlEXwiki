@@ -77,7 +77,8 @@ Recommended web browsers
  - Use a smaller value for --font-size-multiplier
 
 ## Something wrong with text in the generated HTML file, I cannot even read them
-
+ 
+ - Install ttfautohint and run pdf2htmlEX with --external-hint-tool=ttfautohint
  - Try --auto-hint 1 carefully, which is experimental now.
 
 ## I got incorrect text after copy & paste
