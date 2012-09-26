@@ -23,6 +23,7 @@
  - Add a star in the [project page](http://github.com/coolwanglu/pdf2htmlEX), at the top-right corner.
  - Tell others about it, using your social power.
  - Use it and enjoy it.
+ - Please consider [making a donation](http://www.pledgie.com/campaigns/18320).
 
 ## pdf2htmlEX sucks! What shall I do?
 
