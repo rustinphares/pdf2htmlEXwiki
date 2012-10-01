@@ -49,8 +49,10 @@
 
 ## Feature Commission
 
- - Send me an email about the proposed feature and price
- - Or comment on the feature requests in the issue list
+ - Proposed a feature and price
+   - Send me an email
+   - OR file a new Issue on GitHub
+   - OR comment on an existing feature request
  - I will confirm before I start to implement
 
 ## I cannot compile it!
