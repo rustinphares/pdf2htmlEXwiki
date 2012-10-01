@@ -47,7 +47,7 @@
    - There's little chance that feature requests about user interface will be accepted.
   - Propose a feature Commission (see below)
 
-## Feature Commission
+## Feature Commission <div id="feature_commission"></div>
 
  - Proposed a feature and price
    - Send me an email
