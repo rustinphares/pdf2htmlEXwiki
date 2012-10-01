@@ -42,8 +42,13 @@
 
   - Keep in mind that pdf2htmlEX has been provided as a toy for hackers, not a user-friendly tool.
   - Patches are as welcome as bug reports.
-  - I'll put into my TODO list those requests I found attractive/challenging/important.
+  - Try to convince me that the feature is attractive/challenging/important.
+   - I will put it into the TODO list.
    - There's little chance that feature requests about user interface will be accepted.
+  - Feature Commissions are accepted:
+   - Send me an email about the proposed feature and price
+   - Or comment on the feature requests in the issue list
+   - I will confirm before I start to implement
 
 ## I cannot compile it!
 
