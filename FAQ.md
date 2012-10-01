@@ -39,19 +39,20 @@
    - Something wrong with libraries used by pdf2htmlEX (poppler / fontforge)
 
 ## <div id="feature_commission">I want more features!</div>
- - More features are being implemented to pdf2htmlEX
-   - I am implementing those interesting to me.
-   - Thanks to all contributors.
- - Patches are as welcome as bug reports.
+ - I am implementing features that are interesting to me.
+   - Find what I'm working on in TODO in the project dir.
+   - Bump the priority of some feature by proposing a feature commission (see below).
+ - Pull requests / patches are as welcome as bug reports.
+   - Thank you!
  - Try to convince me that the feature is attractive/challenging/important.
    - I will put it into the TODO list.
    - There's little chance that feature requests about user interface will be accepted.
- - Propose a feature Commission
-   - Proposed a feature and price and
-     - Send me an email
-     - OR file a new Issue on GitHub
-     - OR comment on an existing feature request
- - I will confirm before I start to implement
+ - Feature Commissions are accepted.
+   - Proposed a feature and price by
+     - Sending me an email
+     - OR filing a new Issue on GitHub
+     - OR leaving comments on an existing Issue on GitHub
+   - I will confirm before I start to implement
 
 ## I cannot compile it!
 
