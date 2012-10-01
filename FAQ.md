@@ -38,21 +38,19 @@
    - The file does not follow the PDF standard (it might still be displayed correctly in PDF viewers)
    - Something wrong with libraries used by pdf2htmlEX (poppler / fontforge)
 
-## How about feature requests?
-
-  - Keep in mind that pdf2htmlEX has been provided as a toy for hackers, not a user-friendly tool.
-  - Patches are as welcome as bug reports.
-  - Try to convince me that the feature is attractive/challenging/important.
+## <div id="feature_commission">I want more features!</div>
+ - More features are being implemented to pdf2htmlEX
+   - I am implementing those interesting to me.
+   - Thanks to all contributors.
+ - Patches are as welcome as bug reports.
+ - Try to convince me that the feature is attractive/challenging/important.
    - I will put it into the TODO list.
    - There's little chance that feature requests about user interface will be accepted.
-  - Propose a feature Commission (see below)
-
-## <div id="feature_commission">Feature Commission</div>
-
- - Proposed a feature and price
-   - Send me an email
-   - OR file a new Issue on GitHub
-   - OR comment on an existing feature request
+ - Propose a feature Commission
+   - Proposed a feature and price and
+     - Send me an email
+     - OR file a new Issue on GitHub
+     - OR comment on an existing feature request
  - I will confirm before I start to implement
 
 ## I cannot compile it!
