@@ -6,7 +6,7 @@
 
 ## What's the ultimate goal of pdf2htmlEX?
 
- - To make me happy
+ - To get myself entertained
  - To be possibly useful for others
 
 ## Which languages are used in pdf2htmlEX?
