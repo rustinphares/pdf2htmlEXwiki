@@ -52,7 +52,7 @@
      - OR leaving comments on an existing Issue on GitHub
    - I will confirm before I start to implement
 
-## I cannot compile it!
+## <div id="compile">I cannot compile it!</div>
 
  - Make sure you have installed all required packages (and headers).
  - Make sure poppler has been compiled with --enable-xpdf-headers
