@@ -18,11 +18,12 @@
  - Javascript (UI actions/effects)
  - Python (scripts for testing / packaging)
 
-## pdf2htmlEX is really great! What shall I do?
+## <div id="help">pdf2htmlEX is really great! What shall I do?</div>
 
  - Add a star in the [project page](http://github.com/coolwanglu/pdf2htmlEX), at the top-right corner.
  - Tell others about it, using your social power.
  - Use it and enjoy it.
+  - Find bugs and report them.
  - Please consider [making a donation](http://coolwanglu.github.com/pdf2htmlEX/donate.html).
 
 ## pdf2htmlEX sucks! What shall I do?
@@ -39,9 +40,6 @@
    - Something wrong with libraries used by pdf2htmlEX (poppler / fontforge)
 
 ## <div id="feature_commission">I want more features!</div>
- - I am implementing features that are interesting to me.
-   - Find what I'm working on in TODO in the project dir.
-   - Bump the priority of some feature by proposing a feature commission (see below).
  - Pull requests / patches are as welcome as bug reports.
    - Thank you!
  - Try to convince me that the feature is attractive/challenging/important.
@@ -94,6 +92,7 @@ Recommended web browsers
 ## I got incorrect text after copy & paste
 
  - try run with --tounicode 1
+ - Make sure you CAN copy & paste with a PDF viewer
 
 ## Generated text are too small to read
 
