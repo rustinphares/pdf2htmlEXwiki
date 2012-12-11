@@ -1,1 +1,1 @@
-Welcome to the pdf2htmlEX wiki!
+ - [FAQ](https://github.com/coolwanglu/pdf2htmlEX/wiki/FAQ)
