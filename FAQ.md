@@ -77,7 +77,7 @@
 Recommended web browsers
  - IE9 / Firefox / Opera / Chrome (Windows)
  - Firefox / Chrome / Opera (Linux/Mac)
- - Dolphin Browser (Android)
+ - Firefox (Android)
 
 For WINDOWS XP users: Please make sure ClearType is turned on
 
