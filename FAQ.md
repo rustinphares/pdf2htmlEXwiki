@@ -42,6 +42,12 @@
   - Find bugs and report them.
  - Please consider [making a donation](http://coolwanglu.github.com/pdf2htmlEX/donate.html).
 
+### <div id="install-windows">How to install pdf2htmlEX on Windows</div>
+ - There is no binary package so far, so do not expect an easy click-and-install. There are 2 options:
+  - Install Linux in a virtual machine, then install pdf2htmlEX
+  - Build the source through Cygwin (recommended) or MinGW
+ - If you can help maintain binary packages for Windows, or at least find an easy way to do this, please contact me. 
+
 ## Pitfalls 
 
 ### <div id="compile">I cannot compile pdf2htmlEX</div>
