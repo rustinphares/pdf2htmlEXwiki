@@ -2,7 +2,7 @@
 
 ## Non-technical
 
-### Languages and libraries used in pdf2htmlEX?
+### Languages and libraries used in pdf2htmlEX
   
  - C++ (most part)
  - C (wrapper of Fontforge)
