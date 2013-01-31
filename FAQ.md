@@ -35,7 +35,7 @@
      - OR leaving comments on an existing Issue on GitHub
    - I will confirm before I start to implement
 
-### How can I help pdf2htmlEX
+### <div id="help">How can I help pdf2htmlEX</div>
  - Add a star in the [project page](http://github.com/coolwanglu/pdf2htmlEX), at the top-right corner.
  - Tell others about it, using your social power.
  - Use it and enjoy it.
