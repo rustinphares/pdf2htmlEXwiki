@@ -5,7 +5,7 @@
 ### Why HTML ?
 
 PDF and HTML are quite different formats.
- - PDF focues on the capability of accurately representing and printing all kinds of HTML documents.
+ - PDF focues on the capability of accurately representing and printing all kinds of documents.
  - HTML focues on multimedia, user interaction, network optimization.
 
 What would you do if you want to show some PDF-quality contents online ?
