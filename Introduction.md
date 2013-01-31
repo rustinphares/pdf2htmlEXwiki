@@ -39,7 +39,7 @@ Accuracy Text preservation.
 
 If you are worried about misplaced text with ugly fonts, you must have tried to convert PDF files into HTML, desperately. Don't worry and take a look at the demo pages in the home page of pdf2htmlEX, which might be able to prove something.
 
-pdf2htmlEX was first designed especially for example scientific papers, which usually contains different fonts and complicated formulas and figures.
+pdf2htmlEX was first designed especially for scientific papers, which contains different fonts and complicated formulas and figures.
 
 Also Javascript is optional, the converted HTML file should work without Javascript.
 
