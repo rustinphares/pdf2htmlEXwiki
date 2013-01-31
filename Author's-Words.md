@@ -8,6 +8,9 @@ Before long I realized that font is a big boss in the stage. Thanks to Fontforge
 
 The rest part was not so hard, as I've got a little background with C/C++/HTML/CSS/Javascript/Python. This is actually of thinking and comparing these languages.
 
-- Lu Wang
+I'd like to thank Wanmin Liu for the help of testing and promoting this tool, and of course all the 
+contributors to this one-man spare-time project. I'm quite happy to see that it's useful to others.
 
-I'd like to thank Wanmin Liu for the help of testing and promoting this tool, and of course all the contributors to this one-man spare-time project. I'm quite happy to see that it's useful to others.
+
+- Lu Wang
+2013.02.01
