@@ -48,6 +48,8 @@
   - Build the source through Cygwin (recommended) or MinGW
  - If you can help maintain binary packages for Windows, or at least find an easy way to do this, please contact me. 
 
+***
+
 ## Pitfalls 
 
 ### <div id="compile">I cannot compile pdf2htmlEX</div>
