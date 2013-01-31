@@ -4,7 +4,7 @@ When I heard about complains about no handy tools to present PDF documents onlin
 
 Hongliang wanted all text from PDF available on the web page. At that time he had made a poppler-based tool to produce PDF information in JSON, which can be further processed and rendered with Javascript. That's where I started to read poppler and PDF spec -- I knew nothing about them at that time.
 
-Before long I realized that font is a big boss in the stage. Thanks to Fontforge I did't have to go too deep into TTF spec (while still I have to read it once), but I had to learn about font from zero, and fight against the coding style (not bad, just unfamiliar) and bugs there.
+Before long I realized that font is a big boss in the stage. Thanks to Fontforge I did't have to go too deep into the specification of TrueType (while still I have to read it once), but I had to learn about font from zero, and fight against the coding style (not bad, just unfamiliar) and bugs there.
 
 The rest part was not so hard, as I've got a little background with C/C++/HTML/CSS/Javascript/Python. This is actually of thinking and comparing these languages.
 
