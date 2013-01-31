@@ -1,15 +1,6 @@
 # dummy
 
-## Why did you start this project?
-
- - For FUN
-
-## What's the ultimate goal of pdf2htmlEX?
-
- - To get myself entertained
- - To be possibly useful for others
-
-## Which languages are used in pdf2htmlEX?
+## Languages and libraries used in pdf2htmlEX?
   
  - C++ (most part)
  - C (wrapper of Fontforge)
@@ -17,27 +8,17 @@
  - CSS (complicated enough to be considered as a language)
  - Javascript (UI actions/effects)
  - Python (scripts for testing / packaging)
+ - Poppler (PDF parsing)
+ - Fontforge (font manipulation)
+ - jQuery (for the default UI)
 
-## <div id="help">pdf2htmlEX is really great! What shall I do?</div>
-
- - Add a star in the [project page](http://github.com/coolwanglu/pdf2htmlEX), at the top-right corner.
- - Tell others about it, using your social power.
- - Use it and enjoy it.
-  - Find bugs and report them.
- - Please consider [making a donation](http://coolwanglu.github.com/pdf2htmlEX/donate.html).
-
-## pdf2htmlEX sucks! What shall I do?
-
- - Tell me what's wrong.
- - Technical complaints are welcome.
-   - Emotional are not.
-
-## pdf2htmlEX doesn't work for my pdf file!
+## pdf2htmlEX doesn't work for my pdf file
 
  - Bug reports are always welcome, please file an issue with the link to the broken pdf file.
  - However there are several exceptions when the bug cannot be fixed in time (or at all)
    - The file does not follow the PDF standard (it might still be displayed correctly in PDF viewers)
    - Something wrong with libraries used by pdf2htmlEX (poppler / fontforge)
+   - **There are a few technical limitations of pdf2htmlEX. See the issues tagged `need solution`**
 
 ## <div id="feature_commission">I want more features!</div>
  - Pull requests / patches are as welcome as bug reports.
@@ -52,9 +33,9 @@
      - OR leaving comments on an existing Issue on GitHub
    - I will confirm before I start to implement
 
-## <div id="compile">I cannot compile it!</div>
+## <div id="compile">I cannot compile pdf2htmlEX</div>
 
- - Make sure you have installed all required packages (and headers).
+ - Make sure you have installed all required packages (and headers), see Readme.
  - Make sure poppler has been compiled with --enable-xpdf-headers
    - Especially when you see something about goo/GooString.h
  - Make sure C++11 is supported by your compiler
