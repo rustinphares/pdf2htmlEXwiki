@@ -1,6 +1,8 @@
 # dummy
 
-## Languages and libraries used in pdf2htmlEX?
+## Non-technical
+
+### Languages and libraries used in pdf2htmlEX?
   
  - C++ (most part)
  - C (wrapper of Fontforge)
@@ -12,7 +14,7 @@
  - Fontforge (font manipulation)
  - jQuery (for the default UI)
 
-## pdf2htmlEX doesn't work for my pdf file
+### pdf2htmlEX doesn't work for my pdf file
 
  - Bug reports are always welcome, please file an issue with the link to the broken pdf file.
  - However there are several exceptions when the bug cannot be fixed in time (or at all)
@@ -20,7 +22,7 @@
    - Something wrong with libraries used by pdf2htmlEX (poppler / fontforge)
    - **There are a few technical limitations of pdf2htmlEX. See the issues tagged `need solution`**
 
-## <div id="feature_commission">I want more features!</div>
+### <div id="feature_commission">I want more features!</div>
  - Pull requests / patches are as welcome as bug reports.
    - Thank you!
  - Try to convince me that the feature is attractive/challenging/important.
@@ -33,7 +35,9 @@
      - OR leaving comments on an existing Issue on GitHub
    - I will confirm before I start to implement
 
-## <div id="compile">I cannot compile pdf2htmlEX</div>
+## Pitfalls 
+
+### <div id="compile">I cannot compile pdf2htmlEX</div>
 
  - Make sure you have installed all required packages (and headers), see Readme.
  - Make sure poppler has been compiled with --enable-xpdf-headers
@@ -45,15 +49,15 @@
    - If there's something wrong about 'undefined reference of Py_xxx', install header files of python-2.x
    - If there's something wrong about 'libintl.h', install gettext and set your system include path accordingly.
 
-## 'Cannot open the manifest file'
+### 'Cannot open the manifest file'
  - Run 'sudo make install' or 'make install', depending on your environment.
 
-## There is no image generated
+### There is no image generated
 
  - Make sure you did not specify --process-nontext 0
  - Make sure libpng (and headers) is installed BEFORE poppler was compiled.
 
-## <div id="ugly">The generated HTML file looks ugly</div>
+### <div id="ugly">The generated HTML file looks ugly</div>
 
 Recommended web browsers
  - IE9 / Firefox / Opera / Chrome (Windows)
@@ -64,25 +68,25 @@ For WINDOWS XP users: Please make sure ClearType is turned on
 
 (Control Panel -> Display -> Appearance -> Effects -> "Use the following method to smooth edges of screen fonts" -> ClearType)
 
-## The generated HTML file freezes my Firefox
+### The generated HTML file freezes my Firefox
  
  - Don't zoom in too much
  - Use a smaller value for --font-size-multiplier
 
-## Something wrong with text in the generated HTML file, I cannot even read them
+### Something wrong with text in the generated HTML file, I cannot even read them
  
  - Install ttfautohint and run pdf2htmlEX with --external-hint-tool=ttfautohint
  - Try --auto-hint 1 carefully, which is experimental now.
 
-## I got incorrect text after copy & paste
+### I got incorrect text after copy & paste
 
  - try run with --tounicode 1
  - Make sure you CAN copy & paste with a PDF viewer
 
-## Generated text are too small to read
+### Generated text are too small to read
 
  - try run with --zoom 2
 
-## Images are blurred
+### Images are blurred
 
  - try run with --hdpi 288 --vdpi 288
