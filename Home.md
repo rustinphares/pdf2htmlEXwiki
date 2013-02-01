@@ -1,5 +1,6 @@
  - [FAQ](https://github.com/coolwanglu/pdf2htmlEX/wiki/FAQ)
  - [Introduction](https://github.com/coolwanglu/pdf2htmlEX/wiki/Introduction)
+ - [Features](https://github.com/coolwanglu/pdf2htmlEX/wiki/Feature-List)
  - [Browser Requirements](https://github.com/coolwanglu/pdf2htmlEX/wiki/Browser-Requirements)
  - [Author's words](https://github.com/coolwanglu/pdf2htmlEX/wiki/Author%27s-Words)
  - Need solution
