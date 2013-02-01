@@ -43,4 +43,12 @@ pdf2htmlEX was first designed especially for scientific papers, which contain di
 
 Also Javascript is optional, the converted HTML file should work without Javascript.
 
+***
+
+### When/Who should use pdf2htmlEX ?
+
+ - Online PDF preview services
+ - Content providers: online newspapers, magazines, books ...
+ - Personal: resumes, research papers ...
+ - Create web pages with LaTeX !
 
