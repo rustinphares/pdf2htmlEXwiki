@@ -18,7 +18,7 @@ PDF and HTML are quite different formats.
  - HTML focues on multimedia, user interaction, network optimization.
 
 What would you do if you want to show some PDF-quality contents online ?
- - [Lazy] To let user download or read with the plugin, which lead to terrible user experience.
+ - [Lazy] To let user download or read with the PDF/Flash/other plugins, often leads to terrible user experience, inconsistent themes etc.
  - [Easy] To convert PDF pages into images, then embed into HTML pages, which produces either blurred text or monster sized files/network cost. Also text are logically lost, readers cannot perform searching or copying.
  - [Clever] Still to convert PDF into images, but with hidden text layer and images with different resolutions. This is actually a pretty good solution (only) when you have powerful server and high-capacity networks.
  - [Good#1] To use Javascript to parse and render the PDF. Server is relieved, but all burden comes to the client-side, if you care.
