@@ -1,8 +1,8 @@
 ### Features
 
-* Output file
-  - All-in-one HTML, with all fonts/images embeded.
+* Output modes
   - Normal single HTML, with separate fonts/images.
+  - All-in-one HTML, with all fonts/images embeded.
   - One HTML file per page, best for dynamic web pages.
 * Accurate Text preservation
   - Native text in HTML - you can select & copy & search
