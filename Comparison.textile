@@ -35,19 +35,17 @@ h3. Features
 | Text Extraction (select/copy/search) | Yes | Yes, with text layer | No, usually ^[1]^ | Yes | Yes | Maybe |
 | Link | Yes | Yes | No, usually ^[2]^ | Yes | Yes | Maybe |
 | Accurate rendering | Yes, usually ^[3]^ | Yes | Yes | No | Yes | Yes, usually |
-| Extensible | Yes | Yes | Yes | Yes | No | Maybe ^[4]^ |
+| Read while loading | Yes | Yes | Yes | Yes | No | Maybe |
 
 ~[1]: Text extraction can be supported with a text layer~
 ~[2]: Link may be handled with Javascript~
 ~[3]: There are PDF elements which cannot be converted into HTML losslessly~
-~[4]: For some plugins, only API is available~
 
-h3. User Experience
+h3. Development
 
 |_. |_. Convert to HTML 5 (pdf2htmlEX) |_. Parse by JS |_. Convert to image |_. Convert to HTML 4 |_. Adobe PDF plugin |_. Other plugins |
-| Read while loading | Yes | Yes | Yes | Yes | No | Maybe |
 | Customizable UI/Theme | Yes | Yes | Yes | Yes | No | No, usually ^[1]^ |
-| Web site integration ^[2]^ | Yes | Yes | Yes | Yes | No | Maybe |
+| Extensible | Yes | Yes | Yes | Yes | No | Maybe ^[2]^ |
 
 ~[1]: For some plugins there are commercial licensed versions with customizable UI~
-~[2]: Data exchange with the web site, adapted to the framework of web sites etc~ 
+~[2]: Some plugins have API available~
