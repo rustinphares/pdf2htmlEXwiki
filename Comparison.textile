@@ -1,0 +1,49 @@
+This page compares common approaches to present PDF files online.
+
+h3. Basic Info
+
+|_. |_. Convert to HTML 5 (pdf2htmlEX) |_. Parse by JS (PDF.js) |_. Convert to image |_. Convert to HTML 4 |_. Adobe PDF plugin |_. Other plugins |
+| Briefing | PDF elements are converted into corresponding or closest HTML elements | PDF file is loaded, parsed and rendered by Javascript | PDF pages are converted into images and shown in web pages | Similar as "Convert to HTML 5", but with much less features | Official plugin | Non-official PDF plugins, Flash-based plugins or others |
+| Open source | Yes | Yes | Maybe | Maybe | No | Maybe |
+| Free | Yes | Yes | Maybe | Maybe | Yes | Maybe |
+
+h3. Performance
+
+|_. |_. Convert to HTML 5 (pdf2htmlEX) |_. Parse by JS |_. Convert to image |_. Convert to HTML 4 |_. Adobe PDF plugin |_. Other plugins |
+| Processing (server-side) | Normal, one time | None | Slow, one time | Fast, one time | None | None (usually) |
+| Loading (client-side) | Fast | Fast | Slow | Fast | Fast | Fast |
+| Rendering (client-side) | Fast | Slow | Fast | Fast | Fast | Fast (usually) |
+| Network cost | Small ^[1]^ | Small | Large ^[2]^ | Small | Small | Small |
+
+~[1]: HTTP compression is required~
+~[2]: Could be Huge if higher resolution is needed~
+
+h3. Browser Requirements
+
+|_. |_. Convert to HTML 5 (pdf2htmlEX) |_. Parse by JS |_. Convert to image |_. Convert to HTML 4 |_. Adobe PDF plugin |_. Other plugins |
+| Requires HTML 5 ? | Yes | Yes (usually) | No | No | No | No |
+| Requires Javascript ? | No | Yes | No | No | No | No |
+
+h3. Features
+
+|_. |_. Convert to HTML 5 (pdf2htmlEX) |_. Parse by JS |_. Convert to image |_. Convert to HTML 4 |_. Adobe PDF plugin |_. Other plugins |
+| Full PDF Feature ? | No, but usually enough | Maybe | Yes | No | Yes | Maybe |
+| Text Extraction (select/copy/search) | Yes | Yes, with text layer | No, usually ^[1]^ | Yes | Yes | Maybe |
+| Link | Yes | Yes | No usually ^[2]^ | Yes | Yes | Maybe |
+| Accurate rendering | Yes, usually ^[3]^ | Yes | Yes | No | Yes | Yes, usually |
+| Extensible | Yes | Yes | Yes | Yes | No | Maybe ^[4]^ |
+
+~[1]: Text extraction can be supported with a text layer~
+~[2]: Link may be handled with Javascript~
+~[3]: There are PDF elements which cannot be converted into HTML losslessly~
+~[4]: For some plugins, only API is available~
+
+h3. User Experience
+
+|_. |_. Convert to HTML 5 (pdf2htmlEX) |_. Parse by JS |_. Convert to image |_. Convert to HTML 4 |_. Adobe PDF plugin |_. Other plugins |
+| Read while loading | Yes | Yes | Yes | Yes | No | Maybe |
+| Customizable UI/Theme | Yes | Yes | Yes | Yes | No | No, usually ^[1]^ |
+| Web site integration ^[2]^ | Yes | Yes | Yes | Yes | No | Maybe |
+
+~[1]: For some plugins there are commercial licensed versions with customizable UI~
+~[2]: Data exchange with the web site, adapted to the framework of web sites etc~ 
