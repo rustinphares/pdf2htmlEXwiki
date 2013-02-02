@@ -20,7 +20,7 @@
  - However there are several exceptions when the bug cannot be fixed in time (or at all)
    - The file does not follow the PDF standard (it might still be displayed correctly in PDF viewers)
    - Something wrong with libraries used by pdf2htmlEX (poppler / fontforge)
-   - **There are a few technical limitations of pdf2htmlEX. See the issues tagged `need solution`**
+   - **There are a few technical limitations of pdf2htmlEX. See [this page](https://github.com/coolwanglu/pdf2htmlEX/wiki/Need-Solution)
 
 ### <div id="feature_commission">I want more features!</div>
  - Pull requests / patches are as welcome as bug reports.
