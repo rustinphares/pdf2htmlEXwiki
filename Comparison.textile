@@ -10,9 +10,9 @@ h3. Basic Info
 h3. Performance
 
 |_. |_. Convert to HTML 5 (pdf2htmlEX) |_. Parse by JS |_. Convert to image |_. Convert to HTML 4 |_. Adobe PDF plugin |_. Other plugins |
-| Processing (server-side) | Normal, one time | None | Slow, one time | Fast, one time | None | None (usually) |
+| Processing (server-side) | Normal, one time | None | Slow, one time | Fast, one time | None | None, usually |
 | Loading (client-side) | Fast | Fast | Slow | Fast | Fast | Fast |
-| Rendering (client-side) | Fast | Slow | Fast | Fast | Fast | Fast (usually) |
+| Rendering (client-side) | Fast | Slow | Fast | Fast | Fast | Fast, usually |
 | Network cost | Small ^[1]^ | Small | Large ^[2]^ | Small | Small | Small |
 
 ~[1]: HTTP compression is required~
@@ -21,7 +21,7 @@ h3. Performance
 h3. Browser Requirements
 
 |_. |_. Convert to HTML 5 (pdf2htmlEX) |_. Parse by JS |_. Convert to image |_. Convert to HTML 4 |_. Adobe PDF plugin |_. Other plugins |
-| Requires HTML 5 ? | Yes | Yes (usually) | No | No | No | No |
+| Requires HTML 5 ? | Yes | Yes, usually | No | No | No | No |
 | Requires Javascript ? | No | Yes | No | No | No | No |
 
 h3. Features
@@ -29,7 +29,7 @@ h3. Features
 |_. |_. Convert to HTML 5 (pdf2htmlEX) |_. Parse by JS |_. Convert to image |_. Convert to HTML 4 |_. Adobe PDF plugin |_. Other plugins |
 | Full PDF Feature ? | No, but usually enough | Maybe | Yes | No | Yes | Maybe |
 | Text Extraction (select/copy/search) | Yes | Yes, with text layer | No, usually ^[1]^ | Yes | Yes | Maybe |
-| Link | Yes | Yes | No usually ^[2]^ | Yes | Yes | Maybe |
+| Link | Yes | Yes | No, usually ^[2]^ | Yes | Yes | Maybe |
 | Accurate rendering | Yes, usually ^[3]^ | Yes | Yes | No | Yes | Yes, usually |
 | Extensible | Yes | Yes | Yes | Yes | No | Maybe ^[4]^ |
 
