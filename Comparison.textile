@@ -2,10 +2,12 @@ This page compares common approaches to present PDF files online.
 
 h3. Basic Info
 
-|_. |_. Convert to HTML 5 (pdf2htmlEX) |_. Parse by JS (PDF.js) |_. Convert to image |_. Convert to HTML 4 |_. Adobe PDF plugin |_. Other plugins |
+|_. |_. Convert to HTML 5 (pdf2htmlEX) |_. Parse by JS |_. Convert to image |_. Convert to HTML 4 |_. Adobe PDF plugin |_. Other plugins |
 | Briefing | PDF elements are converted into corresponding or closest HTML elements | PDF file is loaded, parsed and rendered by Javascript | PDF pages are converted into images and shown in web pages | Similar as "Convert to HTML 5", but with much less features | Official plugin | Non-official PDF plugins, Flash-based plugins or others |
-| Open source | Yes | Yes | Maybe | Maybe | No | Maybe |
-| Free | Yes | Yes | Maybe | Maybe | Yes | Maybe |
+| Open source | Yes | Maybe | Maybe | Maybe | No | Maybe |
+| Free | Yes | Maybe | Maybe | Maybe | Yes | Maybe |
+
+~note: There are free and/or open source tools for all but Adobe PDF plugin.~
 
 h3. Performance
 
