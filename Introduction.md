@@ -24,6 +24,8 @@ What would you do if you want to show some PDF-quality contents online ?
  - [Good#1] To use Javascript to parse and render the PDF. Server is relieved, but all burden comes to the client-side, if you care.
  - [Good#2] To convert to HTML. One-time conversion, similar file size as the original PDF, preserved text, light weight for both server & client. Happy ending!
 
+[This page](https://github.com/coolwanglu/pdf2htmlEX/wiki/Comparison) compares pdf2htmlEX with other similar approaches.
+
 So you say "convert to HTML" is best, why there are still PDF files ?
  - No I didn't, I say "good" only. What I didn't say is that **all above but the last one** can support full PDF features. Because after all HTML and PDF are different formats, **there is no lossless conversion between them**.
  - However, HTML is capable enough most of the time. Because most PDF files are simple. Think about things that you have seen in PDF but never in HTML.
