@@ -4,7 +4,7 @@
 [Dedicated page](https://github.com/coolwanglu/pdf2htmlEX/wiki/Reflowable-Text)
 
 ### Printing
-[Dedicagted page](https://github.com/coolwanglu/pdf2htmlEX/wiki/Printing)
+[Dedicated page](https://github.com/coolwanglu/pdf2htmlEX/wiki/Printing)
 
 ### Text outline
 In PDF, different colors (or transparent) can be specified for outline and inside of text.
