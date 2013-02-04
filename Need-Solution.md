@@ -6,7 +6,7 @@
 ### Printing
 [Dedicated page](https://github.com/coolwanglu/pdf2htmlEX/wiki/Printing)
 
-### Text outline
+### Stroked Text
 In PDF, different colors (or transparent) can be specified for outline and inside of text.
  - WebKit supports text-stroke-color & text-fill-color. No problem.
  - For Firefox, text-stroke-color may be simulated by drop shadows in 4 different directions
