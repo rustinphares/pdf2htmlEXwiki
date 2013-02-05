@@ -23,9 +23,9 @@
   - Simple path drawing, lines, rectangles...
   - Text styles
   - Linear gradients 
-
 * Partially supported (All rendered into background images)
   - Type 3 fonts
   - Path paintings/Images
   - Text with clipping path
+* Printing
 
