@@ -6,7 +6,7 @@
   - One HTML file per page, best for dynamic web pages.
 * Accurate Text preservation
   - Native text in HTML - you can select & copy & search
-  - Font， color, position and transformation
+  - Font, color, position and transformation
   - Reencoding for Web
 * Links
   - In-document reference
