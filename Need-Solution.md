@@ -3,9 +3,6 @@
 ### Reflowable Text
 [Dedicated page](https://github.com/coolwanglu/pdf2htmlEX/wiki/Reflowable-Text)
 
-### Printing
-[Dedicated page](https://github.com/coolwanglu/pdf2htmlEX/wiki/Printing)
-
 ### Stroked Text
 In PDF, different colors (or transparent) can be specified for outline and inside of text.
  - WebKit supports text-stroke-color & text-fill-color. No problem.
