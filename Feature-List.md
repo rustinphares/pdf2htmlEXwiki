@@ -14,7 +14,7 @@
     - Without Javascript: jump to page
   - Out-document reference
 * Outline
-
+* Printing (experimental)
 *** 
 
 ### Working in progress
@@ -27,5 +27,3 @@
   - Type 3 fonts
   - Path paintings/Images
   - Text with clipping path
-* Printing
-
