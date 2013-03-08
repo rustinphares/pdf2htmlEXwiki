@@ -4,11 +4,11 @@
   - Normal single HTML, with separate fonts/images.
   - All-in-one HTML, with all fonts/images embeded.
   - One HTML file per page, best for dynamic web pages.
-  - Fallback mode (image + hidden text), provides better accuracy and compatibility, at the cost of larger file sizes.
 * Accurate Text preservation
   - Native text in HTML - you can select & copy & search
   - Font, color, position and transformation
   - Reencoding for Web
+  - Fallback mode (image + hidden text), provides even better accuracy and compatibility, at the cost of larger file sizes.
 * Links
   - In-document reference
     - With Javascript: precise jump
