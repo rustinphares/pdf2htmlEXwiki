@@ -30,4 +30,5 @@ would produce a `test.html` and accompanying files in the `out` directory, in th
 
 would do something similar above, except for there is no `test.html`, but a series of files names as `test0.page`, `test1.page` and so on. Each `.page` file contains the a `<div>` element corresponding to a page, which gives the publisher full control. In this way a publisher can organize the pages as they like, and they can also implement lazy loading for pages.
 
-
+### More
+Just remember `man pdf2htmlEX` and `pdf2htmlEX --help` are always your best friends.
