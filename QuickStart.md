@@ -1,7 +1,7 @@
 ### This page lists some common recipes of pdf2htmlEX
 
 ### First thing first
-- It is highly recommended that you install `ttfautohint` and always add `--external-hint-tool=ttfautohint` to each of the following recipes. This tools enhances the font rendering for all browsers on Windows.
+- It is highly recommended that you install `ttfautohint` and always add `--external-hint-tool=ttfautohint` to each of the following recipes. This tool enhances font rendering for all browsers on Windows.
 - Double check you have `poppler-data` installed, for CJK characters.
 - Double check you have run `sudo make install`, or pdf2htmlEX may not be executed correctly
 
