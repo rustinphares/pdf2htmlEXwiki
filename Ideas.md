@@ -9,5 +9,6 @@
   - automated tests and test cases
 - Others
   - UI design
+  - Ajax page loading
   - Line unwrapping
 
