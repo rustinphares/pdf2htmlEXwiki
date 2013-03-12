@@ -1,4 +1,4 @@
-There is a public folder available hosted on [MediaFire](http://www.mediafire.com), such that you can test your own PDF files with pdf2thmlEX.
+There is a public folder available hosted on [MediaFire](http://www.mediafire.com), with which you can test your own PDF files with pdf2htmlEX.
 
 ### Before uploading, you must read and agree with the following terms:
  - Once a file is uploaded, you cannot remove it. 
