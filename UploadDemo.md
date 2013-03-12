@@ -7,7 +7,7 @@ There is a public folder available hosted on [MediaFire](http://www.mediafire.co
    - Do not upload too many files.
    - Do not upload large files.
    - Do not upload inpropriate materials (include but not limited to: private, copyrighted, illegal, threatening etc).
- - The folder may be cleaned periodically
+ - The folder may be cleaned periodically, and the files uploaded may be used as demo.
  - MediaFire may not be using pdf2htmlEX of the latest version, perfrect parameters or in the perfect way.
    - If anything goes wrong, please try the latest version of pdf2htmlEX first, before reporting any issues.
 
