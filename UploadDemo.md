@@ -13,5 +13,6 @@ There is a public folder available hosted on [MediaFire](http://www.mediafire.co
  - The folder may be cleaned periodically, and the files uploaded may be used as demo.
 
 ### Steps
- - [Upload](http://www.mediafire.com/filedrop/iledrop_hosted.php?drop=b9da314994a5e9af384dfd020fe8280e0d2e425d0870dc5edcca272e9fdc7d43) 
- - Find your file in [the folder](http://www.mediafire.com/?clnnit9kn3vf9), click on it, and then 'View File'.
+ 1. Read and agree with the terms above.
+ 2. [Upload](http://www.mediafire.com/filedrop/iledrop_hosted.php?drop=b9da314994a5e9af384dfd020fe8280e0d2e425d0870dc5edcca272e9fdc7d43) 
+ 3. Find your file in [the folder](http://www.mediafire.com/?clnnit9kn3vf9), click on it, and then 'View File'.
