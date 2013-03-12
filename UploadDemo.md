@@ -9,7 +9,7 @@ There is a public folder available hosted on [MediaFire](http://www.mediafire.co
    - Do not upload inappropriate materials (include but not limited to: private, copyrighted, illegal, threatening etc).
  - The folder may be cleaned periodically, and the files uploaded may be used as demo.
  - MediaFire may not be using pdf2htmlEX of the latest version, perfrect parameters or in the perfect way.
-   - If anything goes wrong, please try the latest version of pdf2htmlEX first, before reporting any issues.
+   - If anything goes wrong, please try the latest version of pdf2htmlEX before reporting any issues.
 
 [Upload and test](http://www.mediafire.com/filedrop/iledrop_hosted.php?drop=b9da314994a5e9af384dfd020fe8280e0d2e425d0870dc5edcca272e9fdc7d43) 
 
