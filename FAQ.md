@@ -23,24 +23,16 @@
    - **There are a few technical limitations of pdf2htmlEX. See [this page](https://github.com/coolwanglu/pdf2htmlEX/wiki/Need-Solution)
 
 ### <div id="feature_commission">I want more features!</div>
- - Pull requests / patches are as welcome as bug reports.
-   - Thank you!
- - Try to convince me that the feature is attractive/challenging/important.
-   - I will put it into the TODO list.
-   - There's little chance that feature requests about user interface will be accepted.
- - Feature Commissions are accepted.
-   - Proposed a feature and price by
-     - Sending me an email
-     - OR filing a new Issue on GitHub
-     - OR leaving comments on an existing Issue on GitHub
-   - I will confirm before I start to implement
+ - Create a patch, or hire someone to do so.
+ - Best hackers do not work for free.
+ - But great ideas are more valuable then money.
 
 ### <div id="help">How can I help pdf2htmlEX</div>
  - Add a star in the [project page](http://github.com/coolwanglu/pdf2htmlEX), at the top-right corner.
  - Tell others about it, using your social power.
  - Use it and enjoy it.
-  - Find bugs and report them.
- - Please consider [making a donation](http://coolwanglu.github.com/pdf2htmlEX/donate.html).
+ - Find bugs and report them.
+ - [Make a donation](http://coolwanglu.github.com/pdf2htmlEX/donate.html).
 
 ### <div id="install-windows">How to install pdf2htmlEX on Windows</div>
  - There is no binary package so far, so do not expect an easy click-and-install. There are 2 options:
