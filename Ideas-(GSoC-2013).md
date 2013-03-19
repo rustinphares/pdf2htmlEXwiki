@@ -20,7 +20,7 @@ The task is to render text in vertical writing mode natively in HTML. There are 
   - understanding how characters are placed accurately by pdf2htmlEX (TBE)
  - Difficulty: MEDIUM
 
-### 2) Support PostScript Type 3 fonts
+## Support PostScript Type 3 fonts
 PDF supports a unique kind of font: PostScript Type 3. Instead of an embeded font file, a Type 3 font is a series of PDF instructions. In other words, each glyph is defined as a "mini-PDF".
 
 The task is to extract the Type 3 fonts from PDF and convert them into something compatible with HTML. A possible solution is SVG fonts (though not for all browsers). `pdftocairo` (from Poppler) is doing something similar and should be consulted.
@@ -31,7 +31,7 @@ The task is to extract the Type 3 fonts from PDF and convert them into something
   - Understanding of PostScript Type 3 fonts in PDF Spec (TBE)
  - Difficulty: HARD
 
-### 3) Support text with clipping path
+## Support text with clipping path
 In PDF, a clipping path,e.g. a circle, defines the visible area, everything outside the area will not be rendered. Currently pdf2htmlEX does not take into account the clipping path.
 
 The task is to identify the clipping paths, and ensure that fully visible text is rendered, while fully invisible text is ignored. Partially visible text can be be converted into images (unless there are better options).
@@ -42,7 +42,7 @@ The task is to identify the clipping paths, and ensure that fully visible text i
   - Understanding character placement in pdf2htmlEX (TBE)
  - Difficulty: MEDIUM
 
-### Reduce the size of background images
+## Reduce the size of background images
 Currently for each PDF page, pdf2htmlEX will render everything it cannot handle into a background image, which can lead to large image dimensions, and thus large file sizes.
 
 The task is to optimize the background image dimensions, so that multiple smaller images are used in place of a single large background image. The clipping path should be taken into consideration.
@@ -53,7 +53,7 @@ The task is to optimize the background image dimensions, so that multiple smalle
   - Understanding of relative API of poppler (TBE)
  - Difficulty: HARD
 
-### Create automated tests
+## Create automated tests
 pdf2htmlEX is changing all the time, and we need to prevent regressions.
 
 The task is to build automated regression tests, which are to be integrated with Travis CI. The image-based regression test from [PDF.js](http://mozilla.github.com/pdf.js/) is a good reference. Adobe have [a large suite of test PDF files](http://acroeng.adobe.com/wp/).
@@ -62,7 +62,7 @@ The task is to build automated regression tests, which are to be integrated with
   - Python and related modules (HTML to image conversion (better with Webkit/Gecko) & image comparison) 
  - Difficulty: EASY
 
-### Improve the default UI
+## Improve the default UI
 The default UI is minimal and could easily be improved.
 
 The task is to add more necessary and useful UI elements, e.g. pageup/down buttons, and features, or lazy page loading with AJAX.
@@ -72,7 +72,7 @@ The task is to add more necessary and useful UI elements, e.g. pageup/down butto
   - Basic understanding of the structure of HTML files produced by pdf2htmlEX (TBE)
  - Difficulty: EASY
 
-### Reflow Text
+## Reflow Text
 Text in almost all PDF files are absolute positioned, which means it cannot be adjusted automatically if the width of the viewer is changed. However text reflowing is quite natural in HTML. But [it's not easy to make text in PDF reflowable](https://github.com/coolwanglu/pdf2htmlEX/wiki/Reflowable-Text). Some sort of analysis of the reading order of the document will be required, see [Document Layout Analysis](http://en.wikipedia.org/wiki/Document_Layout_Analysis)
 
 The task is to find a solution and implement it.
