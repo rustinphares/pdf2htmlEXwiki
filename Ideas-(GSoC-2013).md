@@ -8,7 +8,7 @@ Should you be familiar with a few in the list, it's very likely that you will fi
 
 TBE = To be explained by the mentor: a mentor will give a brief introduction to the topic, and list relative materials for the students to read.
 
-### Support Vertical Writing Mode (CJK)
+## Support Vertical Writing Mode (CJK)
 In PDF, text in vertical writing mode are placed top-to-bottom instead of left-to-right. Currently such text is converted into images.
 
 The task is to render text in vertical writing mode natively in HTML. There are [relevant CSS properties](http://dev.w3.org/csswg/css3-writing-modes/), and we need to make sure that the characters are placed accurately.
@@ -20,7 +20,7 @@ The task is to render text in vertical writing mode natively in HTML. There are 
   - understanding how characters are placed accurately by pdf2htmlEX (TBE)
  - Difficulty: MEDIUM
 
-### Support PostScript Type 3 fonts
+### 2) Support PostScript Type 3 fonts
 PDF supports a unique kind of font: PostScript Type 3. Instead of an embeded font file, a Type 3 font is a series of PDF instructions. In other words, each glyph is defined as a "mini-PDF".
 
 The task is to extract the Type 3 fonts from PDF and convert them into something compatible with HTML. A possible solution is SVG fonts (though not for all browsers). `pdftocairo` (from Poppler) is doing something similar and should be consulted.
@@ -31,7 +31,7 @@ The task is to extract the Type 3 fonts from PDF and convert them into something
   - Understanding of PostScript Type 3 fonts in PDF Spec (TBE)
  - Difficulty: HARD
 
-### Support text with clipping path
+### 3) Support text with clipping path
 In PDF, a clipping path,e.g. a circle, defines the visible area, everything outside the area will not be rendered. Currently pdf2htmlEX does not take into account the clipping path.
 
 The task is to identify the clipping paths, and ensure that fully visible text is rendered, while fully invisible text is ignored. Partially visible text can be be converted into images (unless there are better options).
