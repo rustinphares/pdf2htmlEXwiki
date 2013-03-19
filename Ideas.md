@@ -1,5 +1,3 @@
-##Possible ideas for GSoC 2013
-
 pdf2htmlEX is not a large project, but it involves a number of modern technologies including
  - Programming Languages: C++, JavaScript, some C and Python
  - Web technologies: HTML5, CSS3, fonts
