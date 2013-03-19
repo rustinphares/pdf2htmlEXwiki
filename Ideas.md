@@ -74,7 +74,7 @@ The task is to add more necessary and useful UI elements, e.g. pageup/down butto
   - Basic understanding of the structure of HTML files produced by pdf2htmlEX (TBE)
  - Difficulty: EASY
 
-### Text flow detection
+### Reflow Text
 Text in almost all PDF files are absolute positioned, which means it cannot be adjusted automatically if the width of the viewer is changed. However text reflowing is quite natural in HTML. But [it's not easy to make text in PDF reflowable](https://github.com/coolwanglu/pdf2htmlEX/wiki/Reflowable-Text).
 
 The task is to find a solution and implement it.
