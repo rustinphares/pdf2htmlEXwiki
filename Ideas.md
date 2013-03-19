@@ -75,7 +75,7 @@ The task is to add more necessary and useful UI elements, e.g. pageup/down butto
  - Difficulty: EASY
 
 ### Reflow Text
-Text in almost all PDF files are absolute positioned, which means it cannot be adjusted automatically if the width of the viewer is changed. However text reflowing is quite natural in HTML. But [it's not easy to make text in PDF reflowable](https://github.com/coolwanglu/pdf2htmlEX/wiki/Reflowable-Text).
+Text in almost all PDF files are absolute positioned, which means it cannot be adjusted automatically if the width of the viewer is changed. However text reflowing is quite natural in HTML. But [it's not easy to make text in PDF reflowable](https://github.com/coolwanglu/pdf2htmlEX/wiki/Reflowable-Text). Some sort of analysis of the reading order of the document will be required, see (Wikipedia)[http://en.wikipedia.org/wiki/Document_Layout_Analysis]
 
 The task is to find a solution and implement it.
 
