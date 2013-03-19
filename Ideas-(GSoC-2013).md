@@ -1,7 +1,7 @@
 pdf2htmlEX is not a large project, but it involves a number of modern technologies including
  - Programming Languages: C++, JavaScript, some C and Python
  - Web technologies: HTML5, CSS3, fonts
- - The PDF file format [PDF](http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/pdf/pdfs/PDF32000_2008.pdf)
+ - [The PDF file format](http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/pdf/pdfs/PDF32000_2008.pdf)
  - Libraries: Poppler, FontForge, and jQuery
 
 Should you be familiar with a few in the list, it's very likely that you will find some ideas below:
