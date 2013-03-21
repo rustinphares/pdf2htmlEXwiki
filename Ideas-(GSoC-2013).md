@@ -4,7 +4,7 @@ pdf2htmlEX is not a large project, but it involves a number of modern technologi
  - [The PDF file format](http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/devnet/pdf/pdfs/PDF32000_2008.pdf)
  - Libraries: Poppler, FontForge, and jQuery
 
-Should you be familiar with a few in the list, it's very likely that you will find some ideas below:
+Should you be familiar with a few in the list, it's very likely that you will find some ideas interesting below:
 
 TBE = To be explained by the mentor: a mentor will give a brief introduction to the topic, and list relative materials for the students to read.
 
