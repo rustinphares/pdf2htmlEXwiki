@@ -16,7 +16,7 @@
   - Out-document reference
 * Outline
 * Printing (experimental)
-*** 
+
 
 ### Working in progress
 
