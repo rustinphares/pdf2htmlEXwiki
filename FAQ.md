@@ -67,8 +67,8 @@
 ### <div id="ugly">The generated HTML file looks ugly</div>
 
 Recommended web browsers
- - IE9 / Firefox / Opera / Chrome (Windows)
- - Firefox / Chrome / Opera (Linux/Mac)
+ - IE(>=9) / Firefox / Chrome (Windows)
+ - Firefox / Chrome (Linux/Mac)
  - Firefox (Android)
 
 For WINDOWS XP users: Please make sure ClearType is turned on
