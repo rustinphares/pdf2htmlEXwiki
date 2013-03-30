@@ -82,3 +82,14 @@ The task is to find a solution and implement it.
   - Understanding how text are extracted and handled by poppler and pdf2htmlEX (TBE)
   - Find a solution
  - Difficulty: HARD
+
+## Multithreading
+Currently pdf2htmlEX is not fast, the bottleneck parts are font conversion and background image generation. Font conversion may not be done concurrently with PDF parsing, since there are some dependencies there (e.g. encoding, width), but a number of fonts may be converted together. Background images are completely independent with other parts.
+
+The task is to speed up by executing such jobs in separated threads. Right now Fontforge is not likely to be thread-safe, but poppler has been thread-safe since a few versions back. 
+
+ - Skills required:
+   - C++ (especially threading in C++11)
+   - Understanding how background images and/or fonts are handled in pdf2htmlEX (TBE)
+   - Understanding relevant functions in poppler (for background images) and/or FontForge(for fonts)
+ - Difficulty: MEDIUM (for background images) and HARD (for fonts)
