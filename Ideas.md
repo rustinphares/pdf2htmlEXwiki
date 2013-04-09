@@ -6,8 +6,6 @@ pdf2htmlEX is not a large project, but it involves a number of modern technologi
 
 Should you be familiar with a few in the list, it's very likely that you will find some ideas interesting below:
 
-TBE = To be explained by the mentor: a mentor will give a brief introduction to the topic, and list relative materials for the students to read.
-
 ## Support Vertical Writing Mode (CJK)
 In PDF, text in vertical writing mode are placed top-to-bottom instead of left-to-right. Currently such text is converted into images.
 
