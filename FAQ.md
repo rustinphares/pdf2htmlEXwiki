@@ -25,7 +25,7 @@
 ### <div id="feature_commission">I want more features!</div>
  - Create a patch, or hire someone to do so.
  - Best hackers do not work for free.
- - But great ideas are more valuable then money.
+ - But great ideas are more valuable than money.
 
 ### <div id="help">How can I help pdf2htmlEX</div>
  - Add a star in the [project page](http://github.com/coolwanglu/pdf2htmlEX), at the top-right corner.
