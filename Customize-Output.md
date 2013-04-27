@@ -1,4 +1,4 @@
-pdf2htmlEX allows you to customize the output as you like. 
+The output of pdf2htmlEX is flexible, you can tweak it as you like.
 
 The files telling pdf2htmlEX how to compose the output are stored in `data-dir`. Run `pdf2htmlEX -v` to find the default location, or you may specify a new one with the parameter `--data-dir`.
 
