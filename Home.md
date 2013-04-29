@@ -7,5 +7,5 @@
    - [Quick Start](https://github.com/coolwanglu/pdf2htmlEX/wiki/QuickStart)
    - [Customize Output](https://github.com/coolwanglu/pdf2htmlEX/wiki/Customize-Output)
    - [Browser Requirements](https://github.com/coolwanglu/pdf2htmlEX/wiki/Browser-Requirements)
- - [Need solution](https://github.com/coolwanglu/pdf2htmlEX/wiki/Need-Solution)
+ - [Limitations](https://github.com/coolwanglu/pdf2htmlEX/wiki/Limitations)
  - [Author's words](https://github.com/coolwanglu/pdf2htmlEX/wiki/Author%27s-Words)
