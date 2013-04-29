@@ -2,10 +2,10 @@
    - [Introduction](https://github.com/coolwanglu/pdf2htmlEX/wiki/Introduction)
    - [Comparison of different ways to present PDF files online](https://github.com/coolwanglu/pdf2htmlEX/wiki/Comparison)
    - [Features](https://github.com/coolwanglu/pdf2htmlEX/wiki/Feature-List)
+   - [Limitations](https://github.com/coolwanglu/pdf2htmlEX/wiki/Limitations)
+   - [Author's words](https://github.com/coolwanglu/pdf2htmlEX/wiki/Author%27s-Words)
  - Manual
    - [FAQ](https://github.com/coolwanglu/pdf2htmlEX/wiki/FAQ)
    - [Quick Start](https://github.com/coolwanglu/pdf2htmlEX/wiki/QuickStart)
    - [Customize Output](https://github.com/coolwanglu/pdf2htmlEX/wiki/Customize-Output)
    - [Browser Requirements](https://github.com/coolwanglu/pdf2htmlEX/wiki/Browser-Requirements)
- - [Limitations](https://github.com/coolwanglu/pdf2htmlEX/wiki/Limitations)
- - [Author's words](https://github.com/coolwanglu/pdf2htmlEX/wiki/Author%27s-Words)
