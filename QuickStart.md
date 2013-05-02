@@ -26,9 +26,9 @@ would produce a `test.html` and accompanying files in the `out` directory, in th
 
 ### For advanced publishers
 
-    pdf2htmlEX --single-html 0 --split-pages 1 --dest-dir out pdf/test.pdf
+    pdf2htmlEX --single-html 0 --split-pages 1 --dest-dir out --page-filename test-%d.page pdf/test.pdf
 
-would do something similar above, except for there is no `test.html`, but a series of files names as `test0.page`, `test1.page` and so on. Each `.page` file contains the a `<div>` element corresponding to a page, which gives the publisher full control. In this way a publisher can organize the pages as they like, and they can also implement lazy loading for pages.
+would do something similar above, but each individual page is stored in a separated file. The files are named as `test-0.page`, `test-1.page` and so on, as specified in the command line. There is still a `test.html` which loads the pages dynamically through ajax. In this way the publishers are given full control, who can organize the pages as they like, for example, to implement lazy page loading.
 
 ### The Ultimate Hand
 
