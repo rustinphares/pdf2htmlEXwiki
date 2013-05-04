@@ -8,7 +8,7 @@
 ### The simplest case
 Suppose you have a PDF file `pdf/test.pdf`, simply running
 
-    pdf2htmlEX pdf/test.pdf
+    pdf2htmlEX --zoom 1.3 pdf/test.pdf
 
 would produce a single HTML file `test.html` in the **current directory**.
 
