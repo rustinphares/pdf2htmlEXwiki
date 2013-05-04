@@ -30,6 +30,7 @@
 ### <div id="help">How can I help pdf2htmlEX</div>
  - Add a star in the [project page](http://github.com/coolwanglu/pdf2htmlEX), at the top-right corner.
  - Tell others about it, using your social power.
+ - Suggest interesting PDF files which can be used as demos.
  - Use it and enjoy it.
  - Find bugs and report them.
  - [Make a donation](http://coolwanglu.github.com/pdf2htmlEX/donate.html).
