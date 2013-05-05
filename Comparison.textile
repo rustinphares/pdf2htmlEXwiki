@@ -5,8 +5,8 @@ h3. Basic Info
 |_. |_. Convert to HTML 5 |_. Parse by JS |_. Convert to image |_. Convert to HTML 4 |_. Adobe PDF plugin |_. Other plugins |
 | Example | pdf2htmlEX | PDF.js | Google Doc | pdftohtml (poppler) | Adobe PDF Plugin | N/A |
 | Briefing | PDF elements are converted into corresponding or closest HTML elements | PDF file is loaded, parsed and rendered by Javascript | PDF pages are converted into images and shown in web pages | Similar as "Convert to HTML 5", but with much less features | Official plugin | Non-official PDF plugins, Flash-based plugins or others |
-| Open source | Yes | Maybe | Maybe | Maybe | No | Maybe |
-| Free | Yes | Maybe | Maybe | Maybe | Yes | Maybe |
+| Open source | Yes | Some (pdf.js) | Maybe | Some (pdftohtml) | No | Maybe |
+| Free | Yes | Some | Some | Some | Yes | Some |
 
 ~note: There are free and/or open source tools for all but Adobe PDF plugin.~
 
