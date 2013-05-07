@@ -66,15 +66,8 @@
  - Make sure libpng (and headers) is installed BEFORE poppler was compiled.
 
 ### <div id="ugly">The generated HTML file looks ugly</div>
-
-Recommended web browsers
- - IE(>=9) / Firefox / Chrome (Windows)
- - Firefox / Chrome (Linux/Mac)
- - Firefox (Android)
-
-For WINDOWS XP users: Please make sure ClearType is turned on
-
-(Control Panel -> Display -> Appearance -> Effects -> "Use the following method to smooth edges of screen fonts" -> ClearType)
+ 
+Check if your browser meets the [requirements](https://github.com/coolwanglu/pdf2htmlEX/wiki/Browser-Requirements).
 
 ### The generated HTML file freezes my Firefox
  
