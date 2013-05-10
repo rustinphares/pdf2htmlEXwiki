@@ -6,8 +6,8 @@
    - [Author's words](https://github.com/coolwanglu/pdf2htmlEX/wiki/Author%27s-Words)
  - [Download](https://github.com/coolwanglu/pdf2htmlEX/wiki/Download)
  - [Building](https://github.com/coolwanglu/pdf2htmlEX/wiki/Building) 
+ - [Quick Start](https://github.com/coolwanglu/pdf2htmlEX/wiki/QuickStart)
  - Manual
    - [FAQ](https://github.com/coolwanglu/pdf2htmlEX/wiki/FAQ)
-   - [Quick Start](https://github.com/coolwanglu/pdf2htmlEX/wiki/QuickStart)
    - [Customize Output](https://github.com/coolwanglu/pdf2htmlEX/wiki/Customize-Output)
    - [Browser Requirements](https://github.com/coolwanglu/pdf2htmlEX/wiki/Browser-Requirements)
