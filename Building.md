@@ -1,5 +1,3 @@
-### Building
-
 #### Dependencies
 
 * CMake, pkg-config
