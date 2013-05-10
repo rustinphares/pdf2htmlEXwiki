@@ -2,7 +2,7 @@ pdf2htmlEX is maintained by one person in spare time. Consider how much you have
 
 pdf2htmlEX needs your help! 
 
-### How to help pdf2htmlEX with a few clicks
+### Help pdf2htmlEX with a few clicks
 
 - Add a star in the [project page](http://github.com/coolwanglu/pdf2htmlEX).
 - Tell others about pdf2htmlEX.
