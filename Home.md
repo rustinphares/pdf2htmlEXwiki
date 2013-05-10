@@ -11,4 +11,5 @@
  - Manual
    - [FAQ](https://github.com/coolwanglu/pdf2htmlEX/wiki/FAQ)
    - [Customize Output](https://github.com/coolwanglu/pdf2htmlEX/wiki/Customize-Output)
+   - Run `man pdf2htmlEX` for the complete instruction.
  - [Author's words](https://github.com/coolwanglu/pdf2htmlEX/wiki/Author%27s-Words)
