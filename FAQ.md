@@ -27,14 +27,6 @@
  - Best hackers do not work for free.
  - But great ideas are more valuable than money.
 
-### <div id="help">How can I help pdf2htmlEX</div>
- - Add a star in the [project page](http://github.com/coolwanglu/pdf2htmlEX), at the top-right corner.
- - Tell others about it, using your social power.
- - Suggest interesting PDF files which can be used as demos.
- - Use it and enjoy it.
- - Find bugs and report them.
- - [Make a donation](http://coolwanglu.github.com/pdf2htmlEX/donate.html).
-
 ### <div id="install-windows">How to install pdf2htmlEX on Windows</div>
  - There is no binary package so far, so do not expect an easy click-and-install. There are 2 options:
   - Install Linux in a virtual machine, then install pdf2htmlEX
