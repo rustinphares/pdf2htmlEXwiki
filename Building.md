@@ -12,7 +12,7 @@
  * Install **poppler-data** if your want CJK support
 * **fontforge** (with header files)
  * git version is recommended
- * In case you cannot compile with the official code, you may try [the `tmp` branch of my fork](https://github.com/coolwanglu/fontforge/tree/tmp)
+ * Due to [a bug of FontForge](https://github.com/fontforge/fontforge/issues/465), you may try [the `tmp` branch of my fork](https://github.com/coolwanglu/fontforge/tree/tmp)
 * [Optional] **ttfautohint**
  * run pdf2htmlEX with **--external-hint-tool=ttfautohint** to enable it
 * [For Windows]
@@ -27,11 +27,9 @@
 
 #### Troubleshooting
 
- - Make sure poppler has been compiled with --enable-xpdf-headers
-   - Especially when you see something about goo/GooString.h
- - Make sure C++11 is supported by your compiler
- - Fontforge has not been linking friendly until recent:
-   - Git version is recommended
-   - If there's something wrong about 'spiroentrypoints.h', install header files of libspiro
-   - If there's something wrong about 'undefined reference of Py_xxx', install header files of python-2.x
-   - If there's something wrong about 'libintl.h', install gettext and set your system include path accordingly.
+If you see error messages about:
+
+ - `goo/GooString.h`, read the dependencies again, `poppler` should be compiled with `--enable-xpdf-headers`
+ - `spiroentrypoints.h`, install header files of libspiro
+ - `undefined reference of Py_xxx`, install header files of python-2.x
+ - `libintl.h`, install gettext and set your system include path accordingly.
