@@ -12,6 +12,15 @@
 ***
 
 ### Why HTML ?
+ 
+ - Read while downloading
+ - Flexible
+  - Theme
+  - Layout
+  - Behaviour
+ - Plugin-free
+  - Beautiful
+  - Secure
 
 PDF and HTML are quite different formats.
  - PDF focues on the capability of accurate representing and printing all kinds of documents.
