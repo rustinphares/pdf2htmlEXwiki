@@ -4,6 +4,7 @@
    - [Features](https://github.com/coolwanglu/pdf2htmlEX/wiki/Feature-List)
    - [Limitations](https://github.com/coolwanglu/pdf2htmlEX/wiki/Limitations)
    - [Author's words](https://github.com/coolwanglu/pdf2htmlEX/wiki/Author%27s-Words)
+   - [Building](https://github.com/coolwanglu/pdf2htmlEX/wiki/Building) 
  - Manual
    - [FAQ](https://github.com/coolwanglu/pdf2htmlEX/wiki/FAQ)
    - [Quick Start](https://github.com/coolwanglu/pdf2htmlEX/wiki/QuickStart)
