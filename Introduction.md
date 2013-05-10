@@ -14,10 +14,11 @@
 ### Why HTML ?
  
  - Read while downloading
- - Flexible
+ - Open and flexible
   - Theme
   - Layout
   - Behaviour
+  - CSS / JavaScript
  - Plugin-free
   - Beautiful
   - Secure
