@@ -1,3 +1,4 @@
+This is the man page of version 0.8:
     NAME
          pdf2htmlEX - converts PDF to HTML without losing text and format.
 
