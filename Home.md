@@ -4,6 +4,7 @@
    - [Features](https://github.com/coolwanglu/pdf2htmlEX/wiki/Feature-List)
    - [Limitations](https://github.com/coolwanglu/pdf2htmlEX/wiki/Limitations)
    - [Browser Requirements](https://github.com/coolwanglu/pdf2htmlEX/wiki/Browser-Requirements)
+ - [Command Line syntax / man page](https://github.com/coolwanglu/pdf2htmlEX/wiki/Command-line)
  - [Download](https://github.com/coolwanglu/pdf2htmlEX/wiki/Download)
  - [Building](https://github.com/coolwanglu/pdf2htmlEX/wiki/Building) 
  - [Quick Start](https://github.com/coolwanglu/pdf2htmlEX/wiki/QuickStart)
