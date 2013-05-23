@@ -1,4 +1,6 @@
-This is the man page of version 0.8:
+This is the man page of version 0.8. Run `man pdf2htmlEX` for the latest manual.
+
+Please file an issue if you find this page outdated.
 
     NAME
          pdf2htmlEX - converts PDF to HTML without losing text and format.
