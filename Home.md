@@ -4,13 +4,13 @@
    - [Features](https://github.com/coolwanglu/pdf2htmlEX/wiki/Feature-List)
    - [Limitations](https://github.com/coolwanglu/pdf2htmlEX/wiki/Limitations)
    - [Browser Requirements](https://github.com/coolwanglu/pdf2htmlEX/wiki/Browser-Requirements)
- - [Command Line syntax / man page](https://github.com/coolwanglu/pdf2htmlEX/wiki/Command-line)
  - [Download](https://github.com/coolwanglu/pdf2htmlEX/wiki/Download)
  - [Building](https://github.com/coolwanglu/pdf2htmlEX/wiki/Building) 
  - [Quick Start](https://github.com/coolwanglu/pdf2htmlEX/wiki/QuickStart)
  - [How to contribute](https://github.com/coolwanglu/pdf2htmlEX/wiki/Contribute)
  - Manual
    - [FAQ](https://github.com/coolwanglu/pdf2htmlEX/wiki/FAQ)
+   - [Command Line Options](https://github.com/coolwanglu/pdf2htmlEX/wiki/Command-line)
    - [Customize Output](https://github.com/coolwanglu/pdf2htmlEX/wiki/Customize-Output)
    - Run `man pdf2htmlEX` for the complete instruction.
  - [Author's words](https://github.com/coolwanglu/pdf2htmlEX/wiki/Author%27s-Words)
