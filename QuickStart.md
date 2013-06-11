@@ -20,13 +20,13 @@ would convert only the 3rd, 4th and 5th pages, and fit the page width to 1024 pi
 
 ### For publishers
 
-    pdf2htmlEX --single-html 0 --dest-dir out pdf/test.pdf
+    pdf2htmlEX --embed cfijo --dest-dir out pdf/test.pdf
 
 would produce a `test.html` and accompanying files in the `out` directory, in this way all the resources (fonts, images, css and javascript) are stored in separated files such that the viewer can take more advantage of browser caches.
 
 ### For advanced publishers
 
-    pdf2htmlEX --single-html 0 --split-pages 1 --dest-dir out --page-filename test-%d.page pdf/test.pdf
+    pdf2htmlEX --embed cfijo --split-pages 1 --dest-dir out --page-filename test-%d.page pdf/test.pdf
 
 would do something similar above, but each individual page is stored in a separated file. The files are named as `test-0.page`, `test-1.page` and so on, as specified in the command line. There is still a `test.html` which loads the pages dynamically through ajax. In this way the publishers are given full control, who can organize the pages as they like, for example, to implement lazy page loading.
 
