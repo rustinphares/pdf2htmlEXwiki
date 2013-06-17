@@ -152,12 +152,6 @@ Please file an issue if you find this page outdated.
                   Decompose ligatures. For example 'fi' -> 'f''i'.
 
 
-           --remove-unused-glyph <0|1> (Default: 0)
-                  If set to 1, remove unused glyphs in embedded fonts in order to reduce the file size.
-
-                  Currently this option is experimental, turning it on may cause segmentation fault or debris-like fonts.
-
-
            --auto-hint <0|1> (Default: 0)
                   If set to 1, hints will be generated for the fonts using fontforge.
 
