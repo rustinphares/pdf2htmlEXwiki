@@ -1,5 +1,3 @@
-# dummy
-
 ## Non-technical
 
 ### Languages and libraries used in pdf2htmlEX
