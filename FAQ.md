@@ -1,4 +1,8 @@
-## Non-technical
+- [General](#general)
+- [Text and Font](#text-font)
+- [Image](#image)
+
+## <div id="general">General</div>
 
 ### Languages and libraries used in pdf2htmlEX
   
@@ -25,34 +29,31 @@
  - Best hackers do not work for free.
  - But great ideas are more valuable than money.
 
+<!--
 ### <div id="install-windows">How to install pdf2htmlEX on Windows</div>
  - There is no binary package so far, so do not expect an easy click-and-install. There are 2 options:
   - Install Linux in a virtual machine, then install pdf2htmlEX
   - Build the source through Cygwin (recommended) or MinGW
  - If you can help maintain binary packages for Windows, or at least find an easy way to do this, please contact me. 
-
-***
-
-## Pitfalls 
+-->
 
 ### 'Cannot open the manifest file'
  - Run 'sudo make install' or 'make install', depending on your environment.
-
-### There is no image generated
-
- - Make sure you did not specify --process-nontext 0
- - Make sure libpng (and headers) is installed BEFORE poppler was compiled.
-
-### <div id="ugly">The generated HTML file looks ugly</div>
- 
-Check if your browser meets the [requirements](https://github.com/coolwanglu/pdf2htmlEX/wiki/Browser-Requirements).
 
 ### The generated HTML file freezes my Firefox
  
  - Don't zoom in too much
  - Use a smaller value for --font-size-multiplier
 
-### Something wrong with text in the generated HTML file, I cannot even read them
+### <div id="ugly">The generated HTML file looks awful</div>
+ 
+Check if your browser meets the [requirements](https://github.com/coolwanglu/pdf2htmlEX/wiki/Browser-Requirements).
+
+***
+
+## <div id="text-font">Text and Font</div>
+
+### Text are correct but not readable
  
  - Install ttfautohint and run pdf2htmlEX with --external-hint-tool=ttfautohint
  - Try --auto-hint 1 carefully, which is experimental now.
@@ -61,6 +62,16 @@ Check if your browser meets the [requirements](https://github.com/coolwanglu/pdf
 
  - try run with --tounicode 1
  - Make sure you CAN copy & paste with a PDF viewer
+   - If you can not, neither can pdf2htmlEX
+
+***
+
+## <div id="image">Image</div>
+
+### There is no image generated
+
+ - Make sure you did not specify --process-nontext 0
+ - Make sure libpng (and headers) is installed BEFORE poppler was compiled.
 
 ### Generated text are too small to read
 
