@@ -23,10 +23,10 @@ When no further action is considered to be necessary, an Issue will be closed. B
 
 ## Mailing List
 
-Mailing list is set up for discussion and announcements. It is not the best place to report issues. You ar welcome to ask questions there. But if you try to report an Issue or submit a patch, most likely you will be asked to submit an Issue/Pull Request at GitHub.
+Mailing list is set up for discussion and announcements. It is not the best place to report issues. You are welcome to ask questions there. But if you try to report an issue or submit a patch, most likely you will be asked to submit an Issue/Pull Request at GitHub.
 
 ## Contacting the author
 
 Generally this is the worst place to report issues, it achieves nothing as mentioned above which are achieved by the Issues page. Usually you are supposed to contact the author for general questions which does not fit into the Issues page or the mailing list.
 
-However you may report a bug through email when you have to, for example the problematic PDF file is confidential, or it contains private information. But please expect a longer delay in this way，since the messages are usually archived and checked on a regular basis. You may consider making a donation to attract the author's attention in case it is emergency.
+However you may report a bug through email when you have to, for example when the problematic PDF file contains private information. But please expect a longer delay in this way，since the messages are usually archived and checked on a regular basis. You may consider making a donation to attract the author's attention in case it is emergency.
