@@ -6,6 +6,7 @@
    - [Download](https://github.com/coolwanglu/pdf2htmlEX/wiki/Download)
    - [Building](https://github.com/coolwanglu/pdf2htmlEX/wiki/Building) 
    - [Quick Start](https://github.com/coolwanglu/pdf2htmlEX/wiki/QuickStart)
+   - [How to report](https://github.com/coolwanglu/pdf2htmlEX/wiki/How-to-report)
    - [How to contribute](https://github.com/coolwanglu/pdf2htmlEX/wiki/Contribute)
  - Manual
    - [FAQ](https://github.com/coolwanglu/pdf2htmlEX/wiki/FAQ)
