@@ -16,7 +16,7 @@ Here are a few tips for a perfect a bug report:
 
 Issues are managed by tagging, opening and closing them. Common tags include:
  - `future`: this feature/bug is not crucial right now, it will be fixed in the future eventually
- - `need solution`: this feature/bug is important, no solution has been found so far.
+ - `need solution`: this feature/bug is important, but no solution has been found so far.
  - `patch welcome`: anyone is welcome to submit a patch for this feature/bug.
 
 When no further action is considered to be necessary, an Issue will be closed. But this does not mean that you should open a new one if you have further questions. Please stick with the same issue, leave comments there, and reopen it if necessary.
