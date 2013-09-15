@@ -23,6 +23,7 @@ Glyphs in a type 3 font is actually a mini-PDF.
  - Fontforge seems to support type 3 fonts
 
 ### Writing mode fonts
-Text go top-down, right-left, instead of left-right top-down.
+Text go top-bottom, right-left
  - HTML supports such fonts?
  - How to position them in HTML?
+   - CSS rule `writing-mode` is not yet well supported.
