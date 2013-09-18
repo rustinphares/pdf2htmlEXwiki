@@ -22,6 +22,7 @@
 * Outline
 * Printing (experimental)
 * Rectangular Clipping (experimental)
+* Background Images in PNG or SVG (experimental)
 
 ### Working in progress
 
