@@ -10,9 +10,10 @@
  * Install **poppler-data** if your want CJK support
 * **fontforge** (with header files)
  * git version is recommended
-* [For SVG Support]
+* [Optional] SVG Support, for generating SVG background images and converting Type 3 fonts
  * cairo >= 1.10.0 with SVG support
  * FreeType
+ * Add `-DENABLE_SVG=ON` to `cmake`
 * [Optional] **ttfautohint**
  * run pdf2htmlEX with **--external-hint-tool=ttfautohint** to enable it
 * [For Windows]
@@ -24,8 +25,6 @@
     git clone git://github.com/coolwanglu/pdf2htmlEX.git
     cd pdf2htmlEX
     cmake . && make && sudo make install
-
-[Experimental] SVG support: add `-DENABLE_SVG=ON` to cmake
 
 #### Troubleshooting
 
