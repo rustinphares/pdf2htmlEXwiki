@@ -30,5 +30,4 @@
 * CSS tricks
   - Simple path drawing, lines, rectangles...
   - Linear gradients 
-* Partially supported (All rendered into background images)
-  - Path paintings/Images
+
