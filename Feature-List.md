@@ -22,7 +22,8 @@
 * Outline
 * Printing (experimental)
 * Rectangular Clipping (experimental)
-* Background Images in PNG or SVG (experimental)
+* Background images in SVG (experimental)
+* Type 3 fonts (experimental)
 
 ### Working in progress
 
@@ -30,5 +31,4 @@
   - Simple path drawing, lines, rectangles...
   - Linear gradients 
 * Partially supported (All rendered into background images)
-  - Type 3 fonts
   - Path paintings/Images
