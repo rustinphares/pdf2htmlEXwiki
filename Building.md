@@ -6,7 +6,8 @@
  * GCC >= 4.4.6
  * I heard about successful build with Clang 
 * **poppler** >= 0.20.0 with xpdf headers (compile with **--enable-xpdf-headers**)
- * Install **libpng** (and headers) BEFORE you compile poppler if you want background images generated
+ * Install **libpng** (and headers) BEFORE you compile poppler if you want PNG background images generated
+ * Install **libjpeg** (and headers) BEFORE you compile poppler if you want JPG background images generated
  * Install **poppler-data** if your want CJK support
 * **fontforge** (with header files)
  * git version is recommended
