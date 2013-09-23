@@ -26,6 +26,10 @@ Text go top-bottom, right-left
 ### Font size rounding by browsers
 10.3pt text are usually rendered as 10pt text in web browsers, which often causes inaccuracy in the layout.
 
+Possible solutions:
+- Find the nearest fraction number (i.e different multiplier for different font sizes).
+- See if the `text-rendering` CSS properties is useful.
+
 Relative links:
 
 - http://meyerweb.com/eric/thoughts/2010/02/10/rounding-off/
