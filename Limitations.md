@@ -17,13 +17,15 @@ In PDF, a path may be used to limit the visible region. Currently only rectangla
 ### Text behind an image
 If you put an opaque image over some text in PDF, the text should not be visible at all. But in current design of pdf2htmlEX, all text are 'elevated' to the top level such that all such text will be visible.
 
-### Type 3 fonts
-Glyphs in a type 3 font is actually a mini-PDF.
- - How to dump to out
- - Fontforge seems to support type 3 fonts
-
 ### Writing mode fonts
 Text go top-bottom, right-left
  - HTML supports such fonts?
  - How to position them in HTML?
    - CSS rule `writing-mode` is not yet well supported.
+
+### Font size rounding by browsers
+10.3pt text are usually rendered as 10pt text in web browsers, which often causes inaccuracy in the layout.
+
+Relative links:
+http://meyerweb.com/eric/thoughts/2010/02/10/rounding-off/
+https://developer.mozilla.org/en-US/docs/Web/CSS/text-rendering
