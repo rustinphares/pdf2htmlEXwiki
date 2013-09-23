@@ -23,7 +23,7 @@ Text go top-bottom, right-left
  - How to position them in HTML?
    - CSS rule `writing-mode` is not yet well supported.
 
-### Font size rounding by browsers
+### Font size rounded by browsers
 10.3pt text are usually rendered as 10pt text in web browsers, which often causes inaccuracy in the layout.
 
 Possible solutions:
