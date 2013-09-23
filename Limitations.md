@@ -27,5 +27,6 @@ Text go top-bottom, right-left
 10.3pt text are usually rendered as 10pt text in web browsers, which often causes inaccuracy in the layout.
 
 Relative links:
-http://meyerweb.com/eric/thoughts/2010/02/10/rounding-off/
-https://developer.mozilla.org/en-US/docs/Web/CSS/text-rendering
+
+- http://meyerweb.com/eric/thoughts/2010/02/10/rounding-off/
+- https://developer.mozilla.org/en-US/docs/Web/CSS/text-rendering
