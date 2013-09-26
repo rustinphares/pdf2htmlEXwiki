@@ -14,9 +14,10 @@ would produce a single HTML file `test.html` in the **current directory**.
 
 ### Advanced
  
-    pdf2htmlEX -f 3 -l 5 --fit-width 1024 pdf/test.pdf
+    pdf2htmlEX -f 3 -l 5 --fit-width 1024 --bg-format jpg pdf/test.pdf
 
-would convert only the 3rd, 4th and 5th pages, and fit the page width to 1024 pixels
+would convert only the 3rd, 4th and 5th pages, and fit the page width to 1024 pixels.
+Background images will be generated in the JPEG format.
 
 ### For publishers
 
