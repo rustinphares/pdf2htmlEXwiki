@@ -7,6 +7,4 @@ pdf2htmlEX is availabe through several repositories, thanks to all the packagers
  * [Macports (local repo)](https://github.com/iapain/pdf2htmlEX-macport) by Deepak Thukral <iapain@iapa.in>
  * [Windows win32 static](http://soft.rubypdf.com/software/pdf2htmlex-windows-verion) by Steven Lee <rubypdf@gmail.com>
 
-~~This is no binary distribution for Windows, see [how to install on Windows](https://github.com/coolwanglu/pdf2htmlEX/wiki/FAQ#wiki-install-windows).~~
-
 You can also [build from source](https://github.com/coolwanglu/pdf2htmlEX/wiki/Building).
