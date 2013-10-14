@@ -1,7 +1,6 @@
  - Overview
    - [Introduction](https://github.com/coolwanglu/pdf2htmlEX/wiki/Introduction) and [Comparison](https://github.com/coolwanglu/pdf2htmlEX/wiki/Comparison)
    - [Features](https://github.com/coolwanglu/pdf2htmlEX/wiki/Feature-List), [Unfeatures](https://github.com/coolwanglu/pdf2htmlEX/wiki/Unfeatures) and [Limitations](https://github.com/coolwanglu/pdf2htmlEX/wiki/Limitations)
-   - [Browser Requirements](https://github.com/coolwanglu/pdf2htmlEX/wiki/Browser-Requirements)
  - Get Started
    - [Download](https://github.com/coolwanglu/pdf2htmlEX/wiki/Download)
    - [Building](https://github.com/coolwanglu/pdf2htmlEX/wiki/Building) 
@@ -9,6 +8,7 @@
    - [How to report](https://github.com/coolwanglu/pdf2htmlEX/wiki/How-to-report)
    - [How to contribute](https://github.com/coolwanglu/pdf2htmlEX/wiki/Contribute)
  - Reference
+   - [Browser Requirements](https://github.com/coolwanglu/pdf2htmlEX/wiki/Browser-Requirements)
    - [FAQ](https://github.com/coolwanglu/pdf2htmlEX/wiki/FAQ)
    - [Command Line Options](https://github.com/coolwanglu/pdf2htmlEX/wiki/Command-line)
    - [Customize Output](https://github.com/coolwanglu/pdf2htmlEX/wiki/Customize-Output)
