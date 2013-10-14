@@ -8,9 +8,8 @@
    - [Quick Start](https://github.com/coolwanglu/pdf2htmlEX/wiki/QuickStart)
    - [How to report](https://github.com/coolwanglu/pdf2htmlEX/wiki/How-to-report)
    - [How to contribute](https://github.com/coolwanglu/pdf2htmlEX/wiki/Contribute)
- - Manual
+ - Reference
    - [FAQ](https://github.com/coolwanglu/pdf2htmlEX/wiki/FAQ)
    - [Command Line Options](https://github.com/coolwanglu/pdf2htmlEX/wiki/Command-line)
    - [Customize Output](https://github.com/coolwanglu/pdf2htmlEX/wiki/Customize-Output)
-   - Run `man pdf2htmlEX` for the complete instruction.
  - [Author's words](https://github.com/coolwanglu/pdf2htmlEX/wiki/Author%27s-Words)
