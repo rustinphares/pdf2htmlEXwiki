@@ -1,3 +1,5 @@
+For possible solutions and dicussions, go to [#56](https://github.com/coolwanglu/pdf2htmlEX/issues/56)
+
 **Reflowable** means text can be automatically adapted to different output device, especially different widths. See [Wikipedia Page](http://en.wikipedia.org/wiki/Reflowable_document)
 
 PDF is mainly designed for printing, where it is not necessary for text to be reflowable. Some PDF files with tags are reflowable, which is not common, and is not widely supported by PDF viewers. However HTML originated from reflowable plain text, although nowadays HTML pages become more and more complicated, large paragraphs of text are still reflowable -- unless for the purpose of obscure or encryption.
