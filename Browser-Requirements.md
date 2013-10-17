@@ -13,6 +13,6 @@ A recent version of Firefox or Chrome, or IE(>=9) should work.
 
 ###Notes
  - [MacType](http://code.google.com/p/mactype/) might help if you are using Chrome on Windows.
- - Turn on ClearType if you are using Windows XP: (Control Panel -> Display -> Appearance -> Effects -> "Use the following method to smooth edges of screen fonts" -> ClearType)
+ - Turn on ClearType if you are using Windows
 
 
