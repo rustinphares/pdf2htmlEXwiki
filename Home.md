@@ -12,4 +12,5 @@
    - [FAQ](https://github.com/coolwanglu/pdf2htmlEX/wiki/FAQ)
    - [Command Line Options](https://github.com/coolwanglu/pdf2htmlEX/wiki/Command-line)
    - [Customize Output](https://github.com/coolwanglu/pdf2htmlEX/wiki/Customize-Output)
+   - [Optimization for Web](https://github.com/coolwanglu/pdf2htmlEX/wiki/Optimization-for-Web)
  - [Author's words](https://github.com/coolwanglu/pdf2htmlEX/wiki/Author%27s-Words)
