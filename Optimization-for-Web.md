@@ -10,4 +10,4 @@ HTML file produced by pdf2htmlEX are often slightly larger than the original PDF
 
 ## Static Resource Files
 
-Some files in HTML produced by pdf2htmlEX are static, for example `base.css`, `fancy.css`, `jquery.js` and `pdf2htmlEX.js`. You can store them on unique locations on your server, and refer them in `manifest`. In this way all HTML files become smaller, and clients can also be benefited from the static URLs -- each file is downloaded once and will be cached.
+Some resource files used by pdf2htmlEX are static, for example `base.css`, `fancy.css`, `jquery.js` and `pdf2htmlEX.js`. You can store them on unique locations on your server, and refer them in `manifest`. In this way all HTML files become smaller, and clients can also be benefited from the static URLs -- each file is downloaded only once and will be cached.
