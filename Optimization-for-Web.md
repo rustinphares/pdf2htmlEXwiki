@@ -8,3 +8,6 @@ Resource files can be embedded into the HTML file via Data URI Scheme, or they c
 
 HTML file produced by pdf2htmlEX are often slightly larger than the original PDF file. One reason is that PDF has built-in compression support while HTML does not. This can be compensated by enabling HTTP compression on your HTTP server, often gzipped-HTML is smaller than the original PDF.
 
+## Static Resource Files
+
+Some files in HTML produced by pdf2htmlEX are static, for example `base.css`, `fancy.css`, `jquery.js` and `pdf2htmlEX.js`. You can store them on unique locations on your server, and refer them in `manifest`. In this way all HTML files become smaller, and clients can also be benefited from the static URLs -- each file is downloaded once and will be cached.
