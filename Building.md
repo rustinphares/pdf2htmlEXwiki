@@ -11,17 +11,21 @@
  * Install **poppler-data** if your want CJK support
 * **fontforge** (with header files)
  * git version is recommended
-* [Optional] SVG Support, for generating SVG background images and converting Type 3 fonts
- * cairo >= 1.10.0 with SVG support
- * FreeType
- * Add `-DENABLE_SVG=ON` to `cmake`
-* [Optional] **ttfautohint**
- * run pdf2htmlEX with `--external-hint-tool=ttfautohint` to enable it
-* [Optional] java
- * for JavaScript optimization
 * [For Windows]
  * Cygwin 
  * or MinGW, with some modifications to pdf2htmlEX. See [pdf2htmlEX on TeX Wiki](http://oku.edu.mie-u.ac.jp/~okumura/texwiki/?pdf2htmlEX) (in Japanese), special thanks to Haruhiko Okumura
+
+#### Optional
+
+* SVG Support, to generate SVG background images and convert Type 3 fonts
+ * cairo >= 1.10.0 with SVG support
+ * FreeType
+ * Add `-DENABLE_SVG=ON` to `cmake`
+* To add hinting information for TTF fonts
+ * ttfautohint
+ * run pdf2htmlEX with `--external-hint-tool=ttfautohint` to enable it
+* To optimize JavaScript code
+ * java
 
 #### Compiling
 
