@@ -17,6 +17,8 @@
  * Add `-DENABLE_SVG=ON` to `cmake`
 * [Optional] **ttfautohint**
  * run pdf2htmlEX with `--external-hint-tool=ttfautohint` to enable it
+* [Optional] java
+ * for JavaScript optimization
 * [For Windows]
  * Cygwin 
  * or MinGW, with some modifications to pdf2htmlEX. See [pdf2htmlEX on TeX Wiki](http://oku.edu.mie-u.ac.jp/~okumura/texwiki/?pdf2htmlEX) (in Japanese), special thanks to Haruhiko Okumura
