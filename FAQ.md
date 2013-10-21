@@ -4,17 +4,22 @@
 
 ## <div id="general">General</div>
 
-### Languages and libraries used in pdf2htmlEX
+### Languages used in pdf2htmlEX
   
  - C++ (most part)
- - C (wrapper of Fontforge)
- - HTML (output)
- - CSS (complicated enough to be considered as a language)
- - Javascript (UI actions/effects)
- - Python (scripts for testing / packaging)
+ - C (Fontforge wrapper)
+ - HTML (output: contents)
+ - CSS (output: format / effects)
+ - Java (optimization)
+ - Javascript (output: UI / effects)
+ - Python (scripts)
+ - Shell (scripts)
+
+### Libraries used in pdf2htmlEX
  - Poppler (PDF parsing)
  - Fontforge (font manipulation)
  - jQuery (for the default UI)
+ - closure-compiler (JavaScript optimization)
 
 ### pdf2htmlEX doesn't work for my pdf file
 
