@@ -25,7 +25,7 @@
  * ttfautohint
  * run pdf2htmlEX with `--external-hint-tool=ttfautohint` to enable it
 * To optimize JavaScript code
- * java
+ * java >= 6
 
 #### Compiling
 
