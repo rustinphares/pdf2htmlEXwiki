@@ -16,4 +16,8 @@ However, pdf2htmlEX will handle those things caused by the differences between t
  - Text optimization (merging words etc)
 
 ### UI
-You might expect UI features of PDF viewers, but you should not expect UI features of PDF files. Likewise, I will try to define useful JavaScript functions for an easier handling of the contents, but I will not add UI controls (buttons, toolbars) in the HTML output.
+You might expect UI features of PDF viewers, but you should not expect UI features of PDF files. Likewise, HTML files produced by pdf2htmlEX are meant to conceive the contents only, and the publishers are supported to design their own UI.
+
+`pdf2htmlEX.js` demonstrates the structure of HTML files produced by pdf2htmlEX, it is provides for UI developers' reference. Currently there is no UI provides, while [#219](https://github.com/coolwanglu/pdf2htmlEX/issues/219) exists, it's meant as a demonstration of `pdf2htmlEX.js` and provided for lazy users only.
+
+UI pull requests are welcome, but UI features requests will be labelled as low(est) priority.
