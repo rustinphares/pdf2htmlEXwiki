@@ -16,4 +16,4 @@ However, pdf2htmlEX will handle those things caused by the differences between t
  - Text optimization (merging words etc)
 
 ### UI
-You expect UI features of PDF viewers, but you should not expect UI features of PDF files. Likewise, I will try to define useful JavaScript functions for an easier handling of the contents, but I will not add UI controls (buttons, toolbars) in the HTML output.
+You might expect UI features of PDF viewers, but you should not expect UI features of PDF files. Likewise, I will try to define useful JavaScript functions for an easier handling of the contents, but I will not add UI controls (buttons, toolbars) in the HTML output.
