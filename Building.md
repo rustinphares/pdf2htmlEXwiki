@@ -8,7 +8,7 @@ pdf2htmlEX can be built in a Unix-like environment:
 #### Dependencies
 * CMake, pkg-config
 * GNU Getopt
-* compilers support C++11, for example
+* Compilers support C++11, for example
  * GCC >= 4.4.6
  * A recent version of Clang
 * **poppler** >= 0.20.0 with xpdf headers (compile with `--enable-xpdf-headers`)
@@ -20,13 +20,13 @@ pdf2htmlEX can be built in a Unix-like environment:
 
 #### Optional
 
-* SVG Support, to generate SVG background images and convert Type 3 fonts
+* To generate SVG background images and process Type 3 fonts
  * cairo >= 1.10.0 with SVG support
  * FreeType
  * Add `-DENABLE_SVG=ON` to `cmake`
 * To add hinting information for TTF fonts
  * ttfautohint
- * run pdf2htmlEX with `--external-hint-tool=ttfautohint` to enable it
+ * Run pdf2htmlEX with `--external-hint-tool=ttfautohint`
 * To optimize CSS and JavaScript code with YUI Compressor and closure-compiler
  * java >= 6
 
