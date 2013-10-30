@@ -24,7 +24,7 @@
 * To add hinting information for TTF fonts
  * ttfautohint
  * run pdf2htmlEX with `--external-hint-tool=ttfautohint` to enable it
-* To optimize JavaScript code at compile time
+* To optimize CSS and JavaScript code with YUI Compressor and closure-compiler
  * java >= 6
 
 #### Compiling
