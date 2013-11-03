@@ -33,10 +33,10 @@ h3. Features
 
 |_. |_. Convert to HTML 5 (pdf2htmlEX) |_. Parse by JS |_. Convert to image |_. Convert to HTML 4 |_. Adobe PDF plugin |_. Other plugins |
 | Full PDF Feature ? | No, but usually enough | Maybe | Yes | No | Yes | Maybe |
-| Text Extraction (select/copy/search) | Yes | Yes, with text layer | No, usually^[1]^ | Yes | Yes | Maybe |
+| Text Extraction (select/copy/search) | Yes | Yes, with text layer | No, usually ^[1]^ | Yes | Yes | Maybe |
 | Embedding Font | Yes | Yes | Yes | No | Yes | Yes, usually |
-| Link | Yes | Yes | No, usually^[2]^ | Yes | Yes | Maybe |
-| Accurate rendering (layout/spacing)| Yes, usually^[3]^ | Yes | Yes | No | Yes | Yes, usually |
+| Link | Yes | Yes | No, usually ^[2]^ | Yes | Yes | Maybe |
+| Accurate rendering (layout/spacing)| Yes, usually ^[3]^ | Yes | Yes | No | Yes | Yes, usually |
 | Read while loading | Yes | Yes | Yes | Yes | No | Maybe |
 
 ~[1]: Text extraction can be supported with a text layer~
