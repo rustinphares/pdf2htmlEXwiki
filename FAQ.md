@@ -6,12 +6,12 @@
 
 ### Languages used in pdf2htmlEX
   
- - C++ (most part)
  - C (Fontforge wrapper)
- - HTML (output: contents)
+ - C++ (most part)
  - CSS (output: format / effects)
+ - HTML (output: contents)
  - Java (optimization)
- - Javascript (output: UI / effects)
+ - JavaScript (output: UI / effects)
  - Python (scripts)
  - Shell (scripts)
 
