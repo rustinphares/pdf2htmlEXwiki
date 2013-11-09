@@ -2,7 +2,7 @@ Here are a few tips on optimizations when using pdf2htmlEX or deploying HTML fil
 
 ## Static Resource Files
 
-Some resource files used by pdf2htmlEX are static, for example `base.css`, `fancy.css`, `jquery.js` and `pdf2htmlEX.js`. You can store them on unique locations on your server, and refer them in `manifest`. Especially, you may link to jQuery from one of its CDN's.
+Some resource files used by pdf2htmlEX are static, for example `base.css`, `fancy.css` and `pdf2htmlEX.js`. You can store them on unique locations on your server, and refer them in `manifest`.
 
 This is very useful when a lot of HTML files are published: files become smaller, and clients can be benefited from the static URLs -- each file is downloaded only once and will be cached. 
 
@@ -13,3 +13,7 @@ Resource files can be embedded into the HTML file via Data URI Scheme, or they c
 ## Enable HTTP Compression
 
 HTML file produced by pdf2htmlEX are often slightly larger than the original PDF file. One reason is that PDF has built-in compression support while HTML does not. This can be compensated by enabling HTTP compression on your HTTP server, often gzipped-HTML is smaller than the original PDF.
+
+## Optimize PNG images
+
+PNG images may be optimized with `pngnq` and `pngcrush`.
