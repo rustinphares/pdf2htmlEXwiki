@@ -1,6 +1,6 @@
 ## Report an Issue at GitHub
 
-The [Issues](https://github.com/coolwanglu/pdf2htmlEX/issues) page is the best way to report an issue, ask a question or submit a patch (via Pull Request). It is convenient for both developers and users because:
+The [Issue Tracker](https://github.com/coolwanglu/pdf2htmlEX/issues) is the best way to report an issue, ask a question or submit a patch (via Pull Request). It is convenient for both developers and users because:
  
 - Issues can be well managed.
 - People can discuss together.
