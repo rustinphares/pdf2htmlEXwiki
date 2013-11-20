@@ -5,8 +5,8 @@
      - [Download](https://github.com/coolwanglu/pdf2htmlEX/wiki/Download)
      - [Building](https://github.com/coolwanglu/pdf2htmlEX/wiki/Building) 
      - [Quick Start](https://github.com/coolwanglu/pdf2htmlEX/wiki/QuickStart)
-     - [How to report](https://github.com/coolwanglu/pdf2htmlEX/blob/master/CONTRIBUTING.md#guidance)
-     - [How to help](https://github.com/coolwanglu/pdf2htmlEX/wiki/Contribute)
+     - [Report Issues / Ask for Help](https://github.com/coolwanglu/pdf2htmlEX/blob/master/CONTRIBUTING.md#guidance)
+     - [How can I help](https://github.com/coolwanglu/pdf2htmlEX/wiki/How-to-Help)
  - Reference
      - [Browser Requirements](https://github.com/coolwanglu/pdf2htmlEX/wiki/Browser-Requirements)
      - [FAQ](https://github.com/coolwanglu/pdf2htmlEX/wiki/FAQ)
