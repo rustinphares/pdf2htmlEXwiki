@@ -9,7 +9,4 @@ pdf2htmlEX needs your help!
 - Tell others about pdf2htmlEX.
 - Suggest interesting PDF files which can be used as demos.
 - [Make a donation](http://coolwanglu.github.com/pdf2htmlEX/donate.html).
-
-### Contribute code
-
-Patches and pull requests are more than welcome. If you want to want to implement new features, please discuss with the author beforehand by filing a new issue or sending emails to the mailing list.
+- [Fix issues or implement new features](https://github.com/coolwanglu/pdf2htmlEX/blob/master/CONTRIBUTING.md)
