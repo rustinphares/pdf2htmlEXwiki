@@ -2,7 +2,7 @@
 - [Text and Font](#text-font)
 - [Image](#image)
 
-## <div id="general">General</div>
+## General
 
 ### Languages used in pdf2htmlEX
   
@@ -29,7 +29,7 @@
    - Something wrong with libraries used by pdf2htmlEX (poppler / fontforge)
    - There are a few technical limitations of pdf2htmlEX. See [this page](https://github.com/coolwanglu/pdf2htmlEX/wiki/Limitations)
 
-### <div id="feature_commission">I want more features!</div>
+### I want more features!
  - Create a patch, or hire someone to do so.
  - Best hackers do not work for free.
  - But great ideas are more valuable than money.
@@ -42,7 +42,7 @@
  - Don't zoom in too much
  - Use a smaller value for --font-size-multiplier
 
-### <div id="ugly">The generated HTML file looks awful</div>
+### The generated HTML file looks awful
  
 Check if your browser meets the [requirements](https://github.com/coolwanglu/pdf2htmlEX/wiki/Browser-Requirements).
 
@@ -53,7 +53,7 @@ Check if your browser meets the [requirements](https://github.com/coolwanglu/pdf
 
 ***
 
-## <div id="text-font">Text and Font</div>
+## Text and Font
 
 ### Text are correct but not readable
  
@@ -68,7 +68,7 @@ Check if your browser meets the [requirements](https://github.com/coolwanglu/pdf
 
 ***
 
-## <div id="image">Image</div>
+## Image
 
 ### There is no image generated
 
