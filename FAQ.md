@@ -2,6 +2,7 @@
 - [Text and Font](#text-font)
 - [Image](#image)
 
+<div id="general"></div>
 ## General
 
 ### Languages used in pdf2htmlEX
@@ -52,7 +53,7 @@ Check if your browser meets the [requirements](https://github.com/coolwanglu/pdf
  - There is built-in compression support in PDF, but no such feature in HTML. Fortunately most HTTP servers support compression (gzip/deflate), and you may check the actually network communication cost by compressing the HTML file with `gzip`, which is usually smaller than PDF.
 
 ***
-
+<div id="text-font"></div>
 ## Text and Font
 
 ### Text are correct but not readable
@@ -67,7 +68,7 @@ Check if your browser meets the [requirements](https://github.com/coolwanglu/pdf
    - If you can not, neither can pdf2htmlEX
 
 ***
-
+<div id="image"></div>
 ## Image
 
 ### There is no image generated
