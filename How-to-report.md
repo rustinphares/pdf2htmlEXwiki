@@ -11,11 +11,12 @@ Here are a few tips for a perfect a bug report:
 
 - Always read the [wiki](https://github.com/coolwanglu/pdf2htmlEX/wiki), and the manpage (run `man pdf2htmlEX`) before reporting
   - As a bonus, you can mention that you could not find anything useful in those places, such that I can make a update if necessary
+- Search for existing issues to make sure that the issue has not been reported.
 - Always report the version of your pdf2htmlEX (run `pdf2htmlEx -v`) and the version of your browser and OS
 - Provide the problematic PDF file if possible, post the link to the location of the file.
 
 Issues are managed by tagging, opening and closing them. Common tags include:
- - `future`: this feature/bug is not crucial right now, it will be fixed in the future eventually
+ - `future`: this feature/bug is not crucial right now, it will be fixed in the future eventually.
  - `need solution`: this feature/bug is important, but no solution has been found so far.
  - `patch welcome`: anyone is welcome to submit a patch for this feature/bug.
 
