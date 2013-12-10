@@ -1,6 +1,7 @@
 There is a public folder available hosted on [MediaFire](http://www.mediafire.com), with which you can upload your own PDF files and see if they remain elegant after converted by pdf2htmlEX.
 
 ### Before uploading, you must read and agree with the following terms:
+ - MediaFire has its own [Policies and Terms of Service](http://www.mediafire.com/policies/terms_of_service.php).
  - MediaFire may not be using pdf2htmlEX of the latest version, with perfrect parameters or in the perfect way.
    - If anything goes wrong, please try the latest version of pdf2htmlEX before reporting any issues.
  - MediaFire adapts its own UI, which is not provided by pdf2htmlEX.
