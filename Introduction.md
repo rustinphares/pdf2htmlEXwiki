@@ -2,15 +2,6 @@
 
 ***
 
-### When/Who should use pdf2htmlEX ?
-
- - Online PDF preview services
- - Content providers: online newspapers, magazines, books ...
- - Personal: resumes, research papers ...
- - Create web pages with LaTeX !
-
-***
-
 ### Why HTML ?
  
  - Read while downloading
