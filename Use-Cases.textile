@@ -5,4 +5,4 @@ To add your service here, please mention pdf2htmlEX (with a proper link to the g
 | "FrameBench":http://blog.framebench.com/our-love-for-open-source/ | "http://www.framebench.com/":http://www.framebench.com/ | Online Collaboration |
 | "Seacloud":https://seacloud.cc/group/3/wiki/whats-new-in-the-next-version-1-7/ | "https://seacloud.cc/":https://seacloud.cc/ | File Syncing |
 | "Docalytics":http://kb.docalytics.com/our-company/acknowledgments | "http://www.docalytics.com/":http://www.docalytics.com/ | Document Preview |
-| "Apereo Open Academic Environment":http://oaeproject.org/node/46 | "http://www.oaeproject.org/":http://www.oaeproject.org/ | Academic Coolaboration |
+| "Apereo Open Academic Environment":http://oaeproject.org/node/46 | "http://www.oaeproject.org/":http://www.oaeproject.org/ | Academic Collaboration |
