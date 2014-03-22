@@ -16,7 +16,7 @@ pdf2htmlEX can be built in a Unix-like environment:
  * Install **libjpeg** (and headers) BEFORE you compile poppler if you want JPG background images generated
  * Install **poppler-data** if your want CJK support
 * **fontforge** (with header files)
- * git version is recommended
+ * Recommended version: 20140101 (see https://github.com/fontforge/fontforge/releases)
 
 #### Optional
 
