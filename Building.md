@@ -49,5 +49,5 @@ If you see error messages about:
  - `undefined reference of Py_xxx`, install header files of python-2.x
  - `libintl.h`, install gettext and set your system include path accordingly.
  - `.../libfontforge.so: undefined reference to ...`, it should be caused by [a bug of FontForge](https://github.com/fontforge/fontforge/issues/465), please leave comments there such that FontForge developers may fix it soon.
-  - You may try [the `tmp` branch of my fork](https://github.com/coolwanglu/fontforge/tree/tmp)
+  - You may try [my fork](https://github.com/coolwanglu/fontforge/tree/pdf2htmlEX)
   - Try to configure FontForge with `--without-libzmq --without-x --without-iconv --disable-python-scripting --disable-python-extension`, then rebuild it. 
