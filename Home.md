@@ -14,4 +14,5 @@
      - [Command Line Options](https://github.com/coolwanglu/pdf2htmlEX/wiki/Command-line)
      - [Customizing Output](https://github.com/coolwanglu/pdf2htmlEX/wiki/Customizing-Output)
      - [Optimization for Web](https://github.com/coolwanglu/pdf2htmlEX/wiki/Optimization-for-Web)
+     - Talk on TUG2013 [HTML](http://coolwanglu.github.io/pdf2htmlEX/doc/tb108wang.html) / [PDF](http://coolwanglu.github.io/pdf2htmlEX/doc/tb108wang.pdf)
  - [Author's words](https://github.com/coolwanglu/pdf2htmlEX/wiki/Author%27s-Words)
