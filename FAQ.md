@@ -1,5 +1,5 @@
 - [General](#general)
-- [Text and Font](#text-font)
+- [Text and Font](#text-and-font)
 - [Image](#image)
 
 <div id="general"></div>
