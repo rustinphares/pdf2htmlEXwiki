@@ -2,7 +2,7 @@ Crash means a bug. Unexpected visual results might be caused by wrong parameters
 
 ### Quick instruction for developers
 - Double check the versions of pdf2htmlEX and libraries.
-- Identify if the crashed is caused by FontForge.
+- Identify if the crash was caused by FontForge.
 - If so, report to FontForge developers with relevant font files.
 - Otherwise, create a new issues with relevant info.
 - If you would like to create a stack dump, you need to build the debug version (see [Building](https://github.com/coolwanglu/pdf2htmlEX/wiki/Building))).
