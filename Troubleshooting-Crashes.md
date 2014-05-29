@@ -41,7 +41,7 @@ For each of them, open it in FontForge, and click the menu items: File -> Genera
 
 If FontForge crashes, then it must be a bug of FontForge. Note exactly how you made FontForge crashes and submit it to FontForge developers with relevant files. Here's [an example](https://github.com/fontforge/fontforge/issues/873). Be polite and patient, as it might take tons of efforts before it can be fixed. When the issue has been fixed, update FontForge and pdf2htmlEX should then work smoothly.
 
-If FontForge didn't crash no matter how you plaed with it, it's likely to be a bug of pdf2htmlEX. Now create an issue and tell the developers what you have tried.
+If FontForge didn't crash no matter how you played with it, it's likely to be a bug of pdf2htmlEX. Now create an issue and tell the developers what you have tried.
 
 The third type, where the input font file is obsolete, cannot be easily detected. It might cause both of the issues above. But if you see lots of warning messages printed by FontForge, complaining invalid numbers used in the font files, it might be the case. In this situation, you can still submit bugs to FontForge or pdf2htmlEX, but keep in mind that these are usually edge cases, which might require a long time to fix. The better thing to do might be to recheck the source of your PDF file and see if you can get a recent version. There used to be a dark era of PDF when the format was not mature, but it has been much better recently.
 
