@@ -36,7 +36,7 @@
  - But great ideas are more valuable than money.
 
 ### 'Cannot open the manifest file'
- - Run 'sudo make install' or 'make install', depending on your environment.
+ - Run `sudo make install` or `make install`, depending on your environment.
 
 ### The generated HTML file freezes my Firefox
  
