@@ -1,5 +1,4 @@
-This page compares common approaches to present PDF files online. Please read the paper 
-[Online publishing via pdf2htmlEX](http://coolwanglu.github.io/pdf2htmlEX/doc/tb108wang.html) for more details.
+This page compares common approaches to present PDF files online. Please read the paper "Online publishing via pdf2htmlEX":http://coolwanglu.github.io/pdf2htmlEX/doc/tb108wang.html for more details.
 
 h3. Basic Info
 
