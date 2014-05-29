@@ -3,12 +3,12 @@
 * Accurate Text preservation
   - Native text in HTML - you can select & copy & search
   - Font, color, position and transformation
-  - Reencoding for Web
+  - Re-encoding for Web
   - Fallback mode (image + hidden text), provides even better accuracy and compatibility, at the cost of larger file sizes.
 * Flexible Output
   - Different modes
     * Normal single HTML, with separate fonts/images.
-    * All-in-one HTML, with all fonts/images embeded.
+    * All-in-one HTML, with all fonts/images embedded.
     * One HTML file per page, best for dynamic web pages.
   - Appearance can be easily customized with CSS.
   - Content can be accessed with JavaScript.
