@@ -189,8 +189,7 @@ Please file an issue if you find this page outdated.
 
                   Specify a ratio greater than 1 would resolve this issue, however it might freeze some browsers.
 
-                  For some versions of Firefox, however, there will be a problem when the font size is too large, in which case a smaller value should be  speci‐
-                  fied here.
+                  For some versions of Firefox, however, there will be a problem when the font size is too large, in which case a smaller value should be  specified here.
 
 
            --space-as-offset <0|1> (Default: 0)
