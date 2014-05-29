@@ -134,7 +134,7 @@ OPTIONS
               Enable  printing  support.  Disabling this option may reduce the
               size of CSS.
 
-       --fallback <0|1> (Deafult: 0)
+       --fallback <0|1> (Default: 0)
               Output in fallback mode, for better accuracy and browser compat‐
               ibility, but the size becomes larger.
 
@@ -242,7 +242,7 @@ OPTIONS
               If  set  to  0, pdf2htmlEX would try its best to balance the two
               methods above.
 
-       --optimize-text <0|1> (Deafult: 0)
+       --optimize-text <0|1> (Default: 0)
               If set to 1, pdf2htmlEX will try to reduce the  number  of  HTML
               elements used for text. Turn it off if anything goes wrong.
 
