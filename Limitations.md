@@ -11,7 +11,7 @@ In PDF, different colors (or transparent) can be specified for outline and insid
  - No need to mention IE...
 
 ### Text with clipping path
-In PDF, a path may be used to limit the visible region. Currently only rectanglar clipping regions are supported by pdf2htmlEX, for other paths, the bounding box will be used.
+In PDF, a path may be used to limit the visible region. Currently only rectangular clipping regions are supported by pdf2htmlEX, for other paths, the bounding box will be used.
  - The CSS property `clip-path` may be useful
 
 ### Text behind images
