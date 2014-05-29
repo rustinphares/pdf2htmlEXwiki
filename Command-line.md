@@ -1,4 +1,4 @@
-This is the man page of version 0.12. Run `man pdf2htmlEX` for the latest manual.
+This is the man page of version 0.12. Please run `man pdf2htmlEX` for the latest manual.
 
 Please file an issue if you find this page outdated.
 
