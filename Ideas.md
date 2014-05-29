@@ -19,7 +19,7 @@ The task is to render text in vertical writing mode natively in HTML. There are 
  - Difficulty: MEDIUM
 
 ## Support PostScript Type 3 fonts
-PDF supports a unique kind of font: PostScript Type 3. Instead of an embeded font file, a Type 3 font is a series of PDF instructions. In other words, each glyph is defined as a "mini-PDF".
+PDF supports a unique kind of font: PostScript Type 3. Instead of an embedded font file, a Type 3 font is a series of PDF instructions. In other words, each glyph is defined as a "mini-PDF".
 
 The task is to extract the Type 3 fonts from PDF and convert them into something compatible with HTML. A possible solution is SVG fonts (though not for all browsers). `pdftocairo` (from Poppler) is doing something similar and should be consulted.
 
