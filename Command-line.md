@@ -2,6 +2,7 @@ This is the man page of version 0.12. Run `man pdf2htmlEX` for the latest manual
 
 Please file an issue if you find this page outdated.
 
+``````
 pdf2htmlEX(1)                       General Commands Manual                       pdf2htmlEX(1)
 
 NAME
@@ -327,3 +328,4 @@ SEE ALSO
               https://github.com/coolwanglu/pdf2htmlEX/wiki
 
                                         pdf2htmlEX 0.12                           pdf2htmlEX(1)
+``````
