@@ -15,8 +15,8 @@
   - Secure
 
 PDF and HTML are quite different formats.
- - PDF focues on the capability of accurate representing and printing all kinds of documents.
- - HTML focues on multimedia, user interaction, network optimization.
+ - PDF focus on the capability of accurate representing and printing all kinds of documents.
+ - HTML focus on multimedia, user interaction, network optimization.
 
 What would you do if you want to show some PDF-quality contents online ?
  - [Lazy] To let user download or read with the PDF/Flash/other plugins, often leads to terrible user experience, inconsistent themes etc.
