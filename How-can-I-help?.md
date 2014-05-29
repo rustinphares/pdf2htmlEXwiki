@@ -1,4 +1,4 @@
-pdf2htmlEX is maintained by one person in spare time. Consider how much you have to pay for an alternatve with a similar quality. 
+pdf2htmlEX is maintained by one person in spare time. Consider how much you have to pay for an alternative with a similar quality. 
 
 pdf2htmlEX needs your help! 
 
