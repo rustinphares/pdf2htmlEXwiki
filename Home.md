@@ -12,7 +12,7 @@
  - Reference
      - [Browser Requirements](https://github.com/coolwanglu/pdf2htmlEX/wiki/Browser-Requirements)
      - [FAQ](https://github.com/coolwanglu/pdf2htmlEX/wiki/FAQ)
-     - [Command Line Options `man pdf2htmlEX`](https://github.com/coolwanglu/pdf2htmlEX/wiki/Command-line)
+     - [General Commands Manual `man pdf2htmlEX`](https://github.com/coolwanglu/pdf2htmlEX/wiki/General-Commands-Manual)
      - [Help Page `pdf2htmlEX --help`](https://github.com/coolwanglu/pdf2htmlEX/wiki/Help-Page)
      - [Customizing Output](https://github.com/coolwanglu/pdf2htmlEX/wiki/Customizing-Output)
      - [Optimization for Web](https://github.com/coolwanglu/pdf2htmlEX/wiki/Optimization-for-Web)
