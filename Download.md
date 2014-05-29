@@ -1,4 +1,4 @@
-pdf2htmlEX is availabe through several repositories, thanks to all the packagers!
+pdf2htmlEX is available through several repositories, thanks to all the packagers!
 
  * [Ubuntu PPA](https://launchpad.net/~coolwanglu/+archive/pdf2htmlex) by Lu Wang <coolwanglu@gmail.com>
    - Outdated [#310](https://github.com/coolwanglu/pdf2htmlEX/issues/310)
