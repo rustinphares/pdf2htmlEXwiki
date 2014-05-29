@@ -38,4 +38,4 @@ would do something similar above, but each individual page is stored in a separa
 would also produce a single `test.html`, which, however, consists of images and hidden text. This mode provides maximum accuracy and compatibility, at the cost of larger file size. Use this mode only when pdf2htmlEX cannot correctly process your files otherwise.
 
 ### More
-Just remember [`man pdf2htmlEX`](https://github.com/coolwanglu/pdf2htmlEX/wiki/General-Commands-Manual) and [`pdf2htmlEX --help`](https://github.com/coolwanglu/pdf2htmlEX/wiki/Help-Page) are always your best friends.
+Just remember `man pdf2htmlEX` and `pdf2htmlEX --help` are always your best friends.
