@@ -12,9 +12,8 @@
  - Reference
      - [Browser Requirements](https://github.com/coolwanglu/pdf2htmlEX/wiki/Browser-Requirements)
      - [FAQ](https://github.com/coolwanglu/pdf2htmlEX/wiki/FAQ)
-     - [General Commands Manual `man pdf2htmlEX`](https://github.com/coolwanglu/pdf2htmlEX/wiki/General-Commands-Manual)
-     - [Help Page `pdf2htmlEX --help`](https://github.com/coolwanglu/pdf2htmlEX/wiki/Help-Page)
+     - [Command Line Options](https://github.com/coolwanglu/pdf2htmlEX/wiki/Command-Line-Options)
      - [Customizing Output](https://github.com/coolwanglu/pdf2htmlEX/wiki/Customizing-Output)
      - [Optimization for Web](https://github.com/coolwanglu/pdf2htmlEX/wiki/Optimization-for-Web)
-     - [Talk on TUG2013:](http://tug.org/tug2013/) **Online publishing via pdf2htmlEX** [HTML](http://coolwanglu.github.io/pdf2htmlEX/doc/tb108wang.html) / [PDF](http://coolwanglu.github.io/pdf2htmlEX/doc/tb108wang.pdf)
+     - Talk on TUG2013: **Online publishing via pdf2htmlEX** [HTML](http://coolwanglu.github.io/pdf2htmlEX/doc/tb108wang.html) / [PDF](http://coolwanglu.github.io/pdf2htmlEX/doc/tb108wang.pdf)
  - [Author's words](https://github.com/coolwanglu/pdf2htmlEX/wiki/Author%27s-Words)
