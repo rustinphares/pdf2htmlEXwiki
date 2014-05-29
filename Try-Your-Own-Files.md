@@ -2,12 +2,12 @@ There is a public folder available hosted on [MediaFire](http://www.mediafire.co
 
 ### Before uploading, you must read and agree with the following terms:
  - MediaFire has its own [Policies and Terms of Service](http://www.mediafire.com/policies/terms_of_service.php).
- - MediaFire may not be using pdf2htmlEX of the latest version, with perfrect parameters or in the perfect way.
+ - MediaFire may not be using pdf2htmlEX of the latest version, with perfect parameters or in the perfect way.
    - If anything goes wrong, please try the latest version of pdf2htmlEX before reporting any issues.
  - MediaFire adapts its own UI, which is not provided by pdf2htmlEX.
  - Once a file is uploaded, you cannot remove it, and you cannot download the HTML file produced.
  - Everyone will be able to view your file uploaded
- - Each file uploaded occpies my own space, so please do not abuse it:
+ - Each file uploaded occupies my own space, so please do not abuse it:
    - Do not upload too many files.
    - Do not upload large files.
    - Do not upload inappropriate materials (include but not limited to: private, copyrighted, illegal, threatening etc).
