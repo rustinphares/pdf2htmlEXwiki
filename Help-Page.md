@@ -76,5 +76,4 @@ Usage: pdf2htmlEX [options] <input.pdf> [<output.html>]
   --debug <int>                 print debugging information (default: 0)
   -v,--version                  print copyright and version info
   -h,--help                     print usage information
-
 ``````
