@@ -24,7 +24,7 @@ h3. Performance
 h3. Browser Requirements
 
 |_. |_. Convert to HTML5 (pdf2htmlEX) |_. Parse by JS |_. Convert to image |_. Convert to HTML 4 |_. Adobe PDF plugin |_. Other plugins |
-| HTML 5  | Yes | Yes, usually | No | No | No | No |
+| HTML5  | Yes | Yes, usually | No | No | No | No |
 | CSS | Yes | Yes | No | Yes | No | No |
 | Javascript | No | Yes | No | No | No | No |
 | Third-party plugin | No | No | No | No | Yes | Yes |
