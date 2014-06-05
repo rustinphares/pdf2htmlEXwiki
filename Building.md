@@ -1,3 +1,5 @@
+>###- 欲速则不达。<br>- Haste makes waste.
+
 #### Environment
 pdf2htmlEX can be built in a Unix-like environment:
 * Linux (for Ubuntu 12.10+)
