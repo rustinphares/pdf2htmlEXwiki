@@ -31,6 +31,6 @@ In the PDF specification, [14 standard fonts](http://en.wikipedia.org/wiki/Porta
 
 Note that there are no such standard fonts defined in the Web standards, although some fonts are indeed available on almost all machines.
 
-If a font file is not embedded in the PDF file, yet it cannot be found in the viewer's machine (not even a close one), usually a fallback font will be used, which is likely to cause rendering issues. Therefore pdf2htmlEX always **embed matching fonts** in the output, even if this might increase the output size a lot.
+If a font file is not embedded in the PDF file, yet it cannot be found in the viewer's machine (not even a close one), usually a fallback font will be used, which is likely to cause rendering issues. Therefore pdf2htmlEX always **embeds all matching fonts** in the output, even if this might increase the output size a lot.
 
 The reason it has been designed so is that, consider which one is more important for a newbie user who has no idea about all the details, rendering or size? This behavior can be changed via the `--embed-external-font` option.
