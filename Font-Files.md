@@ -1,3 +1,5 @@
+One of the great features in PDF is that font files can be embedded into PDF files, such that the PDF file can be rendered correctly even if that font is not available in the viewer's machine. On the other hand, font files can also be referred as names, and the PDF viewer will try to find that font, or a closest match if not found, in the viewer's machine.
+
 In this article we discuss about pitfalls and considerations regarding font files in PDF, while optimizing output of pdf2htmlEX.
 
 ### `pdffonts`
@@ -22,10 +24,7 @@ ZBVPYI+Calibri-Bold                  TrueType          WinAnsi          yes yes 
 
 In this case, all fonts are embedded in the PDF font except for the two Arial ones.
 
-### Embed or Not
-One of the great features in PDF is that font files can be embedded into PDF files, such that the PDF file can be rendered correctly even if that font is not available in the viewer's machine. On the other hand, font files can also be referred as names, and the PDF viewer will try to find that font, or a closest match if not found, in the viewer's machine.
-
-If you are familiar with fonts on the Web, it's roughly the same, font files can be embedded via `@font-face`, or just be referred to with names.
+### External Fonts
 
 In the PDF specification, [14 standard fonts](http://en.wikipedia.org/wiki/Portable_Document_Format#Standard_Type_1_Fonts_.28Standard_14_Fonts.29) are supposed to be provided by any PDF viewer, so these fonts are often not embedded in order to save space. Some publishers/software choose not to embed some other font files assuming that all their viewers will have that font file installed. 
 
