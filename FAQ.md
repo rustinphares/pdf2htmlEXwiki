@@ -49,7 +49,8 @@ Check if your browser meets the [requirements](https://github.com/coolwanglu/pdf
 
 ### The generated HTML file is too large
 
- - File embedded in HTML are encoded in Base64, whose size is 1/3 larger.
+ - File embedded in HTML are encoded in Base64, whose size is 1/3 larger. Embedding can be disabled using the `--embed` option.
+ - Try to disable embedding external fonts. [Learn more...](https://github.com/coolwanglu/pdf2htmlEX/wiki/Font-Files#embed-or-not)
  - There is built-in compression support in PDF, but no such feature in HTML. Fortunately most HTTP servers support compression (gzip/deflate), and you may check the actually network communication cost by compressing the HTML file with `gzip`, which is usually smaller than PDF.
 
 ***
