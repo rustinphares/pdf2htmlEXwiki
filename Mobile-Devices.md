@@ -1,7 +1,7 @@
 Mobile devices are not officially supported. There are so much different devices such that:
 
 - The developers do not have enough time and resources to test on them.
-- Sometimes the device is just too slow
+- Sometimes the target devices are just too slow
   - It might be still fast enough to view PDF files and normal web pages, as the _viewers_ have been highly optimized, but usually the web browsers are not optimized for complicated web pages such as those produced by pdf2htmlEX.
 
 Output of pdf2htmlEX may or may not run smoothly on your mobile devices, in case it does not, you might want to try one of the following tricks. They have been reported by individual users that might improve the performance for specific input, but they may break for others.
