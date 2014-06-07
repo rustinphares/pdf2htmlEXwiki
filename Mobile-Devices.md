@@ -9,3 +9,8 @@ Output of pdf2htmlEX may or may not run smoothly on your mobile devices, in case
 - In `share/base.css.in`, add `-webkit-overflow-scrolling: touch;` to `#page-container`.
 - Hide pages that are out of screen using JavaScript, by completely removing them from the DOM.
 - Trigger 3d acceleration using `translateZ` or `translate3d` CSS property.
+
+
+
+### Survey
+Please provide more info, for example `Most files of mine are slow on FOO devices/OSes but not BAR devices/OSes`. **Please confirm your result on at least 100 different files before posting**
