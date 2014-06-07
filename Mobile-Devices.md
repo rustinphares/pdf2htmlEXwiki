@@ -10,7 +10,8 @@ Output of pdf2htmlEX may or may not run smoothly on your mobile devices, in case
 - Hide pages that are out of screen using JavaScript, by completely removing them from the DOM.
 - Trigger 3d acceleration using `translateZ` or `translate3d` CSS property.
 
+Please add to this list if you found some more tricks useful. Thank you!
 
 
 ### Survey
-Please provide more info, for example `Most files of mine are slow on FOO devices/OSes but not BAR devices/OSes`. **Please confirm your result with at least 10 different files before posting**
+Please provide more info, for example `Most files of mine are slow on FOO devices/OSes but not BAR devices/OSes`, or any other info you found relevant. **Please confirm your result with at least 10 different files before posting**
