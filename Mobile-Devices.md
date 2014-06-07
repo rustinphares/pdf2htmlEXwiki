@@ -13,4 +13,4 @@ Output of pdf2htmlEX may or may not run smoothly on your mobile devices, in case
 
 
 ### Survey
-Please provide more info, for example `Most files of mine are slow on FOO devices/OSes but not BAR devices/OSes`. **Please confirm your result on at least 100 different files before posting**
+Please provide more info, for example `Most files of mine are slow on FOO devices/OSes but not BAR devices/OSes`. **Please confirm your result with at least 10 different files before posting**
