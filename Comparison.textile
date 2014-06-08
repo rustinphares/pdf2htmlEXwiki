@@ -8,7 +8,7 @@ h3. Basic Info
 | Open source | Yes | Some (pdf.js) | Poppler is open source. Google Doc may be based on poppler as well, because they showed same errors. | Some (pdftohtml) | No | Maybe |
 | Free | Yes | Some | Some | Some | Yes | Some |
 
-~note: There are free and/or open source tools for all but "Adobe PDF":http://www.ebookma.com plugin.~
+~note: There are free and/or open source tools for all but Adobe PDF plugin.~
 
 h3. Performance
 
