@@ -2,36 +2,36 @@ This page compares common approaches to present PDF files online. Please also re
 
 h3. Basic Info
 
-|_. |_. Convert to HTML5 |_. Parse by JS |_. Convert to image |_. Convert to HTML 4 |_. Adobe PDF plugin |_. Other plugins |
-| Example | pdf2htmlEX | PDF.js | pdftoppm (poppler) Google Doc | pdftohtml (poppler) | Adobe PDF Plugin | N/A |
-| Briefing | PDF elements are converted into corresponding or closest HTML elements | PDF file is loaded, parsed and rendered by Javascript | PDF pages are converted into images and shown in web pages | Similar as "Convert to HTML5", but with much less features | Official plugin | Non-official PDF plugins, Flash-based plugins or others |
-| Open source | Yes | Some (pdf.js) | Poppler is open source. Google Doc may be based on poppler as well, because they showed same errors. | Some (pdftohtml) | No | Maybe |
+|_. |_. Convert to HTML5 |_. Parse by JS |_. Convert to image |_. Convert to HTML 4 |_. Adobe PDF plug-in |_. Other plug-ins |
+| Example | pdf2htmlEX | PDF.js | pdftoppm (poppler) Google Doc | pdftohtml (poppler) | Adobe PDF plug-in | N/A |
+| Briefing | PDF elements are converted into corresponding or closest HTML elements. | PDF file is loaded, parsed and rendered by Javascript. | PDF pages are converted into images and shown in web pages. | Similar as "Convert to HTML5", but with much less features. | Official plug-in | Non-official PDF plug-ins, Flash-based plug-ins or others |
+| Open source | Yes | Some (PDF.js) | Poppler is open source. Google Doc may be based on poppler as well, because they showed same errors. | Some (pdftohtml) | No | Maybe |
 | Free | Yes | Some | Some | Some | Yes | Some |
 
-~note: There are free and/or open source tools for all but Adobe PDF plugin.~
+~note: There are free and/or open source tools for all but Adobe PDF plug-in.~
 
 h3. Performance
 
-|_. |_. Convert to HTML5 (pdf2htmlEX) |_. Parse by JS |_. Convert to image |_. Convert to HTML 4 |_. Adobe PDF plugin |_. Other plugins |
+|_. |_. Convert to HTML5 (pdf2htmlEX) |_. Parse by JS |_. Convert to image |_. Convert to HTML 4 |_. Adobe PDF plug-in |_. Other plug-ins |
 | Processing (server-side) | Normal, one time | None | Slow, one time | Fast, one time | None | None, usually |
 | Loading (client-side) | Fast | Fast | Slow | Fast | Fast | Fast |
 | Rendering (client-side) | Fast | Slow | Fast | Fast | Fast | Fast, usually |
 | Network cost | Small ^[1]^ | Small | Large ^[2]^ | Small | Small | Small |
 
-~[1]: HTTP compression is required~
-~[2]: Could be Huge if higher resolution is needed~
+~[1]: HTTP compression is required.~
+~[2]: Could be Huge if higher resolution is needed.~
 
 h3. Browser Requirements
 
-|_. |_. Convert to HTML5 (pdf2htmlEX) |_. Parse by JS |_. Convert to image |_. Convert to HTML 4 |_. Adobe PDF plugin |_. Other plugins |
+|_. |_. Convert to HTML5 (pdf2htmlEX) |_. Parse by JS |_. Convert to image |_. Convert to HTML 4 |_. Adobe PDF plug-in |_. Other plug ins |
 | HTML5  | Yes | Yes, usually | No | No | No | No |
 | CSS | Yes | Yes | No | Yes | No | No |
 | Javascript | No | Yes | No | No | No | No |
-| Third-party plugin | No | No | No | No | Yes | Yes |
+| Third-party plug-in | No | No | No | No | Yes | Yes |
 
 h3. Features
 
-|_. |_. Convert to HTML5 (pdf2htmlEX) |_. Parse by JS |_. Convert to image |_. Convert to HTML 4 |_. Adobe PDF plugin |_. Other plugins |
+|_. |_. Convert to HTML5 (pdf2htmlEX) |_. Parse by JS |_. Convert to image |_. Convert to HTML 4 |_. Adobe PDF plug-in |_. Other plug-ins |
 | Full PDF Feature ? | No, but usually enough | Maybe | Yes | No | Yes | Maybe |
 | Text Extraction (select/copy/search) | Yes | Yes, with text layer | No, usually ^[1]^ | Yes | Yes | Maybe |
 | Embedding Font | Yes | Yes | Yes | No | Yes | Yes, usually |
@@ -39,15 +39,15 @@ h3. Features
 | Accurate rendering (layout/spacing)| Yes, usually ^[3]^ | Yes | Yes | No | Yes | Yes, usually |
 | Read while loading | Yes | Yes | Yes | Yes | No | Maybe |
 
-~[1]: Text extraction can be supported with a text layer~
-~[2]: Link may be handled with Javascript~
-~[3]: There are PDF elements which cannot be converted into HTML losslessly~
+~[1]: Text extraction can be supported with a text layer.~
+~[2]: Link may be handled with Javascript.~
+~[3]: There are PDF elements which cannot be converted into HTML losslessly.~
 
 h3. Development
 
-|_. |_. Convert to HTML5 (pdf2htmlEX) |_. Parse by JS |_. Convert to image |_. Convert to HTML 4 |_. Adobe PDF plugin |_. Other plugins |
+|_. |_. Convert to HTML5 (pdf2htmlEX) |_. Parse by JS |_. Convert to image |_. Convert to HTML 4 |_. Adobe PDF plug-in |_. Other plug-ins |
 | Customizable UI/Theme | Yes | Yes | Yes | Yes | No | No, usually ^[1]^ |
 | Extensible | Yes | Yes | Yes | Yes | No | Maybe ^[2]^ |
 
-~[1]: For some plugins there are commercial licensed versions with customizable UI~
-~[2]: Some plugins have API available~
+~[1]: For some plug-ins there are commercial licensed versions with customizable UI.~
+~[2]: Some plug-ins have API available.~
