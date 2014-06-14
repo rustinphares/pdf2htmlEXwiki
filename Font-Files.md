@@ -33,3 +33,9 @@ Note that there are no such standard fonts defined in the Web standards, althoug
 If a font file is not embedded in the PDF file, yet it cannot be found in the viewer's machine (not even a close one), usually a fallback font will be used, which is likely to cause rendering issues. Therefore pdf2htmlEX always **embeds all matching fonts** in the output, even if this might increase the output size a lot.
 
 The reason it has been designed so is that, consider which one is more important for a newbie user who has no idea about all the details, rendering or size? This behavior can be changed via the `--embed-external-font` option.
+
+### Duplicated Fonts
+
+Sometimes two or more font can be defined in PDF files, which are based on the same font file but with slight changes. `pdf2htmlEX` always see them as different fonts and generate separate files. 
+
+To fix this, you might want to [optimize PDF files](https://github.com/coolwanglu/pdf2htmlEX/wiki/Optimizing-PDF-Files) before feeding them to `pdf2htmlEX`.
