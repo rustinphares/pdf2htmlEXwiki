@@ -19,3 +19,7 @@ HTML file produced by pdf2htmlEX are often slightly larger than the original PDF
 ###  To Optimize PNG Images
 
 PNG images may be optimized with `pngnq` and `pngcrush`.
+
+### See Also
+
+It's usually a good idea to [optimize the PDF files](https://github.com/coolwanglu/pdf2htmlEX/wiki/Optimizing-PDF-Files) before feeding them to pdf2htmlEX.
