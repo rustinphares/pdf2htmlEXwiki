@@ -38,4 +38,4 @@ The reason it has been designed so is that, consider which one is more important
 
 Sometimes two or more font can be defined in PDF files, which are based on the same font file but with slight changes. `pdf2htmlEX` always see them as different fonts and generate separate files. 
 
-To fix this, you might want to [optimize PDF files](https://github.com/coolwanglu/pdf2htmlEX/wiki/Optimizing-PDF-Files) before feeding them to `pdf2htmlEX`.
+To fix this, you might want to [optimize the PDF files](https://github.com/coolwanglu/pdf2htmlEX/wiki/Optimizing-PDF-Files) before feeding them to `pdf2htmlEX`.
