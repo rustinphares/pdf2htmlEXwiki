@@ -18,7 +18,7 @@ pdf2htmlEX can be built in a Unix-like environment:
  * Install **libjpeg** (and headers) BEFORE you compile poppler if you want JPG background images generated
  * Install **poppler-data** if your want CJK support
 * **fontforge** (with header files). Unfortunately, the situation is complicated:
- * The best bet is to try [my fork](https://github.com/coolwanglu/fontforge/tree/pdf2htmlEX), which is a modified version of the 20140101 release.
+ * The best bet is to try [my fork](https://github.com/coolwanglu/fontforge/tree/pdf2htmlEX), use the `pdf2htmlEX` branch, which is a modified version of the 20140101 release.
  * Snapshots in 2013 should also work.
  * Due to some bugs (e.g [#1291](https://github.com/fontforge/fontforge/issues/1291)), releases after 20140101 do not compile well, you need to hack (a lot) to make them work.
  * Release before 2013 are too old, which are not supported by pdf2htmlEX.
@@ -56,5 +56,4 @@ If you see error messages about:
  - `undefined reference of Py_xxx`, install header files of python-2.x
  - `libintl.h`, install gettext and set your system include path accordingly.
  - `.../libfontforge.so: undefined reference to ...`, it should be caused by [a bug of FontForge](https://github.com/fontforge/fontforge/issues/465), please leave comments there such that FontForge developers may fix it soon.
-  - You may try [my fork](https://github.com/coolwanglu/fontforge/tree/pdf2htmlEX)
   - Try to configure FontForge with `--without-libzmq --without-x --without-iconv --disable-python-scripting --disable-python-extension`, then rebuild it. 
