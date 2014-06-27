@@ -1,4 +1,4 @@
-Thanks to [MediaFire](http://www.mediafire.com), there is a public folder where you can test your PDF files with pdf2htmlEX>
+Thanks to [MediaFire](http://www.mediafire.com), there is a public folder where you can test your PDF files with pdf2htmlEX.
 
 ### Before uploading, you must read and agree with the following terms:
  - MediaFire has its own [Policies and Terms of Service](http://www.mediafire.com/policies/terms_of_service.php).
