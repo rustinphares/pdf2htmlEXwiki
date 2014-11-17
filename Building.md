@@ -13,15 +13,13 @@ pdf2htmlEX can be built in a Unix-like environment:
 * Compilers support C++11, for example
  * GCC >= 4.6.3
  * A recent version of Clang
-* **poppler** >= 0.20.0 with xpdf headers (compile with `--enable-xpdf-headers`)
+* **poppler** >= 0.25.0 with xpdf headers (compile with `--enable-xpdf-headers`)
  * Install **libpng** (and headers) BEFORE you compile poppler if you want PNG background images generated
  * Install **libjpeg** (and headers) BEFORE you compile poppler if you want JPG background images generated
  * Install **poppler-data** if your want CJK support
-* **fontforge** (with header files). Unfortunately, the situation is complicated:
- * The best bet is to try [my fork](https://github.com/coolwanglu/fontforge/tree/pdf2htmlEX), use the `pdf2htmlEX` branch, which is a modified version of the 20140101 release.
- * Snapshots in 2013 should also work.
- * Due to some bugs (e.g [#1291](https://github.com/fontforge/fontforge/issues/1291)), releases after 20140101 do not compile well, you need to hack (a lot) to make them work.
- * Release before 2013 are too old, which are not supported by pdf2htmlEX.
+* **fontforge** (with header files)
+ * A recent version or [my fork](https://github.com/coolwanglu/fontforge/tree/pdf2htmlEX), use the `pdf2htmlEX` branch, which is a modified version of the 20140101 release.
+ * Older versions may or may not work.
 
 #### Optional
 
