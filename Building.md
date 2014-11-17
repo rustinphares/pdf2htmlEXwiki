@@ -11,7 +11,7 @@ pdf2htmlEX can be built in a Unix-like environment:
 * CMake, pkg-config
 * GNU Getopt
 * Compilers support C++11, for example
- * GCC >= 4.4.6
+ * GCC >= 4.6.3
  * A recent version of Clang
 * **poppler** >= 0.20.0 with xpdf headers (compile with `--enable-xpdf-headers`)
  * Install **libpng** (and headers) BEFORE you compile poppler if you want PNG background images generated
