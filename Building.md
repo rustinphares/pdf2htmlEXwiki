@@ -10,7 +10,7 @@ pdf2htmlEX can be built in a Unix-like environment:
 #### Dependencies
 * CMake, pkg-config
 * GNU Getopt
-* Compilers support C++11, for example
+* C++ Compiler that supports C++11, for example
  * GCC >= 4.6.3
  * A recent version of Clang
 * **poppler** >= 0.25.0 with xpdf headers (compile with `--enable-xpdf-headers`)
