@@ -6,4 +6,6 @@ The status of latest commits are shown below:
 
 [![Sauce Test Status](https://saucelabs.com/browser-matrix/coolwanglu.svg)](https://saucelabs.com/u/coolwanglu)
 
+If some test failed on your pull request, click on the images and check the logs and screenshots to figure out why.
+
 Read [test/README.md](https://github.com/coolwanglu/pdf2htmlEX/blob/incoming/test/README.md) for more information.
