@@ -6,4 +6,4 @@ To add your service here, please mention pdf2htmlEX (with a proper link to the g
 | "Seacloud":https://seacloud.cc/group/3/wiki/whats-new-in-the-next-version-1-7/ | "https://seacloud.cc/":https://seacloud.cc/ | File Syncing |
 | "Docalytics":http://kb.docalytics.com/our-company/acknowledgments | "http://www.docalytics.com/":http://www.docalytics.com/ | Document Preview |
 | "Apereo Open Academic Environment":http://oaeproject.org/node/46 | "http://www.oaeproject.org/":http://www.oaeproject.org/ | Academic Collaboration |
-| "ReadCube Web Reader":https://www.readcube.com | "https://www.readcube.com/reader":https://www.readcube.com/reader | Academic Software, Reference Manager |
+| "ReadCube Web Reader":http://support.readcube.com/knowledgebase/articles/487055-open-source-projects | "https://www.readcube.com/reader":https://www.readcube.com/reader | Academic Software, Reference Manager |
