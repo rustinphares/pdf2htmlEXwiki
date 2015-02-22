@@ -6,7 +6,9 @@ sudo yum install  cmake gcc gnu-getopt java-1.8.0-openjdk libpng-devel fontforge
 ```
 
 Clone the project : 
-``` git clone https://github.com/coolwanglu/pdf2htmlEX.git ```
+```bash
+git clone https://github.com/coolwanglu/pdf2htmlEX.git
+```
 
 Configure build tools :
 ``` bash
