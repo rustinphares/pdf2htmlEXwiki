@@ -13,6 +13,7 @@ pdf2htmlEX can be built in a Unix-like environment:
 * C++ Compiler that supports C++11, for example
  * GCC >= 4.6.3
  * A recent version of Clang
+* libspiro
 * **poppler** >= 0.25.0 with xpdf headers (compile with `--enable-xpdf-headers`)
  * Install **libpng** (and headers) BEFORE you compile poppler if you want PNG background images generated
  * Install **libjpeg** (and headers) BEFORE you compile poppler if you want JPG background images generated
