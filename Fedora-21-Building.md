@@ -17,6 +17,8 @@ make -j <your CPU core number>
 ```
 
 Install :
+``` bash
 sudo make install
+```
 
 Note : The default build prefix is located at /usr/local/. So, make sure you have in your environement var named $PATH. To check if your are ok, execute : echo $PATH | grep /usr/local
