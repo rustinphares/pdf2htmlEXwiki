@@ -8,6 +8,13 @@ pdf2htmlEX can be built in a Unix-like environment:
 * Windows/MinGW, with some modifications to pdf2htmlEX. See [pdf2htmlEX on TeX Wiki](http://oku.edu.mie-u.ac.jp/~okumura/texwiki/?pdf2htmlEX) (in Japanese), special thanks to Haruhiko Okumura.
 
 #### Dependencies
+Fedora
+``` bash
+sudo yum install  cmake gcc gnu-getopt java-1.8.0-openjdk libpng-devel fontforge-devel cairo-devel poppler-devel libspiro-devel freetype-devel  poppler-data libjpeg-turbo-devel git
+```
+
+Manual
+
 * CMake, pkg-config
 * GNU Getopt
 * C++ Compiler that supports C++11, for example
