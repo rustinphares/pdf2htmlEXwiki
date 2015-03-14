@@ -21,13 +21,7 @@
   - Out-document reference
 * Outline
 * Printing (experimental)
-* Rectangular Clipping (experimental)
+* Rectangular Clipping
 * Background images in SVG (experimental)
-* Type 3 fonts (experimental)
-
-### Working in progress
-
-* CSS tricks
-  - Simple path drawing, lines, rectangles...
-  - Linear gradients 
+* Type 3 fonts
 
