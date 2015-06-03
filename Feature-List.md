@@ -1,6 +1,6 @@
 ### Features
 
-* Accurate Text preservation
+* Accurate Text Preservation
   - Native text in HTML - you can select & copy & search
   - Font, color, position and transformation
   - Re-encoding for Web
@@ -22,6 +22,5 @@
 * Outline
 * Printing (experimental)
 * Rectangular Clipping
-* Background images in SVG (experimental)
-* Type 3 fonts
-
+* Background Images in SVG (experimental)
+* Type 3 Fonts
