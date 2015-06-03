@@ -10,7 +10,7 @@
      - [Troubleshooting Crashes](https://github.com/coolwanglu/pdf2htmlEX/wiki/Troubleshooting-Crashes)
      - [How can I help?](https://github.com/coolwanglu/pdf2htmlEX/wiki/How-can-I-help%3F)
  - Reference
-     - [Browser Requirements](https://github.com/coolwanglu/pdf2htmlEX/wiki/Browser-Requirements)
+     - [Browser Requirements](https://github.com/coolwanglu/pdf2htmlEX/wiki/Browser-Requirements) and [Auto Tests](https://github.com/coolwanglu/pdf2htmlEX/wiki/Auto-Tests)
      - [FAQ](https://github.com/coolwanglu/pdf2htmlEX/wiki/FAQ)
      - [Command Line Options](https://github.com/coolwanglu/pdf2htmlEX/wiki/Command-Line-Options)
      - [Customizing Output](https://github.com/coolwanglu/pdf2htmlEX/wiki/Customizing-Output)
