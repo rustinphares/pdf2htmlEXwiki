@@ -13,6 +13,12 @@ Fedora
 sudo yum install  cmake gcc gnu-getopt java-1.8.0-openjdk libpng-devel fontforge-devel cairo-devel poppler-devel libspiro-devel freetype-devel  poppler-data libjpeg-turbo-devel git
 ```
 
+OS X
+
+```bash
+brew install pdf2htmlex
+```
+
 Manual
 
 * CMake, pkg-config
