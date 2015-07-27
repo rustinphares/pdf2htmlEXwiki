@@ -6,6 +6,7 @@ pdf2htmlEX is available through several repositories, thanks to all the packager
  * [Macports](https://trac.macports.org/browser/trunk/dports/textproc/pdf2htmlex/Portfile) by Deepak Thukral <iapain@iapa.in>
  * [Windows win32 static](http://soft.rubypdf.com/software/pdf2htmlex-windows-verion) by Steven Lee <rubypdf@gmail.com>
  * [Docker image](https://registry.hub.docker.com/u/klokoy/pdf2htmlex/) by Kim Lokøy <kim.lokoy@gmail.com>
+ * [Debian package](https://packages.debian.org/sid/pdf2htmlex) by josch <josch@mister-muffin.de>
 
 The old Ubuntu PPA has been deprecated. We are looking for a maintainer.
 
