@@ -1,11 +1,12 @@
 pdf2htmlEX is available through several repositories, thanks to all the packagers!
 
  * [ArchLinux AUR](https://aur.archlinux.org/packages.php?ID=62426) by Arthur Titeica <arthur.titeica@gmail.com>
- * [Gentoo Overlay](http://gpo.zugaina.org/app-text/pdf2htmlex), gentoo-zh, mrueg or sunrise, by respective packagers.  
- * [Ubuntu PPA](https://launchpad.net/~coolwanglu/+archive/ubuntu/pdf2htmlex) by Lu Wang <coolwanglu@gmail.com> (but building from source is the better option if you want to get the latest version)
+ * [Gentoo Overlay](http://gpo.zugaina.org/app-text/pdf2htmlex), gentoo-zh, mrueg or sunrise, by respective packagers. 
  * [Homebrew Formula](https://github.com/mxcl/homebrew/blob/master/Library/Formula/pdf2htmlex.rb) by Jamie Ly <me@jamie.ly>
  * [Macports](https://trac.macports.org/browser/trunk/dports/textproc/pdf2htmlex/Portfile) by Deepak Thukral <iapain@iapa.in>
  * [Windows win32 static](http://soft.rubypdf.com/software/pdf2htmlex-windows-verion) by Steven Lee <rubypdf@gmail.com>
  * [Docker image](https://registry.hub.docker.com/u/klokoy/pdf2htmlex/) by Kim Lokøy <kim.lokoy@gmail.com>
+
+The old Ubuntu PPA has been deprecated. We are looking for a maintainer.
 
 You can also [build from source](https://github.com/coolwanglu/pdf2htmlEX/wiki/Building).
