@@ -8,7 +8,7 @@ pdf2htmlEX is available through several repositories, thanks to all the packager
  * [Docker image - 1GB](https://registry.hub.docker.com/u/klokoy/pdf2htmlex/) by Kim Lokøy <kim.lokoy@gmail.com>
  * [Docker image - 279MB](https://hub.docker.com/r/bwits/pdf2htmlex/) by Bill W <ozbillwang@gmail.com>
    
-   # test pdf2htmlEX directly with below command, if you have docker installed
+   #### test pdf2htmlEX directly with below command, if you have docker installed
    docker run -ti --rm -v ~/pdf:/pdf bwits/pdf2htmlex pdf2htmlEX --zoom 1.3 /pdf/test.pdf /pdf/test.html
 
  * [Debian package](https://packages.debian.org/sid/pdf2htmlex) by josch <josch@mister-muffin.de>
