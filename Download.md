@@ -5,7 +5,7 @@ pdf2htmlEX is available through several repositories, thanks to all the packager
  * [Homebrew Formula](https://github.com/mxcl/homebrew/blob/master/Library/Formula/pdf2htmlex.rb) by Jamie Ly <me@jamie.ly>
  * [Macports](https://trac.macports.org/browser/trunk/dports/textproc/pdf2htmlex/Portfile) by Deepak Thukral <iapain@iapa.in>
  * [Windows win32 static](http://soft.rubypdf.com/software/pdf2htmlex-windows-verion) by Steven Lee <rubypdf@gmail.com>
- * [Docker image - 1GB](https://registry.hub.docker.com/u/klokoy/pdf2htmlex/) by Kim Lokøy <kim.lokoy@gmail.com>
+ * [Docker image - 1.23GB](https://registry.hub.docker.com/u/klokoy/pdf2htmlex/) by Kim Lokøy <kim.lokoy@gmail.com>
  * [Docker image - 279MB](https://hub.docker.com/r/bwits/pdf2htmlex/) by Bill W <ozbillwang@gmail.com>
  * [Debian package](https://packages.debian.org/sid/pdf2htmlex) by josch <josch@mister-muffin.de>
 
