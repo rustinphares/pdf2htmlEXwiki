@@ -17,6 +17,7 @@ Run from Docker container is the easily way to convert the pdf file to html with
     pdf2htmlEX --zoom 1.3 /pdf/test.pdf /pdf/test.html
 
 For detail on how to install docker, please refer: https://docs.docker.com/installation/
+
 For detail on how to run pdf2htmlEX, please read the wiki https://github.com/coolwanglu/pdf2htmlEX/wiki/Quick-Start
 
 The old Ubuntu PPA has been deprecated. We are looking for a maintainer.
