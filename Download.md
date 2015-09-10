@@ -9,7 +9,7 @@ pdf2htmlEX is available through several repositories, thanks to all the packager
  * [Docker image - 279MB](https://hub.docker.com/r/bwits/pdf2htmlex/) by Bill W <ozbillwang@gmail.com>
  * [Debian package](https://packages.debian.org/sid/pdf2htmlex) by josch <josch@mister-muffin.de>
 
-Run from Docker container is the easiest way to convert the pdf file to html with pdf2htmlex, which you needn't have knowledge on how to compile and install this application. 
+Run from Docker container is the easiest way to convert pdf file to html, which you don't need knowledge on how to compile and install pdf2htmlEX.
 
     # Suppose you have a PDF file ~/pdf/test.pdf, simply running
     docker pull bwits/pdf2htmlex
