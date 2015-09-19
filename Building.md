@@ -70,3 +70,32 @@ If you see error messages about:
  - `glib.h: No such file or directory`, install the development header files of `glib-2.0`, and make sure that the location of `glib.h` is in `INCLUDE_PATH`.
  - `.../libfontforge.so: undefined reference to ...`, it should be caused by [a bug of FontForge](https://github.com/fontforge/fontforge/issues/465), please leave comments there such that FontForge developers may fix it soon.
   - Try to configure FontForge with `--without-libzmq --without-x --without-iconv --disable-python-scripting --disable-python-extension`, then rebuild it. 
+
+#### Alternate Way to Install on Linux (Tested on Ubuntu) Easier than manual installation
+
+- Install [linuxbrew](https://github.com/Homebrew/linuxbrew) and follow their instructions carefully.
+
+Run (because without it it breaks the pdf2html2 formula) :
+```bash
+sudo apt-get install --no-install-recommends python-setuptools python-dev
+```
+
+Fix a bug in a dependent formula (pico or other editor):
+```bash
+pico ~/.linuxbrew/Library/Formula/harfbuzz.rb
+```
+change ```--with-coretext=yes``` with ```--with-coretext=auto``` in the arguments list
+
+Then run the formula:
+```bash
+brew install pdf2htmlex
+```
+
+If you get this common error:
+```bash
+Error: /home/ubuntu/.linuxbrew/opt/pkg-config not present or broken
+```
+run the following and try the formula again:
+```bash
+brew reinstall pkg-config
+```
