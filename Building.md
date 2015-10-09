@@ -40,7 +40,7 @@ Manual
 * To generate SVG background images and process Type 3 fonts
  * cairo >= 1.10.0 with SVG support
  * FreeType
- * Add `-DENABLE_SVG=ON` to `cmake`
+ * Add `-DENABLE_SVG=OFF` to `cmake` to disable it.
 * To add hinting information for TTF fonts
  * ttfautohint
  * Run pdf2htmlEX with `--external-hint-tool=ttfautohint`
