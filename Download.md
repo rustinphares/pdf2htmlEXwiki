@@ -11,11 +11,18 @@ pdf2htmlEX is available through several repositories, thanks to all the packager
 
 Run from Docker container is the easiest way to convert pdf file to html, which you don't need knowledge on how to compile and install pdf2htmlEX.
 
-    # Suppose you have a PDF file ~/pdf/test.pdf, simply running
-    docker pull bwits/pdf2htmlex
+## How to use this docker containter to convert pdf file to html
+Suppose you have a PDF file ~/pdf/test.pdf, simply running
+
+    docker run -ti --rm -v ~/pdf:/pdf bwits/pdf2htmlex pdf2htmlEX --zoom 1.3 test.pdf
+
+would produce a single HTML file `test.html` in `~/pdf` directory.
+
+## run the docker container as local command
+
     alias pdf2htmlEX="docker run -ti --rm -v ~/pdf:/pdf bwits/pdf2htmlex pdf2htmlEX"
     pdf2htmlEX -h 
-    pdf2htmlEX --zoom 1.3 /pdf/test.pdf /pdf/test.html
+    pdf2htmlEX --zoom 1.3 test.pdf
 
 For detail on how to install docker, please refer: https://docs.docker.com/installation/
 
