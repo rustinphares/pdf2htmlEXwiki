@@ -6,8 +6,8 @@ pdf2htmlEX is available through several repositories, thanks to all the packager
  * [Macports](https://trac.macports.org/browser/trunk/dports/textproc/pdf2htmlex/Portfile) by Deepak Thukral <iapain@iapa.in>
  * [Windows win32 static](http://soft.rubypdf.com/software/pdf2htmlex-windows-verion) by Steven Lee <rubypdf@gmail.com>
  * [Docker image - 1.23GB](https://registry.hub.docker.com/u/klokoy/pdf2htmlex/) by Kim Lokøy <kim.lokoy@gmail.com>
- * [Debian Docker image - 246MB](https://hub.docker.com/r/bwits/pdf2htmlex/) by Bill W <ozbillwang@gmail.com>
- * [Alpine Docker image - 157MB](https://hub.docker.com/r/bwits/pdf2htmlex-alpine/) by Bill W <ozbillwang@gmail.com>
+ * [Docker image (Debian) - 246MB](https://hub.docker.com/r/bwits/pdf2htmlex/) by Bill W <ozbillwang@gmail.com>
+ * [Docker image (Alpine) - 157MB](https://hub.docker.com/r/bwits/pdf2htmlex-alpine/) by Bill W <ozbillwang@gmail.com>
  * [Debian package](https://packages.debian.org/sid/pdf2htmlex) by josch <josch@mister-muffin.de>
 
 Run from Docker container is the easiest way to convert pdf file to html, which you don't need knowledge on how to compile and install pdf2htmlEX.
