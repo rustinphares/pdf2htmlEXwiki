@@ -2,6 +2,7 @@
      - [Introduction](https://github.com/coolwanglu/pdf2htmlEX/wiki/Introduction) and [Comparison](https://github.com/coolwanglu/pdf2htmlEX/wiki/Comparison)
      - [Features](https://github.com/coolwanglu/pdf2htmlEX/wiki/Feature-List), [Unfeatures](https://github.com/coolwanglu/pdf2htmlEX/wiki/Unfeatures) and [Limitations](https://github.com/coolwanglu/pdf2htmlEX/wiki/Limitations)
      - [Who are using pdf2htmlEX?](https://github.com/coolwanglu/pdf2htmlEX/wiki/Use-Cases)
+     - [Related projects](https://github.com/coolwanglu/pdf2htmlEX/wiki/Related-Projects)
  - Get Started
      - [Download](https://github.com/coolwanglu/pdf2htmlEX/wiki/Download)
      - [Building](https://github.com/coolwanglu/pdf2htmlEX/wiki/Building) 
