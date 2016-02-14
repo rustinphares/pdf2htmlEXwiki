@@ -13,12 +13,6 @@ Fedora
 sudo yum install  cmake gcc gnu-getopt java-1.8.0-openjdk libpng-devel fontforge-devel cairo-devel poppler-devel libspiro-devel freetype-devel  poppler-data libjpeg-turbo-devel git
 ```
 
-OS X
-
-```bash
-brew install pdf2htmlex
-```
-
 Manual
 
 * CMake, pkg-config
@@ -71,31 +65,8 @@ If you see error messages about:
  - `.../libfontforge.so: undefined reference to ...`, it should be caused by [a bug of FontForge](https://github.com/fontforge/fontforge/issues/465), please leave comments there such that FontForge developers may fix it soon.
   - Try to configure FontForge with `--without-libzmq --without-x --without-iconv --disable-python-scripting --disable-python-extension`, then rebuild it. 
 
-#### Alternate Way to Install on Linux (Tested on Ubuntu) Easier than manual installation
+#### Hacker's magical scripts
+These scripts have NOT been tested by pdf2htmlEX's authors, use at your own risk!
+We list them there because they are reported to be helpful
 
-- Install [linuxbrew](https://github.com/Homebrew/linuxbrew) and follow their instructions carefully.
-
-Run (because without it it breaks the pdf2html2 formula) :
-```bash
-sudo apt-get install --no-install-recommends python-setuptools python-dev
-```
-
-Fix a bug in a dependent formula (pico or other editor):
-```bash
-pico ~/.linuxbrew/Library/Formula/harfbuzz.rb
-```
-change ```--with-coretext=yes``` with ```--with-coretext=auto``` in the arguments list
-
-Then run the formula:
-```bash
-brew install pdf2htmlex
-```
-
-If you get this common error:
-```bash
-Error: /home/ubuntu/.linuxbrew/opt/pkg-config not present or broken
-```
-run the following and try the formula again:
-```bash
-brew reinstall pkg-config
-```
+- [rajeevkannav/pdf2htmlEX.sh](https://gist.github.com/rajeevkannav/d07f822e209a22d07176)
