@@ -66,7 +66,8 @@ If you see error messages about:
   - Try to configure FontForge with `--without-libzmq --without-x --without-iconv --disable-python-scripting --disable-python-extension`, then rebuild it. 
 
 #### Hacker's magical scripts
-These scripts have NOT been tested by pdf2htmlEX's authors, use at your own risk!
-We list them there because they are reported to be helpful
 
-- [rajeevkannav/pdf2htmlEX.sh](https://gist.github.com/rajeevkannav/d07f822e209a22d07176)
+These scripts have been reported to be useful in various situations. They have NOT been tested by pdf2htmlEX's authors, use at your own risk! If you want to contribute, please create your own gist somewhere, and post a link and description here.
+
+
+- [rajeevkannav/pdf2htmlEX.sh](https://gist.github.com/rajeevkannav/d07f822e209a22d07176) for Ubuntu 15.05
