@@ -75,7 +75,8 @@ These scripts have been reported to be useful in various situations. They have N
 
 #### Mac OS X
 
-An easy way to instal pdf2htmlEX on Mac OS X is to use ``(brew)[http://brew.sh/]''.
+An easy way to instal pdf2htmlEX on Mac OS X is to use [brew](http://brew.sh/).
+After installing brew, open a terminal:
 ``` bash
 brew install pdf2htmlEX
 ```
