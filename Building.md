@@ -71,3 +71,11 @@ These scripts have been reported to be useful in various situations. They have N
 
 
 - [rajeevkannav/pdf2htmlEX.sh](https://gist.github.com/rajeevkannav/d07f822e209a22d07176) for Ubuntu 15.05
+
+
+#### Mac OS X
+
+An easy way to instal pdf2htmlEX on Mac OS X is to use ``(brew)[http://brew.sh/]''.
+``` bash
+brew install pdf2htmlEX
+```
