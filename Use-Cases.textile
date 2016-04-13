@@ -9,3 +9,4 @@ To add your service here, please mention pdf2htmlEX (with a proper link to the g
 | "ReadCube Web Reader":http://support.readcube.com/knowledgebase/articles/487055-open-source-projects | "https://www.readcube.com/reader":https://www.readcube.com/reader | Academic Software, Reference Manager |
 | "ChemCurator":https://docs.chemaxon.com/display/standardizer/EULA+STD | "https://www.chemaxon.com/":https://www.chemaxon.com/ | Academic Software, PDF Annotation |
 | "IPCC Fifth Assessment Synthesis Report":http://ar5-syr.ipcc.ch/ | "http://www.ipcc.ch/":http://www.ipcc.ch/ | Online Publishing |
+| "Deep Learning (An MIT Press Book)":http://www.deeplearningbook.org/ | "http://www.deeplearningbook.org/":http://www.deeplearningbook.org/ | Online Publishing |
