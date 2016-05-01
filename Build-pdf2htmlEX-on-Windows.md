@@ -55,7 +55,7 @@
 ==========验证和制作================
   mingw下的data目录不一样，编译后无法直接运行，会报“Error: Cannot open the manifest file”。
 
-  解决方法：将js和html复制到pdf2htmlEX.exe相同目录的data目录下。pdf2htmlEX代码不用改，里面好像已经处理过data和tmp目录。
+  解决方法：将/mingw32/share/pdf2htmlEX/*.*复制到pdf2htmlEX.exe相同目录的data子目录。pdf2htmlEX代码不用改，里面已经处理过data和tmp目录。
   
   将/mingw32/bin的全部*.dll和pdf2htmlEX.exe，以及data一起组成安装包。
 ````````
