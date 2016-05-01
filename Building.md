@@ -5,6 +5,7 @@ pdf2htmlEX can be built in a Unix-like environment:
 * Linux (for Ubuntu 12.10+)
 * OS X
 * Windows/Cygwin
+* Windows/Mingw-w64
 * Windows/MinGW, with some modifications to pdf2htmlEX. See [pdf2htmlEX on TeX Wiki](http://oku.edu.mie-u.ac.jp/~okumura/texwiki/?pdf2htmlEX) (in Japanese), special thanks to Haruhiko Okumura.
 
 #### Dependencies
@@ -82,5 +83,5 @@ brew install pdf2htmlEX
 ```
 #### Windows
 An easy way to build pdf2htmlEX on Windows is MSYS2 + mingw-w64.
-[Build-pdf2htmlEX-on-Windows](https://github.com/coolwanglu/pdf2htmlEX/wiki/build-pdf2htmlEX-on-Windows)
+[Build-pdf2htmlEX-on-Windows](https://github.com/coolwanglu/pdf2htmlEX/wiki/build-pdf2htmlEX-on-Windows) (in Chinese)
 
