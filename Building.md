@@ -80,3 +80,7 @@ After installing brew, open a terminal:
 ``` bash
 brew install pdf2htmlEX
 ```
+#### Windows
+An easy way to build pdf2htmlEX on Windows is MSYS2 + mingw-w64.
+[Build-pdf2htmlEX-on-Windows](https://github.com/coolwanglu/pdf2htmlEX/wiki/build-pdf2htmlEX-on-Windows)
+
