@@ -11,7 +11,7 @@ pdf2htmlEX can be built in a Unix-like environment:
 #### Dependencies
 Fedora
 ``` bash
-sudo yum install  cmake gcc gnu-getopt java-1.8.0-openjdk libpng-devel fontforge-devel cairo-devel poppler-devel libspiro-devel freetype-devel  poppler-data libjpeg-turbo-devel git
+sudo yum install  cmake gcc gnu-getopt java-1.8.0-openjdk libpng-devel fontforge-devel cairo-devel poppler-devel libspiro-devel freetype-devel  poppler-data libjpeg-turbo-devel git make gcc-c++
 ```
 
 Manual
