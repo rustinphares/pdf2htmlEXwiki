@@ -11,7 +11,7 @@ In PDF, different colors (or transparent) can be specified for outline and insid
  - No need to mention IE...
 
 ### Clipped or overlapped text
-Text in PDF may be partially clipped, or completely invisible due to being overlapped by another object (e.g. an image). But they may appear visible in the output of pdf2htmlEX. The reason is that currently pdf2htmlEX uses a single background image behind all the text. The `--correct-text-visiblity` partial solve this problem, but it may not work perfectly on all inputs.
+Text in PDF may be partially clipped, or completely invisible due to being overlapped by another object (e.g. an image). But they may appear visible in the output of pdf2htmlEX. The reason is that currently pdf2htmlEX uses a single background image behind all the text. The `--correct-text-visibility` partial solve this problem, but it may not work perfectly on all inputs.
 
 ### Writing mode fonts
 Text go top-bottom, right-left
