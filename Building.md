@@ -8,6 +8,18 @@ pdf2htmlEX can be built in a Unix-like environment:
 * Windows/Mingw-w64
 * Windows/MinGW, with some modifications to pdf2htmlEX. See [pdf2htmlEX on TeX Wiki](http://oku.edu.mie-u.ac.jp/~okumura/texwiki/?pdf2htmlEX) (in Japanese), special thanks to Haruhiko Okumura.
 
+#### Mac OS X
+
+An easy way to instal pdf2htmlEX on Mac OS X is to use [brew](http://brew.sh/).
+After installing brew, open a terminal:
+``` bash
+brew install pdf2htmlEX
+```
+#### Windows
+An easy way to build pdf2htmlEX on Windows is MSYS2 + mingw-w64.
+[Build-pdf2htmlEX-on-Windows](https://gist.github.com/cnstar9988/3571c66b49050d98df92142dc19fbb00) (in Chinese)
+
+
 #### Dependencies
 Fedora
 ``` bash
@@ -74,14 +86,4 @@ These scripts have been reported to be useful in various situations. They have N
 - [rajeevkannav/pdf2htmlEX.sh](https://gist.github.com/rajeevkannav/d07f822e209a22d07176) for Ubuntu 15.05
 
 
-#### Mac OS X
-
-An easy way to instal pdf2htmlEX on Mac OS X is to use [brew](http://brew.sh/).
-After installing brew, open a terminal:
-``` bash
-brew install pdf2htmlEX
-```
-#### Windows
-An easy way to build pdf2htmlEX on Windows is MSYS2 + mingw-w64.
-[Build-pdf2htmlEX-on-Windows](https://gist.github.com/cnstar9988/3571c66b49050d98df92142dc19fbb00) (in Chinese)
 
