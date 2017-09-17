@@ -26,7 +26,7 @@ Possible solutions:
 - Find the nearest fraction number (i.e different multiplier for different font sizes).
 - See if the `text-rendering` CSS properties is useful.
 
-Relative links:
+Relevant links:
 
 - http://meyerweb.com/eric/thoughts/2010/02/10/rounding-off/
 - https://developer.mozilla.org/en-US/docs/Web/CSS/text-rendering
