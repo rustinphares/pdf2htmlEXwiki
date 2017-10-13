@@ -3,7 +3,7 @@
 #### Environment
 pdf2htmlEX can be built in a Unix-like environment:
 * GNU/Linux (for Ubuntu 12.10+, Fedora)
-* OS X
+* macOS
 * Windows/Cygwin
 * Windows/Mingw-w64
 * Windows/MinGW, with some modifications to pdf2htmlEX. See [pdf2htmlEX on TeX Wiki](http://oku.edu.mie-u.ac.jp/~okumura/texwiki/?pdf2htmlEX) (in Japanese), special thanks to Haruhiko Okumura.
