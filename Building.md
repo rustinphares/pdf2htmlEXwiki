@@ -2,7 +2,7 @@
 
 #### Environment
 pdf2htmlEX can be built in a Unix-like environment:
-* GNU/Linux (for Ubuntu 12.10+)
+* GNU/Linux (for Ubuntu 12.10+, Fedora)
 * OS X
 * Windows/Cygwin
 * Windows/Mingw-w64
@@ -10,7 +10,7 @@ pdf2htmlEX can be built in a Unix-like environment:
 
 #### Mac OS X
 
-An easy way to instal pdf2htmlEX on Mac OS X is to use [brew](http://brew.sh/).
+An easy way to install pdf2htmlEX on Mac OS X is to use [brew](http://brew.sh/).
 After installing brew, open a terminal:
 ``` bash
 brew install pdf2htmlEX
@@ -80,8 +80,7 @@ If you see error messages about:
 
 These scripts have been reported to be useful in various situations. They have NOT been tested by pdf2htmlEX's authors, use at your own risk! If you want to contribute, please create your own gist somewhere, and post a link and description here.
 
-
-- [rajeevkannav/pdf2htmlEX.sh](https://gist.github.com/rajeevkannav/d07f822e209a22d07176) for Ubuntu 15.05
+- [rajeevkannav/pdf2htmlEX.sh](https://gist.github.com/rajeevkannav/d07f822e209a22d07176) install on Ubuntu 15.04
 
 
 
