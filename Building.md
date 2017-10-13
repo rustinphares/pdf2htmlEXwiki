@@ -31,28 +31,28 @@ Manual
 * CMake, pkg-config
 * GNU Getopt
 * C++ Compiler that supports C++11, for example
- * GCC >= 4.6.3
- * A recent version of Clang
+    * GCC >= 4.6.3
+    * A recent version of Clang
 * libspiro
 * **poppler** >= 0.25.0 with xpdf headers (compile with `--enable-xpdf-headers`)
- * Install **libpng** (and headers) BEFORE you compile poppler if you want PNG background images generated
- * Install **libjpeg** (and headers) BEFORE you compile poppler if you want JPG background images generated
- * Install **poppler-data** if your want CJK support
+    * Install **libpng** (and headers) BEFORE you compile poppler if you want PNG background images generated
+    * Install **libjpeg** (and headers) BEFORE you compile poppler if you want JPG background images generated
+    * Install **poppler-data** if your want CJK support
 * **fontforge** (with header files)
- * A recent version or [my fork](https://github.com/coolwanglu/fontforge/tree/pdf2htmlEX), use the `pdf2htmlEX` branch, which is a modified version of the 20140101 release.
- * Older versions may or may not work.
+    * A recent version or [my fork](https://github.com/coolwanglu/fontforge/tree/pdf2htmlEX), use the `pdf2htmlEX` branch, which is a modified version of the 20140101 release.
+    * Older versions may or may not work.
 
 #### Optional
 
 * To generate SVG background images and process Type 3 fonts
- * cairo >= 1.10.0 with SVG support
- * FreeType
- * Add `-DENABLE_SVG=OFF` to `cmake` to disable it.
+    * cairo >= 1.10.0 with SVG support
+    * FreeType
+    * Add `-DENABLE_SVG=OFF` to `cmake` to disable it.
 * To add hinting information for TTF fonts
- * ttfautohint
- * Run pdf2htmlEX with `--external-hint-tool=ttfautohint`
+    * ttfautohint
+    * Run pdf2htmlEX with `--external-hint-tool=ttfautohint`
 * To optimize CSS and JavaScript code with YUI Compressor and closure-compiler
- * java >= 6
+    * java >= 6
 
 #### Compiling
 
