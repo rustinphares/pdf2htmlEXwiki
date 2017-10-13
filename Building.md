@@ -75,8 +75,6 @@ If you see error messages about:
  - `undefined reference of Py_xxx`, install header files of python-2.x
  - `libintl.h`, install gettext and set your system include path accordingly.
  - `glib.h: No such file or directory`, install the development header files of `glib-2.0`, and make sure that the location of `glib.h` is in `INCLUDE_PATH`.
- - `.../libfontforge.so: undefined reference to ...`, it should be caused by [a bug of FontForge](https://github.com/fontforge/fontforge/issues/465), please leave comments there such that FontForge developers may fix it soon.
-  - Try to configure FontForge with `--without-libzmq --without-x --without-iconv --disable-python-scripting --disable-python-extension`, then rebuild it. 
 
 #### Hacker's magical scripts
 
