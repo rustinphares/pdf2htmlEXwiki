@@ -2,7 +2,7 @@
 
 #### Environment
 pdf2htmlEX can be built in a Unix-like environment:
-* Linux (for Ubuntu 12.10+)
+* GNU/Linux (for Ubuntu 12.10+)
 * OS X
 * Windows/Cygwin
 * Windows/Mingw-w64
@@ -66,7 +66,7 @@ In order to create the debug version, add `-DCMAKE_BUILD_TYPE=Debug` to `cmake`.
 
 #### Troubleshooting
 
-If you installed poppler or fontforge into a place other than `/usr` (If you install them from source code, they are installed to `/usr/local` by default), you need to set up environment variables for pkg-config, and maybe also `INCLUDE_PATH`, `LIBRARY_PATH` and `LD_LIBRARY_PATH` because some Linux distributions do not set them up for you (e.g. Fedora). If you are not sure about this, just install those libraries to `/usr` by passing `--prefix=/usr` to `configure`.
+If you installed poppler or fontforge into a place other than `/usr` (If you install them from source code, they are installed to `/usr/local` by default), you need to set up environment variables for pkg-config, and maybe also `INCLUDE_PATH`, `LIBRARY_PATH` and `LD_LIBRARY_PATH` because some GNU/Linux distributions do not set them up for you (e.g. Fedora). If you are not sure about this, just install those libraries to `/usr` by passing `--prefix=/usr` to `configure`.
 
 If you see error messages about:
 
