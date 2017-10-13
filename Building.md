@@ -8,9 +8,9 @@ pdf2htmlEX can be built in a Unix-like environment:
 * Windows/Mingw-w64
 * Windows/MinGW, with some modifications to pdf2htmlEX. See [pdf2htmlEX on TeX Wiki](http://oku.edu.mie-u.ac.jp/~okumura/texwiki/?pdf2htmlEX) (in Japanese), special thanks to Haruhiko Okumura.
 
-#### Mac OS X
+#### macOS
 
-An easy way to install pdf2htmlEX on Mac OS X is to use [brew](http://brew.sh/).
+An easy way to install pdf2htmlEX on macOS is to use [brew](http://brew.sh/).
 After installing brew, open a terminal:
 ``` bash
 brew install pdf2htmlEX
