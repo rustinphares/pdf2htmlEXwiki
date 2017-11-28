@@ -12,3 +12,4 @@ To add your service here, please mention pdf2htmlEX (with a proper link to the g
 | "Deep Learning - An MIT Press Book":http://www.deeplearningbook.org/ | "http://www.deeplearningbook.org/":http://www.deeplearningbook.org/ | Online Publishing |
 | "Cloud Computing for Science and Engineering - An MIT Press Book":https://cloud4scieng.org/ | "https://cloud4scieng.org/chapters/":https://cloud4scieng.org/chapters/ | Online Publishing |
 | Pablo Accuosto, Francesco Ronzano, Daniel Ferrés, Horacio Saggion | "http://hdl.handle.net/10230/32535":http://hdl.handle.net/10230/32535, "http://hdl.handle.net/10230/32537":http://hdl.handle.net/10230/32537 | PDF to HTML Conversion, Scientific Text Mining, Data Visualization |
+| "Elsevier PDF reader":https://service.elsevier.com/app/answers/detail/a_id/17829/supporthub/sciencedirect/p/10959/ | "Elsevier":https://www.elsevier.com | Online Publishing |
