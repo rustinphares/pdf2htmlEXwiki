@@ -1,6 +1,6 @@
 >###- 欲速则不达。<br>- Haste makes waste.
 
-#### Environment
+# Environment
 pdf2htmlEX can be built in a Unix-like environment:
 * GNU/Linux (for Ubuntu 12.10+, Fedora)
 * macOS
@@ -8,20 +8,25 @@ pdf2htmlEX can be built in a Unix-like environment:
 * Windows/Mingw-w64
 * Windows/MinGW, with some modifications to pdf2htmlEX. See [pdf2htmlEX on TeX Wiki](http://oku.edu.mie-u.ac.jp/~okumura/texwiki/?pdf2htmlEX) (in Japanese), special thanks to Haruhiko Okumura.
 
-#### macOS
+## macOS
 
 An easy way to install pdf2htmlEX on macOS is to use [brew](http://brew.sh/).
 After installing brew, open a terminal:
 ``` bash
 brew install pdf2htmlEX
 ```
-#### Windows
+## Windows
 An easy way to build pdf2htmlEX on Windows is MSYS2 + mingw-w64.
 [Build-pdf2htmlEX-on-Windows](https://gist.github.com/cnstar9988/3571c66b49050d98df92142dc19fbb00) (in Chinese)
 
 
-#### Dependencies
-Fedora
+# Dependencies
+## Linux
+### Debian / Ubuntu
+``` bash
+sudo apt-get install libpoppler-private-dev
+```
+### Fedora
 ``` bash
 sudo yum install  cmake gcc gnu-getopt java-1.8.0-openjdk libpng-devel fontforge-devel cairo-devel poppler-devel libspiro-devel freetype-devel  poppler-data libjpeg-turbo-devel git make gcc-c++
 ```
