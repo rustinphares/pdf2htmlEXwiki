@@ -1,7 +1,7 @@
 ## This page lists known issues to which I have no (elegant) solutions.
 
 ### Reflowable Text
-[Dedicated page](https://github.com/coolwanglu/pdf2htmlEX/wiki/Reflowable-Text)
+[Dedicated page](https://github.com/pdf2htmlEX/pdf2htmlEX/wiki/Reflowable-Text)
 
 ### Stroked Text
 In PDF, different colors (or transparent) can be specified for outline and inside of text.

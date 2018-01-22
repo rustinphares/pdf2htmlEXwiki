@@ -1,4 +1,4 @@
-For possible solutions and dicussions, go to [#56](https://github.com/coolwanglu/pdf2htmlEX/issues/56)
+For possible solutions and dicussions, go to [#56](https://github.com/pdf2htmlEX/pdf2htmlEX/issues/56)
 
 **Reflowable** means text can be automatically adapted to different output device, especially different widths. See [Wikipedia Page](http://en.wikipedia.org/wiki/Reflowable_document)
 
@@ -31,7 +31,7 @@ So the height will be quite likely to change if the text is reflowed.
 
 ## Text That Should Not Be Reflowed
 
-Underlined text in PDF may be actually normal text with a correctly positioned horizontal bar. Reflowing text is likely to break this combination. The cause of this is that some information cannot be recognized by pdf2htmlEX. 
+Underlined text in PDF may be actually normal text with a correctly positioned horizontal bar. Reflowing text is likely to break this combination. The cause of this is that some information cannot be recognized by pdf2htmlEX.
 
 Other similar things includes code blocks, math formulas (with symbols like square root or fractions with a horizontal bar), poems...
 

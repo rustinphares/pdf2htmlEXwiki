@@ -321,10 +321,10 @@ AUTHOR
 
 SEE ALSO
        Home page
-              https://github.com/coolwanglu/pdf2htmlEX
+              https://github.com/pdf2htmlEX/pdf2htmlEX
 
        pdf2htmlEX Wiki
-              https://github.com/coolwanglu/pdf2htmlEX/wiki
+              https://github.com/pdf2htmlEX/pdf2htmlEX/wiki
 
                                 pdf2htmlEX 0.12                  pdf2htmlEX(1)
 ``````

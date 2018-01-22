@@ -26,7 +26,7 @@ In this case, all fonts are embedded in the PDF font except for the two Arial on
 
 ### External Fonts
 
-In the PDF specification, [14 standard fonts](http://en.wikipedia.org/wiki/Portable_Document_Format#Standard_Type_1_Fonts_.28Standard_14_Fonts.29) are supposed to be provided by any PDF viewer, so these fonts are often not embedded in order to save space. Some publishers/software choose not to embed some other font files assuming that all their viewers will have that font file installed. 
+In the PDF specification, [14 standard fonts](http://en.wikipedia.org/wiki/Portable_Document_Format#Standard_Type_1_Fonts_.28Standard_14_Fonts.29) are supposed to be provided by any PDF viewer, so these fonts are often not embedded in order to save space. Some publishers/software choose not to embed some other font files assuming that all their viewers will have that font file installed.
 
 Note that there are no such standard fonts defined in the Web standards, although some fonts are indeed available on almost all machines.
 
@@ -36,6 +36,6 @@ The reason it has been designed so is that, consider which one is more important
 
 ### Duplicated Fonts
 
-Sometimes two or more font can be defined in PDF files, which are based on the same font file but with slight changes. `pdf2htmlEX` always see them as different fonts and generate separate files. 
+Sometimes two or more font can be defined in PDF files, which are based on the same font file but with slight changes. `pdf2htmlEX` always see them as different fonts and generate separate files.
 
-To fix this, you might want to [optimize the PDF files](https://github.com/coolwanglu/pdf2htmlEX/wiki/Optimizing-PDF-Files) before feeding them to `pdf2htmlEX`.
+To fix this, you might want to [optimize the PDF files](https://github.com/pdf2htmlEX/pdf2htmlEX/wiki/Optimizing-PDF-Files) before feeding them to `pdf2htmlEX`.

@@ -5,13 +5,13 @@ Crash means a bug. Unexpected visual results might be caused by wrong parameters
 - Identify if the crash was caused by FontForge.
 - If so, report to FontForge developers with relevant font files.
 - Otherwise, create a new issue for pdf2htmlEX with relevant info.
-- If you would like to create a stack dump, you need to build the debug version (see [Building](https://github.com/coolwanglu/pdf2htmlEX/wiki/Building)).
+- If you would like to create a stack dump, you need to build the debug version (see [Building](https://github.com/pdf2htmlEX/pdf2htmlEX/wiki/Building)).
 
 ### Instructions for newcomers
 
-The first thing to do is to make sure that the version of pdf2htmlEX and all depended libraries are fresh enough, as described in the [Building](https://github.com/coolwanglu/pdf2htmlEX/wiki/Building) page. Because bugs might have already been fixed in newer versions. **You need to tell the developers that you have verified this, by showing the result of `pdf2htlmEX -v`, or they will ask you to do so anyway before they can move forward**.
+The first thing to do is to make sure that the version of pdf2htmlEX and all depended libraries are fresh enough, as described in the [Building](https://github.com/pdf2htmlEX/pdf2htmlEX/wiki/Building) page. Because bugs might have already been fixed in newer versions. **You need to tell the developers that you have verified this, by showing the result of `pdf2htlmEX -v`, or they will ask you to do so anyway before they can move forward**.
 
-Whenever pdf2htmlEX crashes, run it again with the same arguments, except for an extra `--debug 1`, which tells pdf2htmlEX to show internal details which might reveal the cause. 
+Whenever pdf2htmlEX crashes, run it again with the same arguments, except for an extra `--debug 1`, which tells pdf2htmlEX to show internal details which might reveal the cause.
 
 Here's a typical fraction of the messages, showing that pdf2htmlEX is trying to convert the 9th font found in the PDF file.
 ```
@@ -23,7 +23,7 @@ space width: 0.182
 Add new temporary file: /tmp/pdf2htmlEX-E36Cv0/f9.woff
 ```
 
-Most likely the crash happened when pdf2htmlEX was trying to convert a font file with FontForge. FontForge is one of the best free font manipulation tools out there. It might be actually more famous as a font editor, as it's usually used by font designers, who want to create and modify fonts using GUI, or doing automatic jobs using scripts. There are also interface exposed to communicate with the internals of FontForge, which is the way that pdf2htmlEX is using. Unfortunately, the interface is not well maintained, so I(Lu Wang) had been using it in a hacky way. 
+Most likely the crash happened when pdf2htmlEX was trying to convert a font file with FontForge. FontForge is one of the best free font manipulation tools out there. It might be actually more famous as a font editor, as it's usually used by font designers, who want to create and modify fonts using GUI, or doing automatic jobs using scripts. There are also interface exposed to communicate with the internals of FontForge, which is the way that pdf2htmlEX is using. Unfortunately, the interface is not well maintained, so I(Lu Wang) had been using it in a hacky way.
 
 Generally speaking there are three types of causes, in the order of likeliness.
 

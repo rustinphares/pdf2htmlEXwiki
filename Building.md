@@ -39,7 +39,7 @@ Manual
     * Install **libjpeg** (and headers) BEFORE you compile poppler if you want JPG background images generated
     * Install **poppler-data** if your want CJK support
 * **fontforge** (with header files)
-    * A recent version or [my fork](https://github.com/coolwanglu/fontforge/tree/pdf2htmlEX), use the `pdf2htmlEX` branch, which is a modified version of the 20140101 release.
+    * A recent version or [my fork](https://github.com/pdf2htmlEX/fontforge/tree/pdf2htmlEX), use the `pdf2htmlEX` branch, which is a modified version of the 20140101 release.
     * Older versions may or may not work.
 
 #### Optional
@@ -60,7 +60,7 @@ Manual
     cd pdf2htmlEX
     cmake . && make && sudo make install
 
-Stable releases can be found at <https://github.com/coolwanglu/pdf2htmlEX/releases>.
+Stable releases can be found at <https://github.com/pdf2htmlEX/pdf2htmlEX/releases>.
 
 In order to create the debug version, add `-DCMAKE_BUILD_TYPE=Debug` to `cmake`.
 

@@ -18,6 +18,6 @@ However, pdf2htmlEX will handle those things caused by the differences between t
 ### UI
 You might expect UI features of PDF viewers, but you should not expect UI features of PDF files. Likewise, HTML files produced by pdf2htmlEX are meant to conceive the contents only, and the publishers are supported to design their own UI.
 
-`pdf2htmlEX.js` demonstrates the structure of HTML files produced by pdf2htmlEX, it is provided for UI developers' reference. Currently there is no UI provided. While [#219](https://github.com/coolwanglu/pdf2htmlEX/issues/219) exists, it's meant as a demonstration of `pdf2htmlEX.js` and provided for lazy users only.
+`pdf2htmlEX.js` demonstrates the structure of HTML files produced by pdf2htmlEX, it is provided for UI developers' reference. Currently there is no UI provided. While [#219](https://github.com/pdf2htmlEX/pdf2htmlEX/issues/219) exists, it's meant as a demonstration of `pdf2htmlEX.js` and provided for lazy users only.
 
 UI pull requests are welcome, but UI feature requests will be labelled as low(est) priority.

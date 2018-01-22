@@ -8,4 +8,4 @@ The status of latest commits are shown below:
 
 If some test failed on your pull request, click on the images and check the logs and screenshots to figure out why.
 
-Read [test/README.md](https://github.com/coolwanglu/pdf2htmlEX/blob/incoming/test/README.md) for more information.
+Read [test/README.md](https://github.com/pdf2htmlEX/pdf2htmlEX/blob/incoming/test/README.md) for more information.

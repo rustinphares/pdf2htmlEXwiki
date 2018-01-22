@@ -6,7 +6,7 @@
 ## General
 
 ### Languages used in pdf2htmlEX
-  
+
  - C (Fontforge wrapper)
  - C++ (most part)
  - CSS (output: format / effects)
@@ -28,7 +28,7 @@
  - However there are several exceptions when the bug cannot be fixed in time (or at all)
    - The file does not follow the PDF standard (it might still be displayed correctly in PDF viewers)
    - Something wrong with libraries used by pdf2htmlEX (poppler / fontforge)
-   - There are a few technical limitations of pdf2htmlEX. See [this page](https://github.com/coolwanglu/pdf2htmlEX/wiki/Limitations)
+   - There are a few technical limitations of pdf2htmlEX. See [this page](https://github.com/pdf2htmlEX/pdf2htmlEX/wiki/Limitations)
 
 ### I want more features!
  - Create a patch, or hire someone to do so.
@@ -39,18 +39,18 @@
  - Run `sudo make install` or `make install`, depending on your environment.
 
 ### The generated HTML file freezes my Firefox
- 
+
  - Don't zoom in too much
  - Use a smaller value for `--font-size-multiplier`
 
 ### The generated HTML file looks awful
- 
-Check if your browser meets the [requirements](https://github.com/coolwanglu/pdf2htmlEX/wiki/Browser-Requirements).
+
+Check if your browser meets the [requirements](https://github.com/pdf2htmlEX/pdf2htmlEX/wiki/Browser-Requirements).
 
 ### The generated HTML file is too large
 
  - File embedded in HTML are encoded in Base64, whose size is 1/3 larger. Embedding can be disabled using the `--embed` option.
- - Try to disable embedding external fonts. [Learn more...](https://github.com/coolwanglu/pdf2htmlEX/wiki/Font-Files#external-fonts)
+ - Try to disable embedding external fonts. [Learn more...](https://github.com/pdf2htmlEX/pdf2htmlEX/wiki/Font-Files#external-fonts)
  - There is built-in compression support in PDF, but no such feature in HTML. Fortunately most HTTP servers support compression (gzip/deflate), and you may check the actually network communication cost by compressing the HTML file with `gzip`, which is usually smaller than PDF.
 
 ***
@@ -58,7 +58,7 @@ Check if your browser meets the [requirements](https://github.com/coolwanglu/pdf
 ## Text and Font
 
 ### Text are correct but not readable
- 
+
  - Install ttfautohint and run pdf2htmlEX with `--external-hint-tool=ttfautohint`
  - Try `--auto-hint 1` carefully, which is experimental now.
 
