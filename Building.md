@@ -24,7 +24,7 @@ An easy way to build pdf2htmlEX on Windows is MSYS2 + mingw-w64.
 ## Linux
 ### Debian / Ubuntu
 ``` bash
-sudo apt-get install libpoppler-private-dev
+sudo apt-get install libpoppler-private-dev pkg-config cmake gcc make pkg-config libcairo-dev
 ```
 ### Fedora
 ``` bash
