@@ -15,6 +15,8 @@ After installing brew, open a terminal:
 ``` bash
 brew install pdf2htmlEX
 ```
+**NOTE:** until we have updated Homebrew/core's pdf2htmlEX formula, the above command will install the old [coolwanglu/pdf2htmlEX](https://github.com/coolwanglu/pdf2htmlEX) version of phd2htmlEX (which, alas, is no longer keeping up with changes in Poppler, and hence might not be what you want).
+
 ## Windows
 An easy way to build pdf2htmlEX on Windows is MSYS2 + mingw-w64.
 [Build-pdf2htmlEX-on-Windows](https://gist.github.com/cnstar9988/3571c66b49050d98df92142dc19fbb00) (in Chinese)
