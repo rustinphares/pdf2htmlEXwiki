@@ -63,7 +63,7 @@ Manual
 
 #### Compiling
 
-    git clone git://github.com/coolwanglu/pdf2htmlEX.git
+    git clone git://github.com/pdf2htmlEX/pdf2htmlEX.git
     cd pdf2htmlEX
     cmake . && make && sudo make install
 
