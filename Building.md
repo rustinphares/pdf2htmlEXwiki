@@ -30,7 +30,7 @@ sudo apt-get install libpoppler-private-dev pkg-config cmake gcc make pkg-config
 ```
 ### Fedora
 ``` bash
-sudo yum install  cmake gcc gnu-getopt java-1.8.0-openjdk libpng-devel fontforge-devel cairo-devel poppler-devel libspiro-devel freetype-devel  poppler-data libjpeg-turbo-devel git make gcc-c++
+sudo dnf install  cmake gcc gnu-getopt java-1.8.0-openjdk libpng-devel fontforge-devel cairo-devel poppler-devel libspiro-devel freetype-devel  poppler-data libjpeg-turbo-devel git make gcc-c++
 ```
 
 Manual
