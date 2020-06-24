@@ -15,6 +15,11 @@ brew install pdf2htmlEX
 An easy way to build pdf2htmlEX on Windows is MSYS2 + mingw-w64.
 [Build-pdf2htmlEX-on-Windows](https://gist.github.com/cnstar9988/3571c66b49050d98df92142dc19fbb00) (in Chinese)
 
+**Windows/Cygwin, Windows/Mingw-w64, Windows/MinGW**:
+  with some modifications to pdf2htmlEX. See [pdf2htmlEX on TeX
+  Wiki](http://oku.edu.mie-u.ac.jp/~okumura/texwiki/?pdf2htmlEX)
+  (in Japanese), special thanks to Haruhiko Okumura.
+
 # Dependencies
 ## Linux
 ### Debian / Ubuntu
