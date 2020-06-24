@@ -1,93 +1,149 @@
 >###- 欲速则不达。<br>- Haste makes waste.
 
+# Building pdf2htmlEX
+
+Because of its intimate use of *specific* versions of both 
+[Poppler](https://poppler.freedesktop.org/) and 
+[FontForge](https://fontforge.org/en-US/),
+cleanly building `pdf2htmlEX` is rather more complex than 
+normal. 
+
+The (shell) scripts in the [`buildScripts` directory](https://github.com/pdf2htmlEX/pdf2htmlEX/tree/master/buildScripts) help automate this mutli-stage process. 
+
+For all but the most experienced programmers, we *strongly* encourage you 
+to use these scripts to build `pdf2htmlEX`. 
+
+### Downloading precompiled versions
+
+For most users, you *probably really want to simply* download one of the 
+[precompiled versions of 
+`pdf2htmlEX`](https://github.com/pdf2htmlEX/pdf2htmlEX/releases): 
+
+- As a [Debian archive](Download-Debian-Archive)
+- As an [Alpine tar archive](Download-Alpine-Tar-Archive)
+- As an [AppImage](Download-AppImage)
+- As a [Docker image](Download-Docker-Image)
+
 # Environment
-pdf2htmlEX can be built in a Unix-like environment:
-* GNU/Linux (for Ubuntu 12.10+, Fedora)
-* macOS
-* Windows/Cygwin
-* Windows/Mingw-w64
-* Windows/MinGW, with some modifications to pdf2htmlEX. See [pdf2htmlEX on TeX Wiki](http://oku.edu.mie-u.ac.jp/~okumura/texwiki/?pdf2htmlEX) (in Japanese), special thanks to Haruhiko Okumura.
 
-## macOS
+pdf2htmlEX can be built in any Unix-like environment:
+* **GNU/Linux:**
+  `pdf2htmlEX` is currently built and released inside Ubuntu
+  (Bionic, Eoan, and Focal), Alpine 3.12 docker containers,
+  as well as Ubuntu-Bionic on Travis, so `pdf2htmlEX` is
+  *known* to build on any Debian based distribution.
 
-An easy way to install pdf2htmlEX on macOS is to use [brew](http://brew.sh/).
-After installing brew, open a terminal:
-``` bash
-brew install pdf2htmlEX
+  The current `buildScripts` assume the use of either `apt` 
+  (Debian) or `apk` (Alpine) for (automatic) installation of
+  all required dependencies. These scripts should be easily 
+  modified for other distributions.
+* **macOS**:
+  While it should in principle be possible to build on macOS,
+  unfortunately we currently have no access to a development/testing
+  environment with which to ensure the `buildScripts` are
+  adequately tuned to build on macOS.
+
+  **NOTE** that the existing [`homebrew`](https://brew.sh/)
+  [build script](https://github.com/Homebrew/homebrew-core/blob/master/Formula/pdf2htmlex.rb)
+  is *not* up to date and will fail.
+
+  *Offers of help and/or temporary access to development/testing
+  machines would be greatly appreciated.*
+
+* **Windows 10 with the [Windows Subsystem
+  for Linux](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux)**:
+
+  The Debian(Apt) versions of our build scripts should build `pdf2htmlEX` (untested).
+
+  The AppImage or Debian archive binary release objects *are* reputed to work.
+
+* **Android**: Have a look at [Vilius Sutkus](https://github.com/ViliusSutkus89)'s [pdf2htmlEX-Android](https://github.com/ViliusSutkus89/pdf2htmlEX-Android).
+
+# Building yourself
+
+To build `pdf2htmlEX` on a Debian/Apt related machine, inside the root 
+directory of a fresh clone of the 
+[pdf2htmlEX/pdf2htmlEX](https://github.com/pdf2htmlEX/pdf2htmlEX) 
+repository, type: 
+
 ```
-**NOTE:** until we have updated Homebrew/core's pdf2htmlEX formula, the above command will install the old [coolwanglu/pdf2htmlEX](https://github.com/coolwanglu/pdf2htmlEX) version of phd2htmlEX (which, alas, is no longer keeping up with changes in Poppler, and hence might not be what you want).
-
-## Windows
-An easy way to build pdf2htmlEX on Windows is MSYS2 + mingw-w64.
-[Build-pdf2htmlEX-on-Windows](https://gist.github.com/cnstar9988/3571c66b49050d98df92142dc19fbb00) (in Chinese)
-
-
-# Dependencies
-## Linux
-### Debian / Ubuntu
-``` bash
-sudo apt-get install libpoppler-private-dev pkg-config cmake gcc make pkg-config libcairo-dev
-```
-### Fedora
-``` bash
-sudo dnf install  cmake gcc gnu-getopt java-1.8.0-openjdk libpng-devel fontforge-devel cairo-devel poppler-devel libspiro-devel freetype-devel  poppler-data libjpeg-turbo-devel git make gcc-c++
+    ./buildScripts/buildInstallLocallyApt
 ```
 
-Manual
+This will automatically install all required development tools and 
+libraries, and then proceed to download and statically compile the 
+required versions of both Poppler and FontForge before compiling and 
+installing `pdf2htmlEX` into `/usr/local/bin`. 
 
-* CMake, pkg-config
-* GNU Getopt
-* C++ Compiler that supports C++11, for example
-    * GCC >= 4.6.3
-    * A recent version of Clang
-* libspiro
-* **poppler** >= 0.25.0 with xpdf headers (compile with `--enable-xpdf-headers`)
-    * Install **libpng** (and headers) BEFORE you compile poppler if you want PNG background images generated
-    * Install **libjpeg** (and headers) BEFORE you compile poppler if you want JPG background images generated
-    * Install **poppler-data** if your want CJK support
-* **fontforge** (with header files)
-    * A recent version or [my fork](https://github.com/pdf2htmlEX/fontforge/tree/pdf2htmlEX), use the `pdf2htmlEX` branch, which is a modified version of the 20140101 release.
-    * Older versions may or may not work.
+**NOTE:** at the moment this will **only** work on machines with a 
+[Debian](https://www.debian.org/) based distribution. such as 
+[Ubuntu](https://ubuntu.com/), [Linux Mint](https://linuxmint.com/), etc. 
 
-#### Optional
+**NOTE:** there is currently an *experimental* build script, 
+`./buildScripts/buildInstallLocallyAlpine`, for builds in Alpine 
+environments. 
 
-* To generate SVG background images and process Type 3 fonts
-    * cairo >= 1.10.0 with SVG support
-    * FreeType
-    * Add `-DENABLE_SVG=OFF` to `cmake` to disable it.
-* To add hinting information for TTF fonts
-    * ttfautohint
-    * Run pdf2htmlEX with `--external-hint-tool=ttfautohint`
-* To optimize CSS and JavaScript code with YUI Compressor and closure-compiler
-    * java >= 6
+## Dependencies
 
-#### Compiling
+The definitive list of build dependencies can be found in the following scripts:
 
-    git clone git://github.com/pdf2htmlEX/pdf2htmlEX.git
-    cd pdf2htmlEX
-    cmake . && make && sudo make install
+1. [getBuildToolsAlpine](https://github.com/pdf2htmlEX/pdf2htmlEX/blob/master/buildScripts/getBuildToolsAlpine) for Alpine Linux
+2. [getBuildToolsApt](https://github.com/pdf2htmlEX/pdf2htmlEX/blob/master/buildScripts/getBuildToolsApt) for Debian based systems
+3. [getDevLibrariesAlpine](https://github.com/pdf2htmlEX/pdf2htmlEX/blob/master/buildScripts/getBuildToolsAlpine) for Alpine Linux
+4. [getDevLibrariesApt](https://github.com/pdf2htmlEX/pdf2htmlEX/blob/master/buildScripts/getBuildToolsApt) for Debian based systems
 
-Stable releases can be found at <https://github.com/pdf2htmlEX/pdf2htmlEX/releases>.
+## Build options
 
-In order to create the debug version, add `-DCMAKE_BUILD_TYPE=Debug` to `cmake`.
+To build `pdf2htmlEX` you require static versions of the Poppler and FontForge libraries in specific 'well-known' locations.
 
-#### Troubleshooting
+An automatic build uses `cmake` to build all of Poppler, FontForge and `pdf2htmlEX`.
 
-If you installed poppler or fontforge into a place other than `/usr` (If you install them from source code, they are installed to `/usr/local` by default), you need to set up environment variables for pkg-config, and maybe also `INCLUDE_PATH`, `LIBRARY_PATH` and `LD_LIBRARY_PATH` because some GNU/Linux distributions do not set them up for you (e.g. Fedora). If you are not sure about this, just install those libraries to `/usr` by passing `--prefix=/usr` to `configure`.
+The definitive list of cmake build options can be found in the following scripts:
 
-If you see error messages about:
+1. [buildFontforge](https://github.com/pdf2htmlEX/pdf2htmlEX/blob/master/buildScripts/buildFontforge)
+2. [buildPdf2htmlEX](https://github.com/pdf2htmlEX/pdf2htmlEX/blob/master/buildScripts/buildPdf2htmlEX)
+3. [buildPoppler](https://github.com/pdf2htmlEX/pdf2htmlEX/blob/master/buildScripts/buildPoppler)
 
- - `goo/GooString.h`, read the dependencies again, `poppler` should be compiled with `--enable-xpdf-headers`
- - `spiroentrypoints.h`, install header files of libspiro
- - `undefined reference of Py_xxx`, install header files of python-2.x
- - `libintl.h`, install gettext and set your system include path accordingly.
- - `glib.h: No such file or directory`, install the development header files of `glib-2.0`, and make sure that the location of `glib.h` is in `INCLUDE_PATH`.
+# Why such a complex build system?
 
-#### Hacker's magical scripts
+## The problem
 
-These scripts have been reported to be useful in various situations. They have NOT been tested by pdf2htmlEX's authors, use at your own risk! If you want to contribute, please create your own gist somewhere, and post a link and description here.
+To provide its full functionality, the `pdf2htmlEX` sources make direct 
+use of source code and unexposed methods from both the Poppler and 
+FontForge projects. Unfortunately the source code in the Poppler and 
+FontForge projects that the `pdf2htmlEX` uses changes regularly.
 
-- [rajeevkannav/pdf2htmlEX.sh](https://gist.github.com/rajeevkannav/d07f822e209a22d07176) install on Ubuntu 15.04
+This means that the `pdf2htmlEX` souce code *must* be updated regularly to 
+match *specific releases* of both Poppler and FontForge. 
 
+Unfortunately, the installed versions of both Poppler and FontForge in 
+most Linux distributions, lag the official releases of both of these 
+projects. Even worse few distributions install the same versions.
 
+This means that it is nearly impossible for the `pdf2htmlEX` code to 
+'predict' which version of Poppler or FontForge will be installed on a 
+given user's machine. 
 
+## Our solution
+
+While we *could* keep multiple versions of the `pdf2htmlEX` source code, 
+each version matched to a particular distribution's installed versions of 
+Poppler and FontForge, this would be a logistic and testing 'nightmare'. 
+
+Instead, when building `pdf2htmlEX`, we download specific versions of both 
+the Poppler and FontForge sources (usually the most recent), and then 
+compile *static* versions of the Poppler and FontForge libraries which are 
+then *statically* linked into the `pdf2htmlEX` binary. 
+
+This means that the `pdf2htmlEX` binary is completely independent of any 
+locally installed versions of either Poppler or FontForge.
+
+However, to get the matched versions of Poppler and FontForge and then 
+compile them statically, *our* build process becomes much more complex 
+than a "simple", `configure, make, make install` cycle. 
+
+Hence there are a large number of shell scripts in the [`buildScripts`
+directory](https://github.com/pdf2htmlEX/pdf2htmlEX/tree/master/buildScripts)
+each of which automates one 'simple' step in the overall build process. 
+
+## [The gory details ...](https://github.com/pdf2htmlEX/pdf2htmlEX/blob/master/buildScripts/Readme.md#the-gory-details-)
