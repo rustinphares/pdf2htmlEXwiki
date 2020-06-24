@@ -5,10 +5,10 @@
      - [Related projects](https://github.com/pdf2htmlEX/pdf2htmlEX/wiki/Related-Projects)
  - Get Started
      - [Download](https://github.com/pdf2htmlEX/pdf2htmlEX/wiki/Download)
-       [Debian](Download-Debian-Archive)
+       ([Debian](Download-Debian-Archive)
        [Alpine](Download-Alpine-Tar-Archive)
        [AppImage](Download-AppImage)
-       [Docker](Download-Docker-Image)
+       [Docker](Download-Docker-Image))
      - [Building](https://github.com/pdf2htmlEX/pdf2htmlEX/wiki/Building)
      - [Quick Start](https://github.com/pdf2htmlEX/pdf2htmlEX/wiki/Quick-Start)
      - [Report Issues / Ask for Help](https://github.com/pdf2htmlEX/pdf2htmlEX/blob/master/CONTRIBUTING.md#guidance)
