@@ -24,4 +24,4 @@
      - [Font Files](https://github.com/pdf2htmlEX/pdf2htmlEX/wiki/Font-Files)
      - [Mobile Devices](https://github.com/pdf2htmlEX/pdf2htmlEX/wiki/Mobile-Devices)
      - Talk on TUG2013: **Online publishing via pdf2htmlEX** [HTML](http://coolwanglu.github.io/pdf2htmlEX/doc/tb108wang.html) / [PDF](http://coolwanglu.github.io/pdf2htmlEX/doc/tb108wang.pdf)
- - [Author's words](https://github.com/pdf2htmlEX/pdf2htmlEX/wiki/Author%27s-Words)
+ - [Original Author's words](https://github.com/pdf2htmlEX/pdf2htmlEX/wiki/Original-Author%27s-Words)
