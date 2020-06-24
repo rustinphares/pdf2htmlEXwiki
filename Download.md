@@ -6,4 +6,4 @@ The pdf2htmlEX project can be obtained in a number of ways....
 4. As a [Docker image](Download-Docker-Image)
 5. [Build from sources](Building)
 
-For detail on how to run pdf2htmlEX, have a look at [Quick Start](Quick-Start).
+For detail on how to run pdf2htmlEX, have a look at [Quick Start](Quick-Start) (or the [Wiki](Home)).
