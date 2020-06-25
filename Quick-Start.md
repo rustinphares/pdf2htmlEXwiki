@@ -3,7 +3,11 @@
 ### First thing first
 - It is highly recommended that you install `ttfautohint` and always add `--external-hint-tool=ttfautohint` to each of the following recipes. This tool enhances font rendering for all browsers on Windows.
 - Double check you have `poppler-data` installed, for CJK characters.
-- Double check you have run `sudo make install`, or pdf2htmlEX may not be executed correctly
+
+  The current `pdf2htmlEX` has its own copy of `poppler-data` located in the directory
+  `/usr/local/share/pdf2htmlEX/poppler`. You can provide your own copy by using `pdf2htmlEX`'s
+  command line switch `--poppler-data-dir <pathToYourCopy>`.
+- If you have compiled your own copy of `pdf2htmlEX`, double check you have run `sudo make install`, or pdf2htmlEX may not be executed correctly
 
 ### The simplest case
 Suppose you have a PDF file `pdf/test.pdf`, simply running
