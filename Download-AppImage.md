@@ -22,16 +22,11 @@ In particular, our AppImage will use *your* Fontconfig, and iconv configuration.
 
 ## Dependencies
 
-The following packages are needed for a full installation (principally for their associated configuration):
+On Ubuntu releases (bionic, eoan, and focal), the following packages are needed for a full installation (principally for their associated configuration):
 
 ```
 sudo apt -y install libfontconfig1
-#   fontconfig-config fonts-dejavu-core libfreetype6 libpng16-16 ucf
 sudo apt -y install libglib2.0-0
-#   libglib2.0-data libicu60 libxml2 shared-mime-info xdg-user-dirs
 sudo apt -y install libxcb1
-#   libbsd0 libxau6 libxdmcp6 multiarch-support
 sudo apt -y install libx11-6
-#   libx11-data
-
 ```
