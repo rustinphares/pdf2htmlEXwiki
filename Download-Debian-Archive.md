@@ -6,7 +6,7 @@ Our Debian archives (`*.deb`) *should* be able to be installed on [any distribut
 
 Simply:
 1. Download the `*.deb` file from our [releases page](https://github.com/pdf2htmlEX/pdf2htmlEX/releases).
-2. Install it using the command `sudo apt install <<pathToDownloadedDebFile>>`.
+2. Install it using the command `sudo apt install <<pathToDownloadedDebFile>>` (see note below).
 3. Run it... (the executable is located in `/usr/local/bin` so make sure `/usr/local/bin` is in your PATH).
 
 ## Configuration
@@ -15,3 +15,21 @@ Our `*.deb` archives are *not* self contained, they required a number of additio
 
 The `apt install` command *should* install all required packages, however you may need to ensure these packages, such as, Fontconfig, and iconv are properly configured for *your* needs.
 
+## Notes:
+
+### Using apt install to install a *.deb file
+
+Assuming you have downloaded one of the release `*.deb` files to your local directory and called it `pdf2htmlEX.deb` then the correct `apt install` command would be:
+
+```
+  sudo apt install ./pdf2htmlEX.deb
+```
+
+It is very important that you use a (relative or absolute) *path* to the `*.deb` file. It is the `./` in front of the `pdf2htmlEX.deb` file name which tells `apt install` that it is supposed to install a *local file* rather than a *package name* in `apt install`'s internal package database.
+
+*Alternatively* you could use the following commands:
+
+```
+  sudo dpkg -i pdf2htmlEX.deb
+  apt-get install -f
+```
