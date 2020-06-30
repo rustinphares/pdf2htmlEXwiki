@@ -15,13 +15,13 @@ Running `pdf2htmlEX` from a Docker image is the easiest way to convert a pdf fil
 
 Suppose you have a PDF file ~/pdf/test.pdf, simply running
 
-    docker run -ti --rm -v ~/pdf:/pdf -w /pdf pdf2htmlex/pdf2htmlex pdf2htmlEX --zoom 1.3 test.pdf
+    docker run -ti --rm -v ~/pdf:/pdf pdf2htmlex/pdf2htmlex pdf2htmlEX --zoom 1.3 test.pdf
 
 would produce a single HTML file `test.html` in your `~/pdf` directory.
 
 ### Run the docker container as local command
 
-    alias pdf2htmlEX='docker run -ti --rm -v `pwd`:/pdf -w /pdf pdf2htmlex/pdf2htmlex pdf2htmlEX'
+    alias pdf2htmlEX='docker run -ti --rm -v `pwd`:/pdf pdf2htmlex/pdf2htmlex pdf2htmlEX'
     pdf2htmlEX -h
     pdf2htmlEX --zoom 1.3 test.pdf
 
@@ -40,7 +40,7 @@ Finally, you can also use the `-v` switch to mount your own configuration files 
 
 At the moment the `pdf2htmlEX` docker image uses the following directories:
 
-1. The docker container's 'working directory' is `/`. This means unless you use the [`docker run` `-w` command line switch](https://docs.docker.com/engine/reference/commandline/run/#set-working-directory--w), `pdf2htmlEX` expects all files to be located in the `/` directory. ([At some point in the future, we plan to change the docker container's default working directory to `/pdf`](https://github.com/pdf2htmlEX/pdf2htmlEX/issues/65)).
+1. The docker container's 'working directory' is `/pdf`. This means unless you use the [`docker run` `-w` command line switch](https://docs.docker.com/engine/reference/commandline/run/#set-working-directory--w), `pdf2htmlEX` expects all files to be located in the `/pdf` directory.
 
 2. The `pdf2htmlEX` 'data directory' is `/usr/local/share/pdf2htmlEX`. This directory contains the `css`, `js`, and `manifest` files which are used to create the output `html`. Most users will not need to change these files, however you can use your own versions of these files by mounting your own directory over the `/usr/local/share/pdf2htmlEX` directory inside the docker container. (If you do this you *must* also mount your own copy of the 'poppler data'... see below).
 
