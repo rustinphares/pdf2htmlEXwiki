@@ -15,13 +15,13 @@ Running `pdf2htmlEX` from a Docker image is the easiest way to convert a pdf fil
 
 Suppose you have a PDF file ~/pdf/test.pdf, simply running
 
-    docker run -ti --rm -v ~/pdf:/pdf pdf2htmlex/pdf2htmlex pdf2htmlEX --zoom 1.3 test.pdf
+    docker run -ti --rm -v ~/pdf:/pdf -w /pdf pdf2htmlex/pdf2htmlex --zoom 1.3 test.pdf
 
 would produce a single HTML file `test.html` in your `~/pdf` directory.
 
 ### Run the docker container as local command
 
-    alias pdf2htmlEX='docker run -ti --rm -v `pwd`:/pdf pdf2htmlex/pdf2htmlex pdf2htmlEX'
+    alias pdf2htmlEX='docker run -ti --rm -v `pwd`:/pdf -w /pdf pdf2htmlex/pdf2htmlex'
     pdf2htmlEX -h
     pdf2htmlEX --zoom 1.3 test.pdf
 
