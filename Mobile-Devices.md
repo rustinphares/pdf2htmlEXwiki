@@ -1,4 +1,4 @@
-Mobile devices are not officially supported. There are so much different devices such that:
+Mobile devices are not officially supported. There are so many different devices such that:
 
 - The developers do not have enough time and resources to test on them.
 - Sometimes the target devices are just too slow
