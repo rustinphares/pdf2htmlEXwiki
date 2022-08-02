@@ -44,7 +44,7 @@ OPTIONS
        --use-cropbox <0|1> (Default: 1)
               Use CropBox instead of MediaBox for output.
 
-       --hdpi <dpi>, --vdpi <dpi> (Default: 144)
+       --dpi <dpi> (Default: 144)
               Specify the horizontal and vertical DPI for images
 
    Output
