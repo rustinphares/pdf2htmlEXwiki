@@ -1,4 +1,4 @@
-[Unfeatures](http://fluxbb.org/docs/unfeatures) are those not included intendedly. For example, you may not expect a JPG-to-PNG conversion tool would be able to retouch the images for you.
+[Unfeatures](http://fluxbb.org/docs/unfeatures) are those that are intentionally not included. For example, you may not expect a JPG-to-PNG conversion tool would be able to retouch the images for you.
 
 pdf2htmlEX is also a conversion tool, the target is to convert a PDF file into a Hi-Fi HTML file. Below there are a few features listed, which are either "won't be included" or "which I won't implement". Hopefully these will help shaping the scope of pdf2htmlEX.
 
